@@ -1,0 +1,524 @@
+[
+  {
+    "id": "BIL-001",
+    "response": "Yes",
+    "evidence": "Balance sheet presented in two-column Kontoform with Aktiva and Passiva.",
+    "notes": null
+  },
+  {
+    "id": "BIL-002",
+    "response": "Yes",
+    "evidence": "Aktiva shows Anlagevermögen, Umlaufvermögen, Rechnungsabgrenzungsposten. Aktiver Unterschiedsbetrag N/A (no funded pension surplus).",
+    "notes": null
+  },
+  {
+    "id": "BIL-003",
+    "response": "Review",
+    "evidence": "Four of five Passiva categories present. Passive latente Steuern absent — temporary differences exist but no deferred tax items or policy disclosed.",
+    "notes": "Deferred tax gap flagged"
+  },
+  {
+    "id": "BIL-004",
+    "response": "Review",
+    "evidence": "Presentation broadly consistent, but inventory valuation method changed: \"Die Bewertung des Warenbestandes wurde angepasst\" — effect not quantified.",
+    "notes": "Inventory change without quantification"
+  },
+  {
+    "id": "BIL-005",
+    "response": "Review",
+    "evidence": "Anlagenspiegel referenced as \"Anlage 1 zum Anhang\" but not included in extracted text.",
+    "notes": "Could not verify — external attachment"
+  },
+  {
+    "id": "BIL-006",
+    "response": "Yes",
+    "evidence": "Current assets broken down: Vorräte TEUR 18,757, Forderungen TEUR 6,855, Wertpapiere TEUR 2, Kassenbestand/Guthaben TEUR 195.",
+    "notes": null
+  },
+  {
+    "id": "BIL-007",
+    "response": "Yes",
+    "evidence": "Gezeichnetes Kapital (Stammkapital) EUR 512,000 shown under Eigenkapital.",
+    "notes": null
+  },
+  {
+    "id": "BIL-008",
+    "response": "N/A",
+    "evidence": "No Kapitalrücklage exists on balance sheet.",
+    "notes": null
+  },
+  {
+    "id": "BIL-009",
+    "response": "Yes",
+    "evidence": "Gewinnrücklagen EUR 450,000 disclosed (simplified, no sub-breakdown — acceptable for GmbH).",
+    "notes": null
+  },
+  {
+    "id": "BIL-010",
+    "response": "Yes",
+    "evidence": "Rückstellungen broken down: Pensionen TEUR 1,287, Steuerrückstellungen TEUR 44, Sonstige TEUR 626 (with detail on personnel, legal/audit, warranty, returns, tax audit, retention).",
+    "notes": null
+  },
+  {
+    "id": "BIL-011",
+    "response": "Yes",
+    "evidence": "Pension provisions TEUR 1,287 disclosed with PUC method, Heubeck 2018G tables, 1.82% discount rate, 0% salary/rent adjustments.",
+    "notes": null
+  },
+  {
+    "id": "BIL-012",
+    "response": "N/A",
+    "evidence": "Verbindlichkeiten schedule confirms 0 in >5 years column.",
+    "notes": null
+  },
+  {
+    "id": "BIL-013",
+    "response": "Yes",
+    "evidence": "Bank borrowings TEUR 7,254 secured by Sicherungsübereignung of warehouse/inventory to Kreissparkasse Ostalb in Höhe von TEUR 18,392.",
+    "notes": null
+  },
+  {
+    "id": "BIL-014",
+    "response": "Yes",
+    "evidence": "Full Verbindlichkeiten breakdown table with maturity analysis by line item (Kreditinstituten, Erhaltene Anzahlungen, Lieferungen und Leistungen, Gesellschafter, sonstige).",
+    "notes": null
+  },
+  {
+    "id": "BIL-015",
+    "response": "Review",
+    "evidence": "No deferred taxes recognised despite material temporary differences (pensions PUC method, BilMoG amounts, discount rate difference). No waiver or policy disclosed.",
+    "notes": "Significant gap"
+  },
+  {
+    "id": "BIL-016",
+    "response": "N/A",
+    "evidence": "No goodwill on balance sheet.",
+    "notes": null
+  },
+  {
+    "id": "BIL-017",
+    "response": "N/A",
+    "evidence": "No Haftungsverhältnisse disclosed; none appear to exist.",
+    "notes": null
+  },
+  {
+    "id": "BIL-018",
+    "response": "Yes",
+    "evidence": "Receivables >1 year disclosed: EUR 2,000 (same as prior year).",
+    "notes": null
+  },
+  {
+    "id": "BIL-019",
+    "response": "Yes",
+    "evidence": "Beteiligungen EUR 86,904 separately shown under Finanzanlagen.",
+    "notes": null
+  },
+  {
+    "id": "BIL-020",
+    "response": "Yes",
+    "evidence": "Forderungen gegen Gesellschafter EUR 5,024,986.74 separately disclosed — Gesellschafterdarlehen to Günther Nubert at 3.37%, 3-month notice.",
+    "notes": null
+  },
+  {
+    "id": "LAG-001",
+    "response": "Yes",
+    "evidence": "The document clearly contains a section titled 'Lagebericht für das Geschäftsjahr 2023' by Nubert electronic GmbH. It includes economic report, prognosis report, and risk/opportunity sections. The auditor's report also states they 'have reviewed the Lagebericht' and it conforms to German statutory requirements.",
+    "notes": null
+  },
+  {
+    "id": "LAG-002",
+    "response": "Yes",
+    "evidence": "The auditor's Bestätigungsvermerk explicitly states: 'vermittelt der beigefügte Lagebericht insgesamt ein zutreffendes Bild von der Lage der Gesellschaft. In allen wesentlichen Belangen steht dieser Lagebericht in Einklang mit dem Jahresabschluss...' The Lagebericht covers business performance, financial position, and future development in a balanced manner.",
+    "notes": "The unqualified audit opinion on the Lagebericht provides strong external evidence that a true and fair view is conveyed."
+  },
+  {
+    "id": "LAG-003",
+    "response": "Yes",
+    "evidence": "The Lagebericht contains a structured analysis covering: (1) 'Gesamtwirtschaftliche und branchenbezogene Rahmenbedingungen' — macro/market context; (2) 'Geschäftsverlauf und Lage' — course of business; (3) '1. Ertragslage' — revenue TEUR 20,489, EBIT TEUR 806, cost analysis with YoY comparisons; (4) 'Finanzlage' — liquidity, bank loans reduced from TEUR 12,000 to TEUR 7,254; (5) '2. Vermögenslage' — balance sheet TEUR 28,544, equity ratio 60%. Both Geschäftsverlauf and Lage are addressed with quantitative depth.",
+    "notes": null
+  },
+  {
+    "id": "LAG-004",
+    "response": "Yes",
+    "evidence": "Key financial KPIs are explicitly presented and cross-referenced to annual accounts: Umsatzerlöse (TEUR 20,489 vs. 23,285), Rohergebnis (TEUR 9,784 vs. 9,735), EBIT (TEUR 806 vs. -554), Personalaufwand (TEUR 4,187 vs. 5,030), sonstige betriebliche Kosten (TEUR 4,432 vs. 4,841), Eigenkapitalquote (60%), Bilanzsumme (TEUR 28,544 vs. 34,256), and liquidity (TEUR 195 vs. 4,147). These all correspond to figures in the GuV and Bilanz.",
+    "notes": null
+  },
+  {
+    "id": "LAG-005",
+    "response": "Yes",
+    "evidence": "The 'II. Prognosebericht' section forecasts 2024 with a light revenue decline and EBIT improvement of TEUR 600-800. 'Chancen und Risiken der künftigen Entwicklung' includes: (1) Risikomanagement, (2) Risikobericht (stating no existential risks), (3) 'Gesamtwirtschaftliche und branchenspezifische Risiken', (4) 'Finanzielle Risiken', (5) 'IT-Risiken', (6) 'Markt- und Kundenrisiken', (7) '3. Chancenbericht', and (8) '4. Gesamtaussage'. Material opportunities and risks are identified.",
+    "notes": null
+  },
+  {
+    "id": "LAG-006",
+    "response": "Yes",
+    "evidence": "The Prognosebericht discloses key assumptions: Sachverständigenrat expects 1.3% GDP growth and inflation decline from 6.6% to 3.0% for 2024. Additional premises include: energy crisis implications ('Energiekrise noch nicht überwachsen'), expected industry contraction of -8 to -10% in Home Audio market, company expects only -3% revenue decline, and cost structure adjustments to offset inflation. The Gesamtaussage references dependency on political influences and consumer behavior.",
+    "notes": "The assumptions are primarily macro-level (Sachverständigenrat). Company-specific assumption details (e.g., pricing strategy, cost reduction targets) are mentioned but not deeply elaborated."
+  },
+  {
+    "id": "LAG-007",
+    "response": "Review",
+    "evidence": "The '1. Risikomanagement' section states: 'Das Unternehmen bewertet fortlaufend seine Risiken. Dazu passend werden mögliche Lösungen und Anpassungen geprüft und gegebenenfalls implementiert.' An example is given (semiconductor chip procurement in Asia). However, the description is very brief — no systematic framework, organizational structure, risk identification process, or instruments/methods are described.",
+    "notes": "While risk management is mentioned, the disclosure is minimal for a mittelgroße Kapitalgesellschaft. The § 289 Abs. 2 Nr. 1a requirement for describing objectives and methods is only superficially met."
+  },
+  {
+    "id": "LAG-008",
+    "response": "Review",
+    "evidence": "Financial instruments are material to Nubert (TEUR 7,254 bank loans, TEUR 5,025 shareholder loan, TEUR 414 trade receivables). Partial disclosures: (1) Currency risk — 'Es besteht ein Währungsrisiko durch die Einkaufaktivitäten im Dollar'; (2) Debt/liquidity risk — 'Das Verschuldungsrisiko bedeutet aber keine bedrohliche Prognose'. However, no systematic treatment of price-change risk or default risk (credit risk on receivables) is present. The financial risk section is brief.",
+    "notes": "The trigger condition is met (financial instruments are material). The coverage of financial instrument risks is incomplete — missing structured treatment of default/credit risk and price-change risk beyond currency."
+  },
+  {
+    "id": "LAG-009",
+    "response": "Review",
+    "evidence": "The Lagebericht mentions development activities: 'Nubert Lautsprecher und Verstärker werden entwickelt' and 'Unabhängig von den Entwicklungsanstrengungen bei den Lautsprecher-Modellen und der Elektronik'. However, these references are cursory — no dedicated R&D section exists. There is no discussion of R&D objectives, scope, or expenditure amounts.",
+    "notes": "Nubert develops HiFi products (speakers, amplifiers, electronics) suggesting R&D activities exist. The § 289 Abs. 2 Nr. 2 requirement for describing nature, scope, and objectives of R&D is not substantively met."
+  },
+  {
+    "id": "LAG-010",
+    "response": "Yes",
+    "evidence": "The Lagebericht explicitly states under 'Grundlagen des Unternehmens': 'Ladengeschäfte in Schwäbisch Gmünd und Duisburg geben den Kunden zusätzlich die Möglichkeit, Lautsprecher und Elektronik zu hören und anzufassen.' Two branch locations (Zweigniederlassungen/retail outlets) are disclosed with their cities.",
+    "notes": null
+  },
+  {
+    "id": "LAG-011",
+    "response": "N/A",
+    "evidence": "The trigger condition states 'Only if § 160 Abs. 1 Nr. 2 AktG applies (not typically applicable to GmbH)'. Nubert is a GmbH, not an AG. § 160 Abs. 1 Nr. 2 AktG is an Aktiengesetz provision and does not apply to a GmbH unless voluntarily elected. No evidence of voluntary election. The Lagebericht does not contain cross-references to the Anhang, but this is not required.",
+    "notes": "This provision is AktG-specific and the trigger condition is not met for a GmbH."
+  },
+  {
+    "id": "LAG-012",
+    "response": "Review",
+    "evidence": "Going concern is not explicitly addressed with a dedicated statement in the Lagebericht. However, supporting evidence: (1) The auditor's unqualified report states no going concern qualification; (2) The auditor describes the management's responsibility to assess going concern ability; (3) The Lagebericht discusses stabilizing the company ('wieder in stabile und positive Bahnen gelenkt'), positive EBIT, and 60% equity ratio; (4) The Prognosebericht forecasts continued operations with expected improvement. No explicit 'going concern confirmed' or 'no material doubts' statement appears in the Lagebericht itself.",
+    "notes": "The going concern assumption appears implicitly supported by the positive trajectory and unqualified audit opinion. However, the explicit § 289 Abs. 1 S. 2, Abs. 2 Nr. 1 requirement for addressing going concern (and any material doubts) is not directly fulfilled in the Lagebericht text."
+  },
+  {
+    "id": "LAG-013",
+    "response": "Review",
+    "evidence": "The Lagebericht does not contain a dedicated section on post-balance-sheet events (Vorgänge von besonderer Bedeutung nach dem Schluss des Geschäftsjahres). However: (1) The Lagebericht was signed on 15.03.2025 and the FS was established on 11.04.2025, with the audit on 19.03.2025 — a 15-month gap from year-end; (2) The auditor issued an unqualified opinion with no mention of subsequent events; (3) Two new Geschäftsführer (Pedal and Schütze) joined 'Seit 11.2024' — a significant post-reporting event not discussed in the Lagebericht. The absence of a subsequent events section means no explicit 'no significant events' statement either.",
+    "notes": "The appointment of two new Geschäftsführer in November 2024 is a potentially significant post-balance-sheet event that is not disclosed in the Lagebericht. This is a potential compliance gap."
+  },
+  {
+    "id": "LAG-014",
+    "response": "Yes",
+    "evidence": "The Lagebericht bears the location and date 'Schwäbisch Gmünd, den 15.03.2025' and is signed by three individuals: Günther Nubert, Markus Pedal, and Daniel Schütze. The Anhang (page 7) lists these as Geschäftsführer: Günther Nubert (Techniker), Markus Pedal (Diplom-Ingenieur, seit 11.2024), Daniel T. Schütze (Diplomkaufmann MBA, seit 11.2024). The signatures confirm management responsibility for the report.",
+    "notes": null
+  },
+  {
+    "id": "LAG-015",
+    "response": "Yes",
+    "evidence": "The Anhang confirms: 'Nach den in § 267 HGB angegebenen Größenklassen ist die Gesellschaft eine mittelgroße Kapitalgesellschaft i. S. d. § 267 Abs. 2 HGB.' As a medium-sized GmbH, § 289 Abs. 3 HGB (non-financial/CSR reporting) does not apply. The Lagebericht contains no CSR or non-financial reporting section, which is consistent with the non-applicability. The confirmation of medium-sized status in the Anhang effectively evidences that the § 289 Abs. 3 trigger is not met.",
+    "notes": "While § 289 Abs. 3 non-applicability is not explicitly stated with a formulaic declaration ('§ 289 Abs. 3 ist nicht anzuwenden'), the confirmation of medium-sized GmbH status per § 267 Abs. 2 makes it clear the requirement does not apply."
+  },
+  {
+    "id": "LAG-016",
+    "response": "Yes",
+    "evidence": "The entity is a mittelgroße Kapitalgesellschaft (§ 267 Abs. 2) and is not capital-market-oriented (not kapitalmarktorientiert per § 264d HGB). There is no ICS/Risikomanagement description per § 289 Abs. 4 HGB in the Lagebericht, which is consistent with the non-applicability. The Lagebericht is signed by private individuals (Geschäftsführer), not a Vorstand, confirming GmbH status. No evidence of capital-market orientation exists (no securities listing, no mention of capital markets).",
+    "notes": "As with LAG-015, the non-applicability of § 289 Abs. 4 is not explicitly declared with a formulaic statement but is effectively evidenced by the entity's status as a non-capital-market-oriented GmbH."
+  },
+  {
+    "id": "ANH-001",
+    "response": "Yes",
+    "evidence": "The Anhang contains a dedicated section 'II. Bilanzierungs- und Bewertungsmethoden' describing all material accounting policies: acquired intangibles at cost with linear depreciation; tangible fixed assets at cost/acquisition cost with linear depreciation; low-value assets (<EUR 800) fully depreciated in year of acquisition; inventories (unfinished/finished) valued at weighted average cost with write-downs for turnover frequency; merchandise at acquisition cost written down to lower of cost/NRV; receivables at nominal value less 1% general credit risk allowance; bank balances at nominal; prepaid expenses as ARAP; pension provisions using PUC method with Heubeck 2018G tables at 1.82% discount rate; tax and other provisions at prudent estimate; liabilities at settlement amount. The Anhang also states that prior-year methods were consistently applied except for inventory valuation adjustments.",
+    "notes": "The disclosure covers all major balance sheet items. One concern: the change in inventory valuation method is noted but its financial effect is not quantified."
+  },
+  {
+    "id": "ANH-002",
+    "response": "No",
+    "evidence": "Foreign currency transactions clearly exist — the GuV shows 'davon Aufwendungen aus der Währungsumrechnung' of EUR 85,057.44 (prior year EUR 362,771.99), and the Lagebericht states 'Es besteht ein Währungsrisiko durch die Einkaufaktivitäten im Dollar.' However, the Anhang's accounting policies section does not describe the currency translation methods used (e.g., whether foreign currency receivables/payables are translated at closing rate, or transactions at historical rate). The trigger condition is met but disclosure is missing.",
+    "notes": "The absence of currency translation policy in the accounting policies section is a disclosure gap under § 284 Abs. 2 Nr. 2 HGB."
+  },
+  {
+    "id": "ANH-003",
+    "response": "No",
+    "evidence": "No deferred tax assets or liabilities are recognised on the balance sheet, and the Anhang does not address the entity's policy on deferred taxes (latente Steuern) anywhere. Temporary differences likely exist from: pension provisions (PUC method vs. tax basis), the § 253 Abs. 2 S. 1 HGB discount rate difference (EUR 9,179), and BilMoG transition amounts (EUR 4,967). Under § 284 Abs. 2 Nr. 3 HGB, the entity should disclose its policy on deferred tax treatment — whether it recognises or waives deferred tax positions. This disclosure is entirely absent.",
+    "notes": "This is a notable disclosure gap. The entity has material temporary differences but neither recognises deferred taxes nor discloses its policy choice. This should be flagged."
+  },
+  {
+    "id": "ANH-004",
+    "response": "Yes",
+    "evidence": "The Anhang section 'V. Sonstige Angaben' states: 'Anzahl der Arbeitnehmer: durchschnittlich 63 — hiervon Angestellte: 49 — hiervon gewerbliche Arbeitnehmer: 14. Mitglieder der Geschäftsführung und Auszubildende sind nicht berücksichtigt.' This provides the average headcount (63) broken down by employee category (49 Angestellte, 14 gewerbliche), excluding management and trainees.",
+    "notes": "The disclosure meets the § 285 Nr. 7 HGB requirement with both a total and breakdown by category."
+  },
+  {
+    "id": "ANH-005",
+    "response": "Yes",
+    "evidence": "The Anhang states: 'Bezüglich der Bezüge der Geschäftsführer wird vom Schutzrecht gemäß § 286 Abs. 4 HGB Gebrauch gemacht.' This explicitly invokes the protective clause to withhold disclosure of managing director remuneration. Under § 285 Nr. 9a i.V.m. § 286 Abs. 4 HGB, a GmbH may choose not to disclose MD remuneration if a shareholder has objected — the entity has exercised this right and stated it clearly.",
+    "notes": "The protective clause is properly invoked. This satisfies the requirement — the entity must either disclose or invoke the protective clause, and it has done the latter."
+  },
+  {
+    "id": "ANH-006",
+    "response": "N/A",
+    "evidence": "The Anhang does not mention any payments to former managing directors. The Geschäftsführer listed (Günther Nubert, Markus Pedal, Daniel Schütze) appear to be the current officeholders. No former MD remuneration or pension obligations to former MDs are referenced. The trigger condition ('only if payments were made to former managing directors') is not met.",
+    "notes": "Note: Markus Pedal and Daniel Schütze are listed as 'Seit 11.2024', which is after the reporting period. Günther Nubert appears to have been the sole MD during 2023. No information about former MDs is provided."
+  },
+  {
+    "id": "ANH-007",
+    "response": "N/A",
+    "evidence": "No loans or advances granted to managing directors (Geschäftsführer) are disclosed. The Forderungen gegen Gesellschafter of EUR 5,024,986.74 is a receivable FROM shareholder Günther Nubert (a Gesellschafterdarlehen), not a loan TO a managing director. The trigger condition is not met.",
+    "notes": "The shareholder loan is in the opposite direction — the company lent to the shareholder, not to a Geschäftsführer in their capacity as director. This distinction matters for § 285 Nr. 9c vs. § 42 GmbHG."
+  },
+  {
+    "id": "ANH-008",
+    "response": "Yes",
+    "evidence": "The Anhang section 'V. Sonstige Angaben' lists: 'Geschäftsführer im Berichtszeitraum: Herr Günther Nubert, Techniker; Herr Markus Pedal, Diplom-Ingenieur Seit 11.2024; Herr Daniel T. Schütze, Diplomkaufmann, MBA Seit 11.2024.' Names, qualifications, and appointment dates are provided for all managing directors.",
+    "notes": "The dates 'Seit 11.2024' for Pedal and Schütze indicate they were appointed after the 2023 reporting period ended, so Günther Nubert was likely the sole Geschäftsführer during fiscal year 2023."
+  },
+  {
+    "id": "ANH-009",
+    "response": "N/A",
+    "evidence": "No Aufsichtsrat (supervisory board) is mentioned anywhere in the financial statements. A GmbH is not required to have an Aufsichtsrat unless co-determination thresholds apply. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-010",
+    "response": "No",
+    "evidence": "The balance sheet shows Beteiligungen at EUR 86,904.00, and the notes mention 'Forderungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht' (EUR 15,367.05) and 'Verbindlichkeiten aus Lieferungen und Leistungen' include amounts to related parties (EUR 278,930.99). However, § 285 Nr. 11 HGB requires disclosure of the name and registered office of each undertaking in which a participation is held. The Anhang does not identify the participation(s) by name or registered office. Only the existence and monetary amounts are disclosed.",
+    "notes": "This is a disclosure gap. The entity holds participations of EUR 86,904 but fails to identify them by name and registered office as required by § 285 Nr. 11 HGB."
+  },
+  {
+    "id": "ANH-011",
+    "response": "N/A",
+    "evidence": "No parent company (Mutterunternehmen) is mentioned in the financial statements. The Lagebericht and Anhang present Nubert electronic GmbH as a standalone entity. The trigger condition ('only if the entity is a subsidiary') is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-012",
+    "response": "N/A",
+    "evidence": "No mention of an ultimate parent preparing consolidated financial statements. Nubert electronic GmbH appears to be a standalone company with no group structure. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-013",
+    "response": "Yes",
+    "evidence": "The Anhang provides a detailed breakdown of Rückstellungen by type under 'III. Erläuterungen zur Bilanz': Pensionsrückstellungen TEUR 1,287 (TEUR 1,340); Steuerrückstellungen TEUR 44 (TEUR 0); sonstige Rückstellungen broken down into: Personalbereich TEUR 276 (TEUR 270), Rechts- u. Prüfungskosten TEUR 63 (TEUR 32), Gewährleistung TEUR 165 (TEUR 337), Rücknahmeverpflichtung TEUR 98 (TEUR 0), Betriebsprüfung TEUR 4 (TEUR 4), Aufbewahrung TEUR 18 (TEUR 18). Each category is explained with its nature.",
+    "notes": "The breakdown is comprehensive with both current and prior year figures for each sub-category."
+  },
+  {
+    "id": "ANH-014",
+    "response": "N/A",
+    "evidence": "No goodwill (Geschäftswert) appears on the balance sheet. The Anhang does not mention any entgeltlich erworbener Geschäfts- oder Firmenwert. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-015",
+    "response": "N/A",
+    "evidence": "No convertible bonds, Genussrechte, or similar profit-participating instruments are mentioned in the financial statements. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-016",
+    "response": "Yes",
+    "evidence": "The Anhang section 'V. Sonstige Angaben' discloses: 'Sonstige finanzielle Verpflichtungen bestehen zum 31.12.2023 aus Mietverpflichtungen in Höhe von EUR 2.076.950,00 und aus üblichen Leasingverträgen in Höhe von EUR 238.635,72.' This discloses the nature (rental and leasing commitments) and extent of significant off-balance-sheet financial commitments.",
+    "notes": "The amounts are disclosed as totals. A maturity breakdown is not provided for these commitments, though the lease disclosures under § 285 Nr. 3a would typically require one."
+  },
+  {
+    "id": "ANH-017",
+    "response": "Review",
+    "evidence": "The Anhang discloses leasing commitments: 'Sonstige finanzielle Verpflichtungen bestehen zum 31.12.2023 aus Mietverpflichtungen in Höhe von EUR 2.076.950,00 und aus üblichen Leasingverträgen in Höhe von EUR 238.635,72.' Operating lease commitments are disclosed (EUR 238,635.72). However, § 285 Nr. 3a HGB requires a breakdown by maturity period (up to 1 year, 1-5 years, over 5 years), which is not provided.",
+    "notes": "The total lease commitment is disclosed but the required maturity breakdown by period is missing. This may be an incomplete disclosure under § 285 Nr. 3a."
+  },
+  {
+    "id": "ANH-018",
+    "response": "N/A",
+    "evidence": "No contingent liabilities (Haftungsverhältnisse) such as Bürgschaften, Wechselbürgschaften, or other guarantees are disclosed in the Anhang or balance sheet. The trigger condition is not met. The Sicherungsübereignung disclosed for bank liabilities is a form of security (Sicherheit) for own debts, not a Haftungsverhältnis for third-party obligations.",
+    "notes": null
+  },
+  {
+    "id": "ANH-019",
+    "response": "No",
+    "evidence": "The financial statements include a Bestätigungsvermerk from Rettenmayr Treuhand GmbH naming the auditor (Dominik Rettenmayr, Wirtschaftsprüfer). However, there is no breakdown of the auditor's fees into the four categories required by § 285 Nr. 17 HGB: (1) Abschlussprüfung, (2) andere Bestätigungsleistungen, (3) Steuerberatungsleistungen, (4) sonstige Leistungen. The fee amount and breakdown are entirely absent.",
+    "notes": "This is a clear disclosure gap. The entity must disclose auditor's fees by category regardless of whether a protective clause is available (none exists for this item)."
+  },
+  {
+    "id": "ANH-020",
+    "response": "N/A",
+    "evidence": "No evidence of financial instruments measured at fair value. The accounting policies describe all assets at cost or nominal value. No derivatives, held-for-trading instruments, or fair-value-measured financial assets are present. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-021",
+    "response": "N/A",
+    "evidence": "No derivative financial instruments (futures, options, swaps) are mentioned in the financial statements. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-022",
+    "response": "N/A",
+    "evidence": "No derivative financial instruments exist, so unrealised gains/losses on derivatives are not applicable. The trigger condition is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-023",
+    "response": "Review",
+    "evidence": "The balance sheet shows Gezeichnetes Kapital (Stammkapital) of EUR 512,000.00. The Anhang does not explicitly confirm whether the Stammeinlage has been fully paid in (eingezahlt) or disclose any additional Einlagen. § 42 GmbHG requires disclosure of the registered capital and any payments made. The balance sheet presentation uses 'Gezeichnetes Kapital' (nominal/authorised capital) without distinguishing between called-up and paid-up amounts.",
+    "notes": "The share capital amount is disclosed but § 42 GmbHG technically requires confirmation that contributions have been fully paid (or the amount outstanding). This detail is not explicitly stated, though the absence of a separate 'ausstehende Einlagen' line suggests full payment."
+  },
+  {
+    "id": "ANH-024",
+    "response": "Yes",
+    "evidence": "The Anhang clearly states: 'Bezüglich der Bezüge der Geschäftsführer wird vom Schutzrecht gemäß § 286 Abs. 4 HGB Gebrauch gemacht.' The protective clause is invoked explicitly, and no MD remuneration details are disclosed.",
+    "notes": null
+  },
+  {
+    "id": "ANH-025",
+    "response": "N/A",
+    "evidence": "The entity has not applied any disclosure waivers under § 286 Abs. 2 or Abs. 3 HGB. The balance sheet and notes are presented in full detail. The trigger condition ('only if the entity has waived disclosure under § 286 Abs. 2 or Abs. 3') is not met.",
+    "notes": "Only § 286 Abs. 4 (MD remuneration) was invoked, which is addressed in ANH-005/ANH-024."
+  },
+  {
+    "id": "ANH-026",
+    "response": "Yes",
+    "evidence": "The Anhang discloses BilMoG transitional provisions: 'Die Anpassungen aufgrund der Anwendung des Bilanzrechtsmodernisierungsgesetzes (BilMoG) wurden im Berichtsjahr zu 1/15 ergebniswirksam erfasst. Der noch anzusammelnde Fehlbetrag beträgt EUR 4.967,00.' The GuV also shows 'davon Aufwendungen nach Artikel 67 Absatz 1 und 2 EGHGB' of EUR 4,969.00. This confirms active application of Art. 67 EGHGB transitional provisions for pension provisions (the 1/15 annual charge).",
+    "notes": "The BilMoG transition relates to pension provisions. The remaining unamortised difference of EUR 4,967 suggests approximately 1 year of charges remaining (at ~EUR 4,969/year)."
+  },
+  {
+    "id": "ANH-027",
+    "response": "Yes",
+    "evidence": "The Anhang states: 'Nach den in § 267 HGB angegebenen Größenklassen ist die Gesellschaft eine mittelgroße Kapitalgesellschaft i. S. d. § 267 Abs. 2 HGB.' By classifying itself as mittelgroß (medium), the entity implicitly confirms it does not claim small-entity exemptions under § 288 Abs. 1 HGB (which would allow reduced disclosures). The entity applies full disclosure requirements for medium-sized Kapitalgesellschaften.",
+    "notes": "The confirmation is implicit through the size classification rather than an explicit statement that § 288 Abs. 1 was not applied, but this is standard practice and adequately conveys the same information."
+  },
+  {
+    "id": "ANH-028",
+    "response": "No",
+    "evidence": "No deferred tax assets or liabilities are recognised on the balance sheet, and the Anhang's accounting policies section does not address deferred taxes (latente Steuern) at all. § 274 HGB requires recognition of deferred tax liabilities for temporary differences; deferred tax assets may be waived under § 274 Abs. 1 S. 2. Whether the entity has waived deferred tax recognition or determined that no material temporary differences exist, the policy choice must be disclosed per § 284 Abs. 2 Nr. 3 HGB. This disclosure is entirely absent.",
+    "notes": "Cross-references ANH-003 (same gap). Temporary differences from pensions (PUC method, BilMoG amounts, discount rate difference) likely exist but their deferred tax treatment is not discussed."
+  },
+  {
+    "id": "ANH-029",
+    "response": "Yes",
+    "evidence": "The Anhang provides: (1) Receivables maturity: 'Die Forderungen und sonstigen Vermögensgegenstände mit einer Laufzeit von mehr als einem Jahr betragen insgesamt EUR 2.000,00 (EUR Vorjahr 2.000,00).' (2) Liabilities maturity: A detailed table breaks down all Verbindlichkeiten line items by maturity (bis 1 Jahr, >1 Jahr, >5 Jahre) — bank loans (1,254/6,000/0), received advances (30/0/0), trade payables (1,257/0/0), shareholder liabilities (0/0/0), other liabilities (811/0/0). The Gesellschafter and related-party detail is also provided.",
+    "notes": "The maturity analysis covers both receivables and payables as required. The Verbindlichkeiten schedule is particularly detailed with prior-year comparatives."
+  },
+  {
+    "id": "ANH-030",
+    "response": "N/A",
+    "evidence": "The GuV shows 'Steuern vom Einkommen und vom Ertrag' of EUR 46,156.90, but no Kapitalertragsteuer (withholding tax on dividends/distributions) is separately identified. The Anhang states: 'Die Steuern vom Einkommen und vom Ertrag belasten in voller Höhe das Ergebnis der gewöhnlichen Geschäftstätigkeit.' No Kapitalertragsteuer deduction appears in the P&L. The trigger condition ('only if Kapitalertragsteuer is deducted in the P&L') is not met.",
+    "notes": null
+  },
+  {
+    "id": "ANH-031",
+    "response": "Yes",
+    "evidence": "The Anhang discloses: 'Die Verbindlichkeiten gegenüber Kreditinstituten sind durch eine Sicherungsübereignung des Warenlagers und des Inventurbestandes zugunsten der Kreissparkasse Ostalb in Höhe von TEUR 18.392 gesichert; die Verbindlichkeiten gegenüber der Kreissparkasse Ostalb valutieren zum Bilanzstichtag mit TEUR 7.254.' This discloses the total secured liabilities (TEUR 7,254), the type of security (Sicherungsübereignung — transfer of ownership of inventory and assets by way of security), the secured amount ceiling (TEUR 18,392), and the beneficiary (Kreissparkasse Ostalb).",
+    "notes": "The disclosure is comprehensive, covering nature, form, and extent of the security."
+  },
+  {
+    "id": "ANH-032",
+    "response": "Yes",
+    "evidence": "The Anhang discloses: 'Gegenüber den Gesellschaftern bestehen Forderungen in Höhe von insgesamt EUR 5.024.986,74 (Vorjahr EUR 5.453.617,01). Diese Forderung besteht aus einem Gesellschafterdarlehen gegenüber Herrn Günther Nubert. Das Darlehen wird mit 3,37% verzinst und ist mit einer Kündigungsfrist von 3 Monaten jederzeit fällig.' The shareholder receivable is disclosed with amount, interest rate, and repayment terms. The balance sheet separately shows 'Forderungen gegen Gesellschafter' at EUR 5,024,986.74.",
+    "notes": "The disclosure is detailed. However, the § 42 Abs. 3 GmbHG repayment restriction (Gesellschafterdarlehen must be repaid only to the extent that the GmbH would not become insolvent) is not explicitly referenced. The economic substance is disclosed; the legal restriction should ideally be mentioned."
+  },
+  {
+    "id": "GUV-001",
+    "response": "Yes",
+    "evidence": "The GuV is in Staffelform with numbered steps (1. Rohergebnis through 13. Bilanzgewinn/Bilanzverlust). The Anhang confirms: 'Die Gliederung der Gewinn- und Verlustrechnung erfolgt gemäß § 275 Abs. 1 HGB nach dem Gesamtkostenverfahren.'",
+    "notes": null
+  },
+  {
+    "id": "GUV-002",
+    "response": "Yes",
+    "evidence": "The Anhang explicitly states: 'Die Gliederung der Gewinn- und Verlustrechnung erfolgt gemäß § 275 Abs. 1 HGB nach dem Gesamtkostenverfahren.' The GuV structure (Rohergebnis as anchor, then cost-type items) is consistent with Gesamtkostenverfahren.",
+    "notes": null
+  },
+  {
+    "id": "GUV-003",
+    "response": "Yes",
+    "evidence": "Umsatzerlöse is confirmed at TEUR 20,489 in the Lagebericht: 'Das Unternehmen hat im Geschäftsjahr 2023 Umsatzerlöse im Rahmen von TEUR 20.489 (Vorjahr TEUR 23.285) realisiert.' The Rohergebnis of EUR 9,784,398.70 is computed from Umsatzerlöse less cost of materials.",
+    "notes": "Umsatzerlöse is embedded in the condensed GuV presentation (Rohergebnis = Umsatzerlöse minus Materialaufwand). The exact line-item title is not visible in the extracted GuV but confirmed by the Lagebericht."
+  },
+  {
+    "id": "GUV-004",
+    "response": "Review",
+    "evidence": "No explicit 'Erhöhung oder Verminderung des Bestands' line is visible in the extracted GuV. Nubert has extensive inventories (TEUR 18,757) and the Anhang discusses unfinished/finished goods valuation, suggesting stock changes may be embedded in the condensed Rohergebnis line.",
+    "notes": "The GuV presentation is condensed. Need to verify whether a separate stock change line exists in the full GuV not captured in this extract."
+  },
+  {
+    "id": "GUV-005",
+    "response": "N/A",
+    "evidence": "The balance sheet shows no 'selbstgeschaffene immaterielle Vermögensgegenstände'. The Anhang accounting policies do not mention capitalisation of internally generated assets. No 'Andere aktivierte Eigenleistungen' line appears in the GuV.",
+    "notes": "Nubert develops HiFi products but does not appear to capitalise development costs under § 248 Abs. 2 HGB."
+  },
+  {
+    "id": "GUV-006",
+    "response": "Yes",
+    "evidence": "The GuV shows '4. sonstige betriebliche Aufwendungen' at EUR 4,432,041.45. The counterpart 'Sonstige betriebliche Erträge' (Nr. 4) is a mandatory line incorporated into the Rohergebnis computation. Operating income beyond core revenue exists (e.g. Währungsumrechnung Erträge).",
+    "notes": "The exact line for Sonstige betriebliche Erträge is not separately visible in the condensed GuV extract but is required and structurally present."
+  },
+  {
+    "id": "GUV-007",
+    "response": "Yes",
+    "evidence": "Materialaufwand is the balancing item in the Rohergebnis computation (Rohergebnis = Umsatzerlöse minus Materialaufwand). The Lagebericht confirms: 'Die Einkaufskosten können durch langfristige Verträge stabil gehalten werden.' The Anhang mentions inventory valuation for merchandise and finished goods.",
+    "notes": "Materialaufwand is not separately titled in the condensed GuV but is the difference between Umsatzerlöse and Rohergebnis."
+  },
+  {
+    "id": "GUV-008",
+    "response": "Yes",
+    "evidence": "'2. Personalaufwand' EUR 4,186,545.21 is explicitly shown in the GuV, sub-classified into: a) Löhne und Gehälter EUR 3,562,103.98 and b) soziale Abgaben und Aufwendungen für Altersversorgung und für Unterstützung EUR 624,441.23 (davon für Altersversorgung EUR 11,218.53).",
+    "notes": null
+  },
+  {
+    "id": "GUV-009",
+    "response": "Yes",
+    "evidence": "'3. Abschreibungen' EUR 510,704.32 is explicitly shown in the GuV, sub-classified into: a) auf immaterielle Vermögensgegenstände des Anlagevermögens und Sachanlagen EUR 510,704.32.",
+    "notes": null
+  },
+  {
+    "id": "GUV-010",
+    "response": "Yes",
+    "evidence": "'4. sonstige betriebliche Aufwendungen' EUR 4,432,041.45 is explicitly shown as a line item in the GuV, with detail on Währungsumrechnung (EUR 85,057.44) and Art. 67 EGHGB (EUR 4,969.00).",
+    "notes": null
+  },
+  {
+    "id": "GUV-011",
+    "response": "Yes",
+    "evidence": "Two financial income lines explicitly shown: '5. Erträge aus Beteiligungen' EUR 8,007.00 and '6. sonstige Zinsen und ähnliche Erträge' EUR 179,710.83. Nr. 10 (Erträge aus anderen Wertpapieren) is not separately visible but likely nil given no Finanzanlagevermögen lending activity beyond the Beteiligung.",
+    "notes": "Nr. 10 should be shown even if nil per § 275 Abs. 2. Its absence from the extracted GuV may indicate condensed presentation."
+  },
+  {
+    "id": "GUV-012",
+    "response": "Yes",
+    "evidence": "'7. Zinsen und ähnliche Aufwendungen' EUR 457,906.42 is explicitly shown (Nr. 13). Nr. 12 (Abschreibungen auf Finanzanlagen) is not separately visible but likely nil — Wertpapiere at TEUR 2 and Beteiligungen at cost with no write-downs indicated.",
+    "notes": "Nr. 12 should be shown even if nil per § 275 Abs. 2. May be present in the full GuV at zero."
+  },
+  {
+    "id": "GUV-013",
+    "response": "Yes",
+    "evidence": "All four bottom-section items explicitly shown: '8. Steuern vom Einkommen und vom Ertrag' EUR 46,156.90; '9. Ergebnis nach Steuern' EUR 338,762.23; '10. sonstige Steuern' EUR 36,824.96; '11. Jahresüberschuss' EUR 301,937.27. Gewinnvortrag and Bilanzgewinn also shown.",
+    "notes": null
+  },
+  {
+    "id": "GUV-014",
+    "response": "No",
+    "evidence": "The Anhang does not contain a breakdown of Umsatzerlöse by type of activity or geographical market per § 285 Nr. 4 HGB. The § 286 Abs. 2 protective clause is not invoked. The Lagebericht mentions Germany with plans for Austria/Switzerland expansion, but no formal revenue breakdown is provided.",
+    "notes": "Disclosure gap: must either provide revenue breakdown or invoke § 286 Abs. 2. Neither is present."
+  },
+  {
+    "id": "GUV-015",
+    "response": "Yes",
+    "evidence": "The Anhang states: 'Anzahl der Arbeitnehmer: durchschnittlich 63 — hiervon Angestellte: 49 — hiervon gewerbliche Arbeitnehmer: 14. Mitglieder der Geschäftsführung und Auszubildende sind nicht berücksichtigt.'",
+    "notes": null
+  },
+  {
+    "id": "GUV-016",
+    "response": "Review",
+    "evidence": "The Anhang does not provide a sub-classification of Materialaufwand (e.g. raw materials, consumables, merchandise) as required by § 285 Nr. 8. Personalaufwand sub-classification is in the GuV but not repeated in the Anhang. The Materialaufwand breakdown is entirely absent — likely because it is not shown as a separate GuV line.",
+    "notes": "Material cost breakdown missing from the Anhang. Personnel cost breakdown shown in GuV but not in Anhang as § 285 Nr. 8 technically requires."
+  },
+  {
+    "id": "GUV-017",
+    "response": "N/A",
+    "evidence": "No items classified as 'außerordentliche Erträge' or 'außerordentliche Aufwendungen' in the GuV. The Anhang does not mention any extraordinary items. Trigger condition not met.",
+    "notes": "Note: § 275 Abs. 2 Nr. 20/21 was repealed by BilMoG, though § 285 Nr. 31 Anhang disclosure persists. No such items exist."
+  },
+  {
+    "id": "GUV-018",
+    "response": "N/A",
+    "evidence": "No 'selbstgeschaffene immaterielle Vermögensgegenstände' on the balance sheet. The Anhang does not mention capitalisation of internally generated intangible assets. The Lagebericht references 'Entwicklungsanstrengungen' but no capitalisation is evidenced. Trigger condition not met.",
+    "notes": "Nubert develops HiFi products but does not capitalise development costs. May warrant separate check on whether capitalisation criteria are met."
+  },
+  {
+    "id": "GUV-019",
+    "response": "Yes",
+    "evidence": "The Anhang describes depreciation methods: 'Die Abschreibungen wurden nach der voraussichtlichen Nutzungsdauer der Vermögensgegenstände linear vorgenommen' and 'Die geringwertigen Wirtschaftsgüter bis EUR 800,00 wurden im Jahr der Anschaffung voll abgeschrieben.' The GuV shows depreciation amounts. The Anlagenspiegel (Anlage 1) provides per-class breakdown.",
+    "notes": "Depreciation method (linear) and low-value asset treatment clearly disclosed. Per-class amounts in the Anlagenspiegel attachment."
+  }
+]

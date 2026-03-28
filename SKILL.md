@@ -63,11 +63,12 @@ To adapt for IFRS or UK GAAP:
 4. **Size Logic:** Adjust size class thresholds (note: IFRS/UK GAAP often use different materiality concepts rather than hard size classes).
 
 ## 8. Cost Estimate
-*(Based on Claude 3.5 Sonnet pricing: $3 input / $15 output per 1M tokens)*
+*(Based on Gemini 3.1 Flash-Lite pricing: $0.25 input / $1.50 output per 1M tokens)*
 - Scoping Agent: ~2k tokens
-- 4x Section Drafters: ~8k tokens each
+- 4x Section Drafters: ~32k tokens total
 - Verification Agent: ~15k tokens (includes full FS text)
-- **Total:** < $0.50 per checklist run for a medium entity.
+- **Total:** ~49k tokens per checklist run
+- **Cost:** ~$0.012 input + ~$0.075 output = **~$0.09 per checklist** (highly cost-efficient for high-volume agentic tasks).
 
 ## 9. Repository Structure
 ```

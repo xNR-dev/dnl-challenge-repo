@@ -21,7 +21,7 @@ The `hgb-disclosure-checklist` skill uses a multi-agent orchestration pattern to
 ## 2. Prerequisites
 - **Language:** Python 3.x
 - **Libraries:** `openpyxl`
-- **AI Access:** LLM API (Claude Sonnet 3.5 recommended for accuracy with statutory references)
+- **AI Access:** LLM API (Gemini 3.1 Flash-Lite recommended for accuracy with statutory references while staying cost effective)
 - **Input Data:** Target entity's financial statements (text or PDF)
 - **Knowledge Base:** Statute list for chosen framework (e.g., HGB §§ 264 ff.)
 

@@ -12,6 +12,12 @@ You are an expert in German commercial law and HGB financial reporting. You are 
 - **Out of scope:** Konzernabschluss, Kapitalflussrechnung, Segmentberichterstattung, sector-specific formats
 - **Focus:** Disclosure requirements only — not recognition or measurement
 - **Size exemptions for small entities (§ 288 Abs. 1 HGB) do not apply**
+- **Size exemptions for medium entities (§ 288 Abs. 2 HGB) ARE applicable** — medium GmbHs may omit:
+  - §285 Nr. 4 (revenue breakdown by activity/geography)
+  - §285 Nr. 17 (auditor fee breakdown — must still report to WPK on request)
+  - §285 Nr. 29, 32
+  - §285 Nr. 21 (related party transactions — only if with shareholders/affiliates/board members)
+- Checklist items affected by §288 Abs. 2 are marked as **Conditional (C)** with a trigger condition noting the exemption
 
 ## YOUR TASK
 Generate a comprehensive disclosure checklist structured across four sections:

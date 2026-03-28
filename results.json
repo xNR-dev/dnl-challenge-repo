@@ -325,9 +325,9 @@
   },
   {
     "id": "ANH-019",
-    "response": "No",
-    "evidence": "The financial statements include a Bestätigungsvermerk from Rettenmayr Treuhand GmbH naming the auditor (Dominik Rettenmayr, Wirtschaftsprüfer). However, there is no breakdown of the auditor's fees into the four categories required by § 285 Nr. 17 HGB: (1) Abschlussprüfung, (2) andere Bestätigungsleistungen, (3) Steuerberatungsleistungen, (4) sonstige Leistungen. The fee amount and breakdown are entirely absent.",
-    "notes": "This is a clear disclosure gap. The entity must disclose auditor's fees by category regardless of whether a protective clause is available (none exists for this item)."
+    "response": "Review",
+    "evidence": "The auditor (Rettenmayr Treuhand GmbH) is named but no fee breakdown into four §285 Nr. 17 categories is provided. However, §288 Abs. 2 HGB allows medium-sized GmbHs to omit §285 Nr. 17, provided they report to the Wirtschaftsprüferkammer on request.",
+    "notes": "Reclassified from No to Review — §288 Abs. 2 exemption applies to medium GmbH"
   },
   {
     "id": "ANH-020",
@@ -392,8 +392,8 @@
   {
     "id": "ANH-030",
     "response": "N/A",
-    "evidence": "The GuV shows 'Steuern vom Einkommen und vom Ertrag' of EUR 46,156.90, but no Kapitalertragsteuer (withholding tax on dividends/distributions) is separately identified. The Anhang states: 'Die Steuern vom Einkommen und vom Ertrag belasten in voller Höhe das Ergebnis der gewöhnlichen Geschäftstätigkeit.' No Kapitalertragsteuer deduction appears in the P&L. The trigger condition ('only if Kapitalertragsteuer is deducted in the P&L') is not met.",
-    "notes": null
+    "evidence": "The FS does not disclose capitalised development costs. No internally generated intangible assets appear on the balance sheet (immaterielle Vermögensgegenstände relate to acquired assets only).",
+    "notes": "Item rewritten — original had invalid citation. No §248 Abs. 2 capitalisation found."
   },
   {
     "id": "ANH-031",
@@ -487,9 +487,9 @@
   },
   {
     "id": "GUV-014",
-    "response": "No",
-    "evidence": "The Anhang does not contain a breakdown of Umsatzerlöse by type of activity or geographical market per § 285 Nr. 4 HGB. The § 286 Abs. 2 protective clause is not invoked. The Lagebericht mentions Germany with plans for Austria/Switzerland expansion, but no formal revenue breakdown is provided.",
-    "notes": "Disclosure gap: must either provide revenue breakdown or invoke § 286 Abs. 2. Neither is present."
+    "response": "Review",
+    "evidence": "No revenue breakdown by activity or geography in the Anhang. However, §288 Abs. 2 HGB allows medium-sized GmbHs to omit §285 Nr. 4. The FS does not explicitly invoke this exemption, but it may be a legitimate omission given Nubert operates primarily in one industry (HiFi) and one primary market (Germany).",
+    "notes": "Reclassified from No to Review — §288 Abs. 2 exemption applies to medium GmbH"
   },
   {
     "id": "GUV-015",

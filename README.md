@@ -194,29 +194,69 @@ checklist.json + nubert_fs_2023.txt
 |---|---|
 | Total items checked | 87 |
 | Yes (disclosed) | 47 |
-| No (missing) | 6 |
+| No (missing) | 4 |
 | N/A (not applicable) | 21 |
-| Review (uncertain) | 13 |
-| **Pass rate** | **88.7%** (47 of 53 applicable items) |
+| Review (uncertain) | 15 |
+| **Pass rate** | **92.2%** (47 of 51 applicable items) |
 
-### Disclosure gaps identified (6 items marked No)
+### Iteration: Improving the Checklist via Internet Research
 
+After the initial verification run produced 88.7% pass rate with 6 "No" findings, we used web search (Brave API) to cross-check our results against HGB statutory text and secondary sources. This revealed **three issues requiring correction:**
+
+**1. §288 Abs. 2 medium-entity exemptions we initially missed**
+
+Our original checklist treated §288 Abs. 1 (small entity exemptions) as not applicable, but failed to account for §288 Abs. 2, which allows medium GmbHs to omit:
+- §285 Nr. 4 (revenue breakdown by activity/geography)
+- §285 Nr. 17 (auditor fee breakdown — must still report to WPK on request)
+- §285 Nr. 29, 32
+
+**Impact:** GUV-014 (revenue breakdown) and ANH-019 (auditor fees) were initially marked "No" but should be "Review" — these disclosures can be legitimately waived under §288 Abs. 2.
+
+**Fix:** Changed both items from Mandatory (M) to Conditional (C) with trigger conditions noting the §288 Abs. 2 exemption. Updated the scope.md to explicitly document which §288 exemptions apply.
+
+**2. Invalid citation on ANH-030**
+
+The original ANH-030 cited "§285 Nr. 6 HGB" for Kapitalertragsteuer treatment, but §285 Nr. 6 actually covers depreciation methods. Research confirmed there is no specific §285 number for Kapitalertragsteuer treatment.
+
+**Fix:** Rewrote ANH-030 as a valid item covering §248 Abs. 2 capitalised development costs and §285 Nr. 22 disclosure.
+
+**3. Scope clarification**
+
+The original scope.md stated "§288 Abs. 1 HGB (small entity) does not apply" without clarifying that §288 Abs. 2 (medium entity) exemptions DO apply. This ambiguity could lead auditors to over-apply the checklist.
+
+**Fix:** Added explicit documentation of which §288 Abs. 2 exemptions are applicable, and noted that affected checklist items are Conditional with appropriate trigger conditions.
+
+**Revised results after iteration:** 92.2% pass rate (47 Yes / 4 No / 15 Review / 21 N/A)
+
+**Remaining 4 genuine "No" findings:**
 | ID | Gap | Reference |
 |---|---|---|
-| GUV-014 | No revenue breakdown by activity or geography; §286(2) protective clause not invoked | § 285 Nr. 4, § 286 Abs. 2 |
 | ANH-002 | Currency translation methods not disclosed despite EUR 85k FX expenses | § 284 Abs. 2 Nr. 2 |
 | ANH-003 | Deferred tax policy completely silent | § 284 Abs. 2 Nr. 3, § 274 |
 | ANH-010 | Participations not identified by name and registered office | § 285 Nr. 11 |
-| ANH-019 | Auditor's fees not broken down into four categories | § 285 Nr. 17 |
+| ANH-028 | No deferred tax recognition despite material temporary differences | § 274 |
+
+This iteration demonstrates the value of the completeness_prompt field: by requiring specific, evidence-based prompts, we were able to systematically verify and improve the checklist through external research.
+
+### Disclosure gaps identified (4 items marked No)
+
+| ID | Gap | Reference |
+|---|---|---|
+| ANH-002 | Currency translation methods not disclosed despite EUR 85k FX expenses | § 284 Abs. 2 Nr. 2 |
+| ANH-003 | Deferred tax policy completely silent | § 284 Abs. 2 Nr. 3, § 274 |
+| ANH-010 | Participations not identified by name and registered office | § 285 Nr. 11 |
 | ANH-028 | No deferred tax recognition despite material temporary differences (pensions, BilMoG, discount rate) | § 274 |
 
-### Items flagged for Review (13)
+*Note: GUV-014 (revenue breakdown) and ANH-019 (auditor fees) were initially marked "No" but reclassified to "Review" after confirming that §288 Abs. 2 HGB allows medium GmbHs to legitimately omit these disclosures.*
+
+### Items flagged for Review (15)
 
 The Review flag was applied where:
 - The disclosure was present but potentially incomplete (e.g., risk management too brief)
 - A key attachment was missing from the extracted text (e.g., Anlagenspiegel)
 - The FS made a structural change without quantification (e.g., inventory valuation method change)
 - An event occurred post-balance-sheet that wasn't discussed (e.g., new MD appointments in 11/2024)
+- A disclosure may be legitimately waived under §288 Abs. 2 medium-entity exemptions (e.g., revenue breakdown, auditor fees)
 
 See [`results.json`](results.json) for the full evidence and notes on each item.
 

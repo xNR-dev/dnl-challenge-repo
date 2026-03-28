@@ -353,11 +353,11 @@
       "id": "GUV-014",
       "section": "GuV",
       "sub_section": "Anhangangaben zur GuV",
-      "disclosure_item": "Has the entity disclosed a breakdown of Umsatzerlöse by type of activity and geographical market in the notes, or applied the protective clause under § 286 Abs. 2 HGB?",
-      "hgb_reference": "§ 285 Nr. 4 HGB; § 286 Abs. 2 HGB",
-      "obligation": "M",
-      "trigger_condition": null,
-      "completeness_prompt": "Check the Anhang for a breakdown of revenue by activity and geography per § 285 Nr. 4 HGB, or confirm that the entity has invoked the § 286 Abs. 2 protective clause with a reasoned explanation."
+      "disclosure_item": "Has the entity disclosed a breakdown of Umsatzerlöse by type of activity and by geographical markets per §285 Nr. 4 HGB, or has it invoked the §288 Abs. 2 exemption for medium-sized entities?",
+      "hgb_reference": "§285 Nr. 4 HGB, §288 Abs. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Does not apply if the medium-sized entity invokes §288 Abs. 2 HGB to omit revenue breakdown",
+      "completeness_prompt": "Check the Anhang for a revenue breakdown by activity and geography. If absent, verify whether the entity has invoked the §288 Abs. 2 exemption (medium GmbH may omit §285 Nr. 4). Confirm the exemption is justified by the entity circumstances."
     },
     {
       "id": "GUV-015",
@@ -753,11 +753,11 @@
       "id": "ANH-019",
       "section": "Anhang",
       "sub_section": "Wirtschaftsprueferhonorar",
-      "disclosure_item": "Has the entity disclosed a breakdown of the auditor's fees by type (Abschlusspruefung, andere Bestaetigungsleistungen, Steuerberatungsleistungen, sonstige Leistungen) per § 285 Nr. 17 HGB?",
-      "hgb_reference": "§ 285 Nr. 17 HGB",
-      "obligation": "M",
-      "trigger_condition": null,
-      "completeness_prompt": "Verify that the Anhang discloses the auditor's fees broken down into the four categories specified in § 285 Nr. 17 (audit, other assurance, tax advisory, other services)."
+      "disclosure_item": "Has the entity disclosed a breakdown of the auditor fees by category per §285 Nr. 17 HGB, or has it invoked the §288 Abs. 2 exemption for medium-sized entities?",
+      "hgb_reference": "§285 Nr. 17 HGB, §288 Abs. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Does not apply if the medium-sized entity invokes §288 Abs. 2 HGB to omit auditor fee breakdown (must still report to WPK on request)",
+      "completeness_prompt": "Check the Anhang for the auditor fee breakdown (audit, other assurance, tax advisory, other services). If absent, verify whether the entity has invoked the §288 Abs. 2 exemption (medium GmbH may omit §285 Nr. 17 but must report to WPK on request)."
     },
     {
       "id": "ANH-020",
@@ -862,12 +862,12 @@
     {
       "id": "ANH-030",
       "section": "Anhang",
-      "sub_section": "Erlaeuterung zur GuV",
-      "disclosure_item": "Has the entity disclosed its tax treatment methodology, including Kapitalertragsteuer (withholding tax) handling, within the accounting policies per §284 Abs. 2 Nr. 1 HGB?",
-      "hgb_reference": "§284 Abs. 2 Nr. 1 HGB [REVIEW]",
+      "sub_section": "Selbstgeschaffene immaterielle Vermögensgegenstände",
+      "disclosure_item": "Has the entity disclosed whether it has capitalised development costs per §248 Abs. 2 HGB, and if so, the amounts and amortisation periods?",
+      "hgb_reference": "§248 Abs. 2 HGB, §285 Nr. 22 HGB",
       "obligation": "C",
-      "trigger_condition": "Only if Kapitalertragsteuer is deducted in the P&L",
-      "completeness_prompt": "Check the accounting policies section of the Anhang for disclosure of the tax treatment methodology, including any Kapitalertragsteuer withholding, income tax allocation methods, and deferred tax treatment."
+      "trigger_condition": "Only if the entity has capitalised internally generated intangible assets",
+      "completeness_prompt": "Check whether the entity has capitalised development costs under §248 Abs. 2 HGB. If yes, verify that the Anhang discloses the amounts, amortisation methods, and useful lives per §285 Nr. 22."
     },
     {
       "id": "ANH-031",

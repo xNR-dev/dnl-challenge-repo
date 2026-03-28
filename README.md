@@ -313,5 +313,3 @@ The checklist itself (`checklist.json`) is entity-agnostic and can be reused acr
 ## Contact
 
 Built as part of the DNL Professional Practice Team take-home challenge.
-
-Submission: Livia (livia.jansen-winkeln@dnl.ai) and Andreas (andreas.schindler@dnl.ai)

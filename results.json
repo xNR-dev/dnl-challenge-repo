@@ -379,9 +379,9 @@
   },
   {
     "id": "ANH-028",
-    "response": "No",
-    "evidence": "No deferred tax assets or liabilities are recognised on the balance sheet, and the Anhang's accounting policies section does not address deferred taxes (latente Steuern) at all. § 274 HGB requires recognition of deferred tax liabilities for temporary differences; deferred tax assets may be waived under § 274 Abs. 1 S. 2. Whether the entity has waived deferred tax recognition or determined that no material temporary differences exist, the policy choice must be disclosed per § 284 Abs. 2 Nr. 3 HGB. This disclosure is entirely absent.",
-    "notes": "Cross-references ANH-003 (same gap). Temporary differences from pensions (PUC method, BilMoG amounts, discount rate difference) likely exist but their deferred tax treatment is not discussed."
+    "response": "Review",
+    "evidence": "Material temporary differences exist (pensions, BilMoG, discount rate), but no deferred tax assets/liabilities recognised. Under §274 Abs. 1 HGB, recognition is optional for standalone financial statements.",
+    "notes": "Reclassified from No to Review — recognition is a Wahlrecht under §274 HGB. Need to verify if the entity explicitly elected not to recognise."
   },
   {
     "id": "ANH-029",

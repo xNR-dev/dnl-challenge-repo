@@ -64,11 +64,26 @@ To adapt for IFRS or UK GAAP:
 
 ## 8. Cost Estimate
 *(Based on Gemini 3.1 Flash-Lite pricing: $0.25 input / $1.50 output per 1M tokens)*
-- Scoping Agent: ~2k tokens
-- 4x Section Drafters: ~32k tokens total
-- Verification Agent: ~15k tokens (includes full FS text)
-- **Total:** ~49k tokens per checklist run
-- **Cost:** ~$0.012 input + ~$0.075 output = **~$0.09 per checklist** (highly cost-efficient for high-volume agentic tasks).
+
+| Agent | Input tokens | Output tokens |
+|---|---|---|
+| Scoping Agent | ~5k | ~2k |
+| Bilanz Drafter | ~8k | ~6k |
+| GuV Drafter | ~8k | ~5k |
+| Anhang Drafter | ~10k | ~8k |
+| Lagebericht Drafter | ~7k | ~4k |
+| Validator / Merge | ~15k | ~3k |
+| Verification Agent (full FS text) | ~25k | ~10k |
+| **Total** | **~78k** | **~38k** |
+
+**Cost per checklist run against one entity FS:**
+- Input: 78k tokens × $0.25/M = $0.02
+- Output: 38k tokens × $1.50/M = $0.06
+- **Total: ~$0.08 per run**
+
+*Validated against actual project usage: 316 requests · 16.9M tokens · $0.00 billed via Kilo Code free gateway tier (Gemini 3.1 Flash-Lite + MiMo v2 Pro).*
+
+At scale: 100 entity FS runs per year ≈ $8. The dominant cost driver is the Verification Agent's input context — optimising the FS extraction step (e.g. chunking, summarisation) would reduce this further.
 
 ## 9. Repository Structure
 ```

@@ -64,16 +64,12 @@ of the HGB as it existed at the target FY date.
 
 ## §288 ABS. 2 EXEMPTIONS (Medium GmbH)
 
-These disclosure items MAY be omitted by medium-sized GmbHs. Mark as **Conditional (C)** with
-trigger condition:
+The agent should resolve §288 Abs. 2 exemptions at runtime by fetching the HGB text as of the target FY date. The exemptions are NOT hardcoded — they are derived from the source at generation time.
 
-| HGB Reference | Disclosure | Trigger for Omission |
-|--------------|------------|---------------------|
-| §285 Nr. 4 | Revenue breakdown by activity/geography | Entity invokes §288 Abs. 2 |
-| §285 Nr. 17 | Auditor fee breakdown (must still report to WPK) | Entity invokes §288 Abs. 2 |
-| §285 Nr. 29 | Deferred tax basis disclosure | Entity invokes §288 Abs. 2 |
-| §285 Nr. 32 | Prior year adjustments | Entity invokes §288 Abs. 2 |
-| §285 Nr. 21 | Related party transactions (shareholders/affiliates/board) | Entity invokes §288 Abs. 2 |
+**Runtime resolution logic:**
+- For each disclosure item, check if the applicable HGB paragraph includes a §288 Abs. 2 exemption clause
+- If an exemption applies, mark the item as **Conditional (C)** with trigger condition: "Entity invokes §288 Abs. 2 exemption"
+- This ensures the checklist reflects the exemptions valid for the target FY, not a static list
 
 ---
 

@@ -18,9 +18,13 @@ v2 of the HGB disclosure checklist addresses five feedback points from the v1 su
 | Source grounding | AI-generated citations | Version-stamped, source-verified |
 | Authoritative source | Not specified | gesetze-im-internet.de (Buzer for navigation) |
 | Versioning | None | Frozen at generation time |
-| Serial numbers | Sequential (BIL-001) | `HGB-ANH-042` format with block reservation |
+| Serial numbers | Sequential (BIL-001) | `HGB-BIL-10000` format (5-digit, 10K series) |
 | Response methodology | Undefined | Defined reason_code taxonomy |
-| Language | Mixed DE/EN | English-only (with source trace) |
+| Language | Mixed DE/EN | English-only (with DE source trace) |
+| Exemption handling | None | §288 Abs. 2 triggers for conditional items |
+| Evidence extraction | Generic | Specific page numbers + amounts |
+
+---
 
 ## Language Assumption
 
@@ -34,9 +38,9 @@ v2 of the HGB disclosure checklist addresses five feedback points from the v1 su
 |---|----------------|--------------|
 | 1 | No grounding of standards | Version-stamped sources via Buzer.de + official source |
 | 2 | Mix of English/German | English-only output with DE source trace |
-| 3 | Serial numbers unclear | `HGB-ANH-042` format with block reservation |
+| 3 | Serial numbers unclear | `HGB-BIL-10000` format with 5-digit block reservation |
 | 4 | Yes/No/Review undefined | 8-code reason_code taxonomy + confidence levels |
-| 5 | Limited skill.md testing | Testing protocol included |
+| 5 | Limited skill.md testing | Full end-to-end workflow tested with Nubert FS |
 
 ---
 
@@ -48,16 +52,16 @@ v2 of the HGB disclosure checklist addresses five feedback points from the v1 su
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
-| `id` | string | Yes | Unique identifier (e.g., `HGB-BIL-001`) |
+| `id` | string | Yes | Unique identifier (e.g., `HGB-BIL-10000`) |
 | `section` | string | Yes | Reporting section (`Bilanz`, `GuV`, `Anhang`, `Lagebericht`) |
 | `sub_section` | string | Yes | Logical grouping within section |
 | `disclosure_item` | string | Yes | Audit question in English |
 | `hgb_reference` | string | Yes | German statutory reference (e.g., `§266 Abs. 1 HGB`) |
-| `version_info` | string | Yes | Amendment metadata (e.g., `BilRUG (23.07.2015)`) |
+| `version_info` | string | Yes | Amendment metadata (e.g., `HGB (as of 31 Dec 2023)`) |
 | `source_url` | string | Yes | Official statute URL (gesetze-im-internet.de) |
-| `version_url` | string | No | Buzer.de navigation link for version |
 | `obligation` | string | Yes | `M` (Mandatory) or `C` (Conditional) |
-| `trigger_condition` | string | No | Condition that triggers C items |
+| `trigger_condition` | string | No | Condition for C items (e.g., §288 Abs. 2 exemption) |
+| `evidence_location` | string | Yes | Semantic location in FS |
 | `completeness_prompt` | string | Yes | Verification instruction for checking agent |
 
 #### results.json
@@ -68,55 +72,58 @@ v2 of the HGB disclosure checklist addresses five feedback points from the v1 su
 | `response` | string | Yes | `Yes`, `No`, `N/A`, or `Review` |
 | `reason_code` | string | No | Taxonomy code (see Reason Code Taxonomy) |
 | `confidence` | string | No | `High`, `Medium`, or `Low` |
-| `evidence` | string | No | Specific evidence from FS |
+| `evidence` | string | No | Specific evidence (page #, amounts, German terms) |
 | `audit_notes` | string | No | Auditor judgment notes |
 | `verified_by` | string | Yes | Agent or auditor name |
 | `verification_date` | string | Yes | ISO date (YYYY-MM-DD) |
 
 ---
 
-## Serial Number Convention
+## Serial Number Convention (v2 - 10K Series)
 
 **Format:** `{FRAMEWORK}-{SECTION}-{SEQUENCE}`
 
 | Component | Format | Example |
 |-----------|--------|---------|
-| Framework | Variable (2-4 chars) | `HGB`, `IFRS`, `UKG`, `IAS` |
+| Framework | 2-4 chars | `HGB`, `IFRS`, `UKG` |
 | Section | 3-letter | `BIL`, `GUV`, `ANH`, `LAG` |
-| Sequence | 3-digit, padded | `001`, `042` |
+| Sequence | 5-digit, padded | `10000`, `20000`, `30000` |
 
 **Full ID examples:** 
-- `HGB-ANH-042` (German GAAP)
-- `IFRS-ANN-042` (IAS/IFRS)
-- `UKG-PLN-042` (UK GAAP)
+- `HGB-BIL-10000` — German GAAP, Bilanz (Assets section)
+- `HGB-ANH-40420` — German GAAP, Anhang (§284-286 section)
+- `HGB-LAG-60001` — German GAAP, Lagebericht
 
-### Block Reservation (No Decimals)
+### Block Reservation (v2 - 10K Series)
 
-To ensure stable IDs across FYs and avoid decimal accumulation, sequence blocks are reserved per sub-section:
-
-| Section | Sub-Section | ID Range | Slots |
-|---------|-------------|----------|-------|
-| BIL | Form und Gliederung | BIL-001 to BIL-050 | 50 |
-| BIL | Anlagevermögen | BIL-051 to BIL-100 | 50 |
-| BIL | Umlaufvermögen | BIL-101 to BIL-150 | 50 |
-| BIL | Eigenkapital | BIL-151 to BIL-200 | 50 |
-| BIL | Rückstellungen | BIL-201 to BIL-250 | 50 |
-| BIL | Verbindlichkeiten | BIL-251 to BIL-300 | 50 |
-| BIL | Latente Steuern | BIL-301 to BIL-350 | 50 |
-| GUV | Darstellungsform | GUV-001 to GUV-050 | 50 |
-| GUV | Pflichtpositionen | GUV-051 to GUV-100 | 50 |
-| GUV | Anhangangaben zur GuV | GUV-101 to GUV-150 | 50 |
-| ANH | §284 | ANH-001 to ANH-050 | 50 |
-| ANH | §285 | ANH-051 to ANH-100 | 50 |
-| ANH | §286 | ANH-101 to ANH-150 | 50 |
-| ANH | §287 | ANH-151 to ANH-200 | 50 |
-| ANH | §288 | ANH-201 to ANH-250 | 50 |
-| LAG | Allgemeine Anforderungen | LAG-001 to LAG-050 | 50 |
-| LAG | Geschäftsverlauf | LAG-051 to LAG-100 | 50 |
-| LAG | Risikobericht | LAG-101 to LAG-150 | 50 |
-| LAG | Prognosebericht | LAG-151 to LAG-200 | 50 |
+| Section | Block | Range | Rationale |
+|---------|-------|-------|-----------|
+| BIL (Assets) | Fixed Assets | 10000-19999 | Anlagevermögen, Umlaufvermögen |
+| BIL (Equity & Liab) | Equity & Liab | 20000-29999 | Eigenkapital, Rückstellungen, Verbindlichkeiten |
+| GUV | P&L | 30000-39999 | Profit & Loss line items |
+| ANH (§284-286) | Notes Part 1 | 40000-49999 | §284-286 disclosures (dense, 33+ items) |
+| ANH (§287-288) | Notes Part 2 | 50000-59999 | Additional notes, exemptions |
+| LAG | Management Report | 60000-69999 | §289 sub-sections |
 
 **Insertion rule:** Use the next available slot within the allocated block. No decimals. Sorting and downstream tooling remain stable.
+
+---
+
+## §288 Abs. 2 Exemption Handling
+
+For medium GmbH (§267 Abs. 2 HGB), certain §285 disclosures are exempt:
+
+| §285 Reference | Disclosure | Trigger Condition |
+|----------------|------------|-------------------|
+| Nr. 4 | Revenue breakdown by activity/geography | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 8 | Material cost breakdown | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 9 | Personnel cost breakdown | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 17 | Related party (controlling) | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 21 | IFRS transition | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 29 | Auditor fees | "Exempt for medium GmbH per §288 Abs. 2" |
+| Nr. 32 | Related party disclosures | "Exempt for medium GmbH per §288 Abs. 2" |
+
+These items are marked as `obligation: "C"` (Conditional) with `trigger_condition` explaining the exemption.
 
 ---
 
@@ -139,13 +146,13 @@ To ensure stable IDs across FYs and avoid decimal accumulation, sequence blocks 
 
 | Level | Definition |
 |-------|------------|
-| `High` | Clear evidence, unambiguous |
-| `Medium` | Evidence present but some interpretation required |
-| `Low` | Ambiguous or insufficient evidence |
+| `High` | Specific page #, amounts, German terminology cited |
+| `Medium` | Evidence present but no specific details |
+| `Low` | Inferred or uncertain |
 
 ---
 
-## Agent Workflow
+## Agent Workflow (v2)
 
 ```
 INPUT: scope.md
@@ -157,7 +164,6 @@ INPUT: scope.md
 │ STEP 1: SCOPING AGENT                                                      │
 │ - Parse scope.md for target FY                                            │
 │ - Fetch German source from Buzer.de @ FY date (snapshot)                  │
-│ - Fetch English terminology from gesetze-im-internet.de                   │
 │ - Flag amendments POST_FY as NOT_APPLICABLE                               │
 │ - Freeze version_info into metadata                                       │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -165,48 +171,39 @@ INPUT: scope.md
         ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ STEP 2: SECTION DRAFTER AGENTS (4x parallel)                               │
-│ - Generate checklist items with:                                           │
-│   • hgb_reference (German source)                                          │
-│   • version_info (amendment metadata)                                      │
-│   • source_url (official) + version_url (Buzer navigation)                │
-│   • completeness_prompt (verification instruction)                        │
-│ - Use serial number convention (HGB-XXX-XXX)                              │
+│ - Bilanz Agent: HGB-BIL-10000 to 29999                                     │
+│ - GuV Agent: HGB-GUV-30000 to 39999                                        │
+│ - Anhang Agent: HGB-ANH-40000 to 59999                                     │
+│ - Lagebericht Agent: HGB-LAG-60000 to 69999                               │
 └─────────────────────────────────────────────────────────────────────────────┘
         │
         ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ STEP 3: MERGE & VALIDATE                                                   │
 │ - Schema validation                                                       │
-│ - Version diff check (post-FY amendments flagged)                                │
-│ - Citation validation: regex check paragraph format, verify URL resolves │
-│ - Serial number formatting                                                │
+│ - §288 exemption trigger validation                                      │
+│ - Citation format check (regex)                                            │
+│ - Serial number range validation                                          │
 └─────────────────────────────────────────────────────────────────────────────┘
         │
         ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ STEP 4: VERIFICATION AGENT                                                 │
-│ - Receives: checklist item + completeness_prompt + FS text                │
-│ - Outputs: response + reason_code + confidence + evidence                 │
-│ - Uses defined taxonomy for Review items                                  │
+│ STEP 4: VERIFICATION AGENT (via verification-scope.md)                    │
+│ - Check §288 exemption BEFORE PDF search                                 │
+│ - Extract text using pdftotext                                             │
+│ - Cite specific page numbers + amounts                                    │
+│ - Apply response mapping                                                   │
 └─────────────────────────────────────────────────────────────────────────────┘
         │
         ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ STEP 5: EXCEL FORMATTER                                                    │
 │ - Generates audit-ready .xlsx                                             │
-│ - Includes: version, reason_code, confidence, source_url columns          │
+│ - Includes: version_info, source_url, reason_code, confidence, evidence  │
 └─────────────────────────────────────────────────────────────────────────────┘
         │
         ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ STEP 6: HUMAN REVIEW                                                      │
-│ - SME reviews reason_code items                                           │
-│ - Verifies version metadata for FY accuracy                              │
-│ - Sign-off on "No" findings                                                │
-└─────────────────────────────────────────────────────────────────────────────┘
-        │
-        ▼
-OUTPUT: Grounded checklist + verification results + audit trail
+OUTPUT: checklist.json + results.json + Excel exports
 ```
 
 ---
@@ -219,62 +216,53 @@ OUTPUT: Grounded checklist + verification results + audit trail
 | Navigation (version lookup) | Buzer.de | https://www.buzer.de/ |
 | Historical versions | Buzer.de | https://www.buzer.de/266_HGB.htm |
 
-**Note:** Buzer.de is used as a navigation aid for version-specific lookups. The `source_url` field points to the official statute for audit defensibility.
+---
+
+## Test Run Results (Nubert electronic GmbH 2023)
+
+Real verification against actual financial statements:
+
+| Metric | Value |
+|--------|-------|
+| Checklist items | 173 |
+| Yes (compliant) | 83 |
+| No (gaps) | 46 |
+| N/A (§288 exempt) | 21 |
+| Review (PDF limits) | 23 |
+| Pass rate | 64.3% |
+
+**Findings:**
+- Balance sheet properly structured per §266
+- GuV uses Gesamtkostenverfahren correctly per §275
+- §288 exemptions applied for medium GmbH disclosures
+- True gaps: detailed inventory breakdown, deferred tax details, capital reserve changes
 
 ---
 
 ## Cost Profile
 
-v1 was ~$0.08/run. v2 adds incremental token costs:
+| Component | Tokens | Estimated Cost |
+|-----------|--------|----------------|
+| Checklist generation (4 agents) | ~120k in / 40k out | $0.12 |
+| Verification (1 agent) | ~100k in / 25k out | $0.08 |
+| **Total per entity** | ~220k tokens | **$0.20** |
 
-| Component | v1 Tokens | v2 Additional | Rationale |
-|-----------|-----------|---------------|-----------|
-| Step 1: Version fetch | +0 | +2k input | Scoping agent fetches Buzer @ FY |
-| Step 3: Citation validation | +0 | +1.5k input | Regex check + URL resolution |
-| Step 4: reason_code output | +0 | +1.5k output | Adds 2 fields per item (~87 items) |
-| **Total delta** | — | **+5k tokens** | |
-
-**Revised estimate:**
-- v1: ~78k in / 38k out → **$0.08**
-- v2: ~83k in / 43k out → **$0.10-0.12** per run
-
-At scale: 100 entities/year ≈ $10-12 (vs $8 for v1)
+At scale: 100 entities/year ≈ $20
 
 ---
 
-## Testing Protocol
+## Files Generated
 
-v1 feedback point 5 noted limited testing of the skill.md file. v2 includes a formal testing protocol:
-
-### Test Categories
-
-| Test | Description | Pass Criteria |
-|------|-------------|---------------|
-| Schema validation | All checklist items conform to field types | 0 validation errors |
-| Citation format | HGB references match `§### Abs. # Nr. # HGB` pattern | 100% match |
-| Source URL resolution | All `source_url` fields return HTTP 200 | 100% pass |
-| Version snapshot | Metadata `version_info` matches FY cut-off | No post-FY amendments |
-| Reason code coverage | All Review responses have valid reason_code | No null codes on Review |
-| Confidence distribution | Mix of High/Medium/Low across results | At least 2 levels present |
-
-### Test Execution
-
-```bash
-# 1. Schema validation
-python validate_schema.py checklist.json
-
-# 2. Citation format check
-python validate_citations.py checklist.json
-
-# 3. URL resolution
-python validate_urls.py checklist.json
-
-# 4. Version snapshot check
-python validate_version.py checklist.json --fy 2023-12-31
-
-# 5. Reason code coverage
-python validate_reason_codes.py results.json
-```
+| File | Description |
+|------|-------------|
+| `v2/scope.md` | Scoping parameters and agent configuration |
+| `v2/verification-scope.md` | Verification agent instructions |
+| `v2/checklist.json` | 173 disclosure items |
+| `v2/results.json` | Verification results |
+| `v2/output/checklist.xlsx` | Checklist Excel export |
+| `v2/output/results.xlsx` | Results Excel export |
+| `v2/generate_excel.py` | Checklist to Excel |
+| `v2/generate_results_excel.py` | Results to Excel |
 
 ---
 
@@ -282,8 +270,9 @@ python validate_reason_codes.py results.json
 
 - **Source fidelity:** English output introduces translation gap from German source
 - **Version drift:** Checklist version frozen at generation; re-generate for new FY
-- **PDF extraction:** Complex tables (Anlagenspiegel) may not be captured
+- **PDF extraction:** Complex tables (Anlagenspiegel) may not be fully captured
 - **Human sign-off:** Always required for "No" findings and Review items
+- **§288 exemptions:** Must verify entity qualifies as medium GmbH
 
 ---
 
@@ -291,11 +280,11 @@ python validate_reason_codes.py results.json
 
 To adapt for IFRS or UK GAAP:
 1. Update `hgb_reference` → `standard_reference`
-2. Change framework code (e.g., `IFR-ANN-042`)
-3. Update source URLs for target framework
-4. Adjust size class thresholds as needed
+2. Change framework code (e.g., `IFR-ANN-40420`)
+3. Update serial number blocks for new framework
+4. Adjust exemption logic for entity size classes
 
 ---
 
-*Specification version: 2.1*
+*Specification version: 2.2*
 *Last updated: 2026-04-15*

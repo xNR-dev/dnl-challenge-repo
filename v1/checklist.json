@@ -1,0 +1,893 @@
+{
+  "metadata": {
+    "entity_type": "GmbH — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB)",
+    "size_class": "medium (mittelgroß)",
+    "reporting_framework": "HGB §§ 264 ff.",
+    "pl_format": "Gesamtkostenverfahren (§ 275 Abs. 1 HGB)",
+    "sections": [
+      "Bilanz",
+      "GuV",
+      "Anhang",
+      "Lagebericht"
+    ],
+    "applicable_date": "31 December 2023",
+    "out_of_scope": [
+      "Konzernabschluss",
+      "Kapitalflussrechnung",
+      "Segmentberichterstattung",
+      "sector-specific formats"
+    ]
+  },
+  "checklist": [
+    {
+      "id": "BIL-001",
+      "section": "Bilanz",
+      "sub_section": "Form und Gliederung",
+      "disclosure_item": "Has the balance sheet been prepared in account form (Kontoform) per §266 Abs. 1 HGB?",
+      "hgb_reference": "§266 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify the balance sheet is presented in two-column account form with Aktiva and Passiva."
+    },
+    {
+      "id": "BIL-002",
+      "section": "Bilanz",
+      "sub_section": "Form und Gliederung",
+      "disclosure_item": "Are all four mandatory Aktiva balance sheet categories presented per §266 Abs. 2 HGB (Anlagevermögen, Umlaufvermögen, Rechnungsabgrenzungsposten, Aktiver Unterschiedsbetrag aus der Vermögensrechnung)?",
+      "hgb_reference": "§266 Abs. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that all four mandatory Aktiva categories are present on the assets side of the balance sheet per §266 Abs. 2."
+    },
+    {
+      "id": "BIL-003",
+      "section": "Bilanz",
+      "sub_section": "Form und Gliederung",
+      "disclosure_item": "Are all mandatory Passiva balance sheet categories presented per §266 Abs. 3 HGB (Eigenkapital, Rückstellungen, Verbindlichkeiten, Rechnungsabgrenzungsposten, Passive latente Steuern)?",
+      "hgb_reference": "§266 Abs. 3 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that all five mandatory Passiva categories are present on the liabilities side of the balance sheet."
+    },
+    {
+      "id": "BIL-004",
+      "section": "Bilanz",
+      "sub_section": "Form und Gliederung",
+      "disclosure_item": "Has the balance sheet presentation been maintained consistently with the prior year (Grundsatz der Darstellungsstetigkeit)?",
+      "hgb_reference": "§265 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Compare current and prior year balance sheet formats to confirm consistency of presentation."
+    },
+    {
+      "id": "BIL-005",
+      "section": "Bilanz",
+      "sub_section": "Anlagevermögen",
+      "disclosure_item": "Has the entity disclosed the composition and changes in fixed assets (Anlagenspiegel) per §268 Abs. 2 HGB?",
+      "hgb_reference": "§268 Abs. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify an Anlagenspiegel (fixed asset movement schedule) showing opening balances, additions, disposals, and depreciation for each class is included in the notes."
+    },
+    {
+      "id": "BIL-006",
+      "section": "Bilanz",
+      "sub_section": "Umlaufvermögen",
+      "disclosure_item": "Has the entity disclosed the composition of current assets (Vorräte, Forderungen, Wertpapiere, Kassenbestand, Guthaben bei Kreditinstituten)?",
+      "hgb_reference": "§266 Abs. 2 B HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that current assets are broken down into the mandatory sub-categories per §266 Abs. 2 B."
+    },
+    {
+      "id": "BIL-007",
+      "section": "Bilanz",
+      "sub_section": "Eigenkapital",
+      "disclosure_item": "Has the entity disclosed its share capital (Stammkapital) per §266 Abs. 3 A.I.1 HGB?",
+      "hgb_reference": "§266 Abs. 3 A.I.1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify Stammkapital is shown as a separate line item under Gezeichnetes Kapital in the equity section."
+    },
+    {
+      "id": "BIL-008",
+      "section": "Bilanz",
+      "sub_section": "Eigenkapital",
+      "disclosure_item": "Has the entity disclosed capital reserves (Kapitalrücklage) per §266 Abs. 3 A.II.1 HGB?",
+      "hgb_reference": "§266 Abs. 3 A.II.1 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if capital reserves exist",
+      "completeness_prompt": "Check whether the entity has capital reserves and, if so, that they are disclosed as a separate line item."
+    },
+    {
+      "id": "BIL-009",
+      "section": "Bilanz",
+      "sub_section": "Eigenkapital",
+      "disclosure_item": "Has the entity disclosed retained earnings (Gewinnrücklagen) per §266 Abs. 3 A.III HGB?",
+      "hgb_reference": "§266 Abs. 3 A.III HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if retained earnings exist",
+      "completeness_prompt": "Check whether retained earnings exist and if so verify they are broken down into sub-categories per §266 Abs. 3 A.III HGB, including legal reserves, statutory reserves, and other revenue reserves where applicable."
+    },
+    {
+      "id": "BIL-010",
+      "section": "Bilanz",
+      "sub_section": "Rückstellungen",
+      "disclosure_item": "Has the entity disclosed the composition of provisions (Rückstellungen) by type per §266 Abs. 3 B HGB?",
+      "hgb_reference": "§266 Abs. 3 B HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that provisions are broken down into Pensionen, Steuern, and Sonstige Rückstellungen as separate line items."
+    },
+    {
+      "id": "BIL-011",
+      "section": "Bilanz",
+      "sub_section": "Rückstellungen",
+      "disclosure_item": "Has the entity disclosed the total amount of pension provisions per §285 Nr. 24 HGB?",
+      "hgb_reference": "§285 Nr. 24 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if pension provisions exist",
+      "completeness_prompt": "Check whether pension provisions (Pensionsrückstellungen) exist and if so, that the total amount is disclosed in the notes."
+    },
+    {
+      "id": "BIL-012",
+      "section": "Bilanz",
+      "sub_section": "Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed liabilities with a remaining maturity of more than five years per §285 Nr. 1a HGB?",
+      "hgb_reference": "§285 Nr. 1a HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if liabilities with remaining maturity >5 years exist",
+      "completeness_prompt": "Check the Verbindlichkeiten schedule for any long-term liabilities exceeding five years and verify disclosure."
+    },
+    {
+      "id": "BIL-013",
+      "section": "Bilanz",
+      "sub_section": "Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed the total amount of secured liabilities, stating the nature and form of the security per §285 Nr. 1b HGB?",
+      "hgb_reference": "§285 Nr. 1b HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if liabilities secured by pledges or similar rights exist",
+      "completeness_prompt": "Check for any secured liabilities (Pfandrechte) and verify that the nature and form of the security is disclosed."
+    },
+    {
+      "id": "BIL-014",
+      "section": "Bilanz",
+      "sub_section": "Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed the breakdown of liabilities per §285 Nr. 2 HGB by each balance sheet line item?",
+      "hgb_reference": "§285 Nr. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the notes provide a breakdown of long-term and short-term liabilities for each Verbindlichkeiten line item."
+    },
+    {
+      "id": "BIL-015",
+      "section": "Bilanz",
+      "sub_section": "Latente Steuern",
+      "disclosure_item": "Has the entity disclosed deferred tax assets and/or liabilities per §274 HGB?",
+      "hgb_reference": "§274 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if temporary differences or loss carry-forwards give rise to deferred taxes",
+      "completeness_prompt": "Check whether deferred tax items exist and whether they are separately disclosed as Aktive/Passive latente Steuern in the balance sheet."
+    },
+    {
+      "id": "BIL-016",
+      "section": "Bilanz",
+      "sub_section": "Geschäftswert",
+      "disclosure_item": "Has the entity disclosed the amortisation period for acquired goodwill per §285 Nr. 13 HGB?",
+      "hgb_reference": "§285 Nr. 13 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if an acquired goodwill (entgeltlich erworbener Geschäfts- oder Firmenwert) exists",
+      "completeness_prompt": "Check whether goodwill is present on the balance sheet and if so, that the amortisation period is disclosed in the notes."
+    },
+    {
+      "id": "BIL-017",
+      "section": "Bilanz",
+      "sub_section": "Haftungsverhältnisse",
+      "disclosure_item": "Has the entity disclosed contingent liabilities (Haftungsverhältnisse) per §268 Abs. 7 HGB?",
+      "hgb_reference": "§268 Abs. 7 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if contingent liabilities exist (guarantees, bills of exchange liabilities, etc.)",
+      "completeness_prompt": "Check for any guarantees, aval obligations, or other Haftungsverhältnisse and verify disclosure in the notes."
+    },
+    {
+      "id": "BIL-018",
+      "section": "Bilanz",
+      "sub_section": "Forderungen",
+      "disclosure_item": "Has the entity disclosed receivables with a remaining term of more than one year per §268 Abs. 4 HGB?",
+      "hgb_reference": "§268 Abs. 4 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if receivables with remaining term >1 year exist",
+      "completeness_prompt": "Check whether any receivables have a term exceeding one year and verify they are separately disclosed."
+    },
+    {
+      "id": "BIL-019",
+      "section": "Bilanz",
+      "sub_section": "Finanzanlagen",
+      "disclosure_item": "Has the entity disclosed equity-method investments (Beteiligungen) per §266 Abs. 3 A.IV.2 HGB?",
+      "hgb_reference": "§266 Abs. 3 A.IV.2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if equity-method investments exist",
+      "completeness_prompt": "Check whether the entity holds Beteiligungen under Finanzanlagen and verify they are separately disclosed."
+    },
+    {
+      "id": "BIL-020",
+      "section": "Bilanz",
+      "sub_section": "Gesellschafterforderungen",
+      "disclosure_item": "Has the entity disclosed receivables from shareholders (Forderungen gegen Gesellschafter) per §266 Abs. 3 C.I.4 HGB?",
+      "hgb_reference": "§266 Abs. 3 C.I.4 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if receivables from shareholders exist",
+      "completeness_prompt": "Check whether the entity has any receivables from its shareholders and verify separate disclosure."
+    },
+    {
+      "id": "GUV-001",
+      "section": "GuV",
+      "sub_section": "Darstellungsform",
+      "disclosure_item": "Has the P&L been prepared in Staffelform (step format) per § 275 Abs. 1 HGB?",
+      "hgb_reference": "§ 275 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that the GuV is presented in Staffelform (step format) and not in Kontoform (account form), as required for a medium-sized Kapitalgesellschaft."
+    },
+    {
+      "id": "GUV-002",
+      "section": "GuV",
+      "sub_section": "Darstellungsform",
+      "disclosure_item": "Has the P&L used the Gesamtkostenverfahren (total cost method) as its classification basis?",
+      "hgb_reference": "§ 275 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the GuV follows the Gesamtkostenverfahren structure with cost-type classification rather than the Umsatzkostenverfahren (§ 275 Abs. 3 HGB)."
+    },
+    {
+      "id": "GUV-003",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Umsatzerlöse' per § 275 Abs. 2 Nr. 1 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Umsatzerlöse' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-004",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Erhöhung oder Verminderung des Bestands an fertigen und unfertigen Erzeugnissen' per § 275 Abs. 2 Nr. 2 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if there is a change in inventory of finished or unfinished goods during the reporting period.",
+      "completeness_prompt": "Confirm that the line item for stock changes is presented, or that its absence is justified by no inventory movements."
+    },
+    {
+      "id": "GUV-005",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Andere aktivierte Eigenleistungen' per § 275 Abs. 2 Nr. 3 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has capitalised internally generated assets during the reporting period.",
+      "completeness_prompt": "Confirm that 'Andere aktivierte Eigenleistungen' is shown if internally generated intangible or tangible assets were capitalised, or note zero / not applicable."
+    },
+    {
+      "id": "GUV-006",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Sonstige betriebliche Erträge' per § 275 Abs. 2 Nr. 4 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 4 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Sonstige betriebliche Erträge' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-007",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Materialaufwand' per § 275 Abs. 2 Nr. 5 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 5 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Materialaufwand' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-008",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Personalaufwand' per § 275 Abs. 2 Nr. 6 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 6 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Personalaufwand' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-009",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Abschreibungen' per § 275 Abs. 2 Nr. 7 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 7 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Abschreibungen' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-010",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line item 'Sonstige betriebliche Aufwendungen' per § 275 Abs. 2 Nr. 8 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 8 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that 'Sonstige betriebliche Aufwendungen' appears as a distinct line item in the GuV."
+    },
+    {
+      "id": "GUV-011",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line items for financial income: 'Erträge aus Beteiligungen', 'Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens', and 'Sonstige Zinsen und ähnliche Erträge' per § 275 Abs. 2 Nr. 9–11 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 9–11 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that all three financial income line items (Nr. 9, 10, 11) are individually presented in the GuV, even if their amounts are nil."
+    },
+    {
+      "id": "GUV-012",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line items 'Abschreibungen auf Finanzanlagen und auf Wertpapiere des Umlaufvermögens' and 'Zinsen und ähnliche Aufwendungen' per § 275 Abs. 2 Nr. 12–13 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 12–13 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that both financial expense line items (Nr. 12 and 13) are individually presented in the GuV, even if their amounts are nil."
+    },
+    {
+      "id": "GUV-013",
+      "section": "GuV",
+      "sub_section": "Pflichtpositionen",
+      "disclosure_item": "Does the P&L present the mandatory line items 'Steuern vom Einkommen und vom Ertrag', 'Ergebnis nach Steuern', 'Sonstige Steuern', and 'Jahresüberschuss/Jahresfehlbetrag' per § 275 Abs. 2 Nr. 14–17 HGB?",
+      "hgb_reference": "§ 275 Abs. 2 Nr. 14–17 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that all four bottom-section line items (Nr. 14–17) are individually presented in the GuV, culminating in the Jahresüberschuss or Jahresfehlbetrag."
+    },
+    {
+      "id": "GUV-014",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed a breakdown of Umsatzerlöse by type of activity and by geographical markets per §285 Nr. 4 HGB, or has it invoked the §288 Abs. 2 exemption for medium-sized entities?",
+      "hgb_reference": "§285 Nr. 4 HGB, §288 Abs. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Does not apply if the medium-sized entity invokes §288 Abs. 2 HGB to omit revenue breakdown",
+      "completeness_prompt": "Check the Anhang for a revenue breakdown by activity and geography. If absent, verify whether the entity has invoked the §288 Abs. 2 exemption (medium GmbH may omit §285 Nr. 4). Confirm the exemption is justified by the entity circumstances."
+    },
+    {
+      "id": "GUV-015",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed the average number of employees during the financial year in the notes per § 285 Nr. 7 HGB?",
+      "hgb_reference": "§ 285 Nr. 7 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang states the average headcount during the reporting period, broken down by employee category if applicable."
+    },
+    {
+      "id": "GUV-016",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed the amount of Materialaufwand and Personalaufwand in the notes, with sub-classifications, per § 285 Nr. 8 HGB?",
+      "hgb_reference": "§ 285 Nr. 8 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that the Anhang provides a breakdown of material costs (e.g. raw materials, merchandise) and personnel costs (e.g. wages, social security, pensions) as required under Gesamtkostenverfahren."
+    },
+    {
+      "id": "GUV-017",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed the amount and nature of außerordentliche Erträge or außerordentliche Aufwendungen in the notes if any were recognised?",
+      "hgb_reference": "§ 285 Nr. 31 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has recognised extraordinary income or expenses during the reporting period.",
+      "completeness_prompt": "Check whether any items were classified as außerordentlich in the GuV; if so, verify that the Anhang discloses their nature and amount per § 285 Nr. 31 HGB."
+    },
+    {
+      "id": "GUV-018",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed whether it has capitalised internally generated intangible assets (Selbstgeschaffene immaterielle Vermögensgegenstände), including the amount and the research and development costs incurred, per § 248 Abs. 2 and § 285 Nr. 22 HGB?",
+      "hgb_reference": "§ 248 Abs. 2 HGB; § 285 Nr. 22 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has capitalised internally generated intangible assets during the reporting period.",
+      "completeness_prompt": "Verify whether capitalised development costs appear on the balance sheet; if so, confirm that the Anhang discloses the amount of capitalised costs, total R&D expenditure, and the reasons for capitalisation."
+    },
+    {
+      "id": "GUV-019",
+      "section": "GuV",
+      "sub_section": "Anhangangaben zur GuV",
+      "disclosure_item": "Has the entity disclosed the depreciation and amortisation methods used and the amounts of depreciation/amortisation by asset class in the notes per § 285 Nr. 6 and § 284 Abs. 2 Nr. 3 HGB?",
+      "hgb_reference": "§ 285 Nr. 6 HGB; § 284 Abs. 2 Nr. 3 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Confirm that the Anhang describes the depreciation/amortisation methods applied (straight-line, declining balance, etc.) and provides the amount of depreciation for each class of fixed assets."
+    },
+    {
+      "id": "LAG-001",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Has the Lagebericht been prepared in accordance with § 289 Abs. 1 HGB?",
+      "hgb_reference": "§ 289 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that a Lagebericht has been prepared and is included in the annual financial statements for the financial year ending 31 December 2023."
+    },
+    {
+      "id": "LAG-002",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Does the Lagebericht provide a true and fair view (den tatsächlichen Verhältnissen entsprechendes Bild) of the entity's business performance and financial position?",
+      "hgb_reference": "§ 289 Abs. 1 S. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Read the Lagebericht and assess whether the overall presentation gives a balanced, fair, and comprehensive picture of the entity's situation."
+    },
+    {
+      "id": "LAG-003",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Does the Lagebericht contain a balanced and comprehensive analysis of the business performance and the economic position of the entity (Geschäftsverlauf und Lage)?",
+      "hgb_reference": "§ 289 Abs. 1 S. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that the Lagebericht discusses both the Geschäftsverlauf (course of business) and the Lage (financial position) with sufficient depth and balance."
+    },
+    {
+      "id": "LAG-004",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Have the most important financial performance indicators (Kennzahlen) been included in the Lagebericht and explained with reference to the annual accounts?",
+      "hgb_reference": "§ 289 Abs. 1 S. 3 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that key financial KPIs (e.g. revenue, EBIT, equity ratio) are presented and cross-referenced to the Bilanz and GuV figures."
+    },
+    {
+      "id": "LAG-005",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Has the Lagebericht assessed and explained the likely future development (voraussichtliche Entwicklung) of the entity, including material opportunities and risks?",
+      "hgb_reference": "§ 289 Abs. 1 S. 4 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that the Lagebericht includes a forward-looking section discussing the entity's expected development with identification of material opportunities and risks."
+    },
+    {
+      "id": "LAG-006",
+      "section": "Lagebericht",
+      "sub_section": "Allgemeine Anforderungen",
+      "disclosure_item": "Have the underlying assumptions (Prämissen) for forward-looking statements in the Lagebericht been disclosed?",
+      "hgb_reference": "§ 289 Abs. 1 S. 4 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Lagebericht identifies and explains the key assumptions and estimation bases underlying any forecasts or projections."
+    },
+    {
+      "id": "LAG-007",
+      "section": "Lagebericht",
+      "sub_section": "Risikomanagement",
+      "disclosure_item": "Has the Lagebericht addressed the objectives and methods of risk management (Risikomanagementsystem) per § 289 Abs. 2 Nr. 1a HGB?",
+      "hgb_reference": "§ 289 Abs. 2 Nr. 1a HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that the Lagebericht describes the entity's risk management objectives, instruments, and methods used to manage financial risks."
+    },
+    {
+      "id": "LAG-008",
+      "section": "Lagebericht",
+      "sub_section": "Risikomanagement",
+      "disclosure_item": "Has the Lagebericht addressed price-change risks, default risks, and liquidity risks related to financial instruments per § 289 Abs. 2 Nr. 1b HGB?",
+      "hgb_reference": "§ 289 Abs. 2 Nr. 1b HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if financial instruments are material to the entity",
+      "completeness_prompt": "Determine whether the entity holds material financial instruments; if so, verify that price-change, credit/default, and liquidity risks are discussed."
+    },
+    {
+      "id": "LAG-009",
+      "section": "Lagebericht",
+      "sub_section": "Forschung und Entwicklung",
+      "disclosure_item": "Has the Lagebericht addressed research and development activities per § 289 Abs. 2 Nr. 2 HGB?",
+      "hgb_reference": "§ 289 Abs. 2 Nr. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity conducts research and development activities",
+      "completeness_prompt": "Determine whether the entity engages in R&D; if so, verify that the Lagebericht describes the nature, scope, and objectives of R&D activities."
+    },
+    {
+      "id": "LAG-010",
+      "section": "Lagebericht",
+      "sub_section": "Niederlassungen",
+      "disclosure_item": "Has the Lagebericht disclosed the existence and locations of branches (Zweigniederlassungen) per § 289 Abs. 2 Nr. 3 HGB?",
+      "hgb_reference": "§ 289 Abs. 2 Nr. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity operates branches (Zweigniederlassungen)",
+      "completeness_prompt": "Determine whether the entity has branches; if so, verify that their locations and relevant details are disclosed in the Lagebericht."
+    },
+    {
+      "id": "LAG-011",
+      "section": "Lagebericht",
+      "sub_section": "Anhangsverweis",
+      "disclosure_item": "Does the Lagebericht cross-reference to disclosures in the Anhang where applicable (Verweis auf den Anhang)?",
+      "hgb_reference": "§ 289 Abs. 2 S. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if § 160 Abs. 1 Nr. 2 AktG applies (not typically applicable to GmbH unless voluntarily elected or required by other provisions)",
+      "completeness_prompt": "Check whether any disclosure requirements are split between the Anhang and Lagebericht; if so, verify that appropriate cross-references exist."
+    },
+    {
+      "id": "LAG-012",
+      "section": "Lagebericht",
+      "sub_section": "Fortführungsprämisse",
+      "disclosure_item": "Has the Lagebericht addressed the going concern assumption (Fortführung der Unternehmenstätigkeit) and any material doubts thereof?",
+      "hgb_reference": "§ 289 Abs. 1 S. 2, Abs. 2 Nr. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Lagebericht confirms going concern or discloses any material uncertainties that cast doubt on the entity's ability to continue as a going concern."
+    },
+    {
+      "id": "LAG-013",
+      "section": "Lagebericht",
+      "sub_section": "Ereignisse nach dem Bilanzstichtag",
+      "disclosure_item": "Has the Lagebericht disclosed significant events occurring after the balance sheet date (Vorgänge von besonderer Bedeutung nach dem Schluss des Geschäftsjahres)?",
+      "hgb_reference": "§ 289 Abs. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Check that any material post-balance-sheet events are discussed in the Lagebericht, including their expected impact on the entity's future performance."
+    },
+    {
+      "id": "LAG-014",
+      "section": "Lagebericht",
+      "sub_section": "Abschluss durch Geschäftsführung",
+      "disclosure_item": "Has the Lagebericht been prepared by the management body (Geschäftsführung) of the GmbH?",
+      "hgb_reference": "§ 289 Abs. 1 HGB, § 37 Abs. 1 GmbHG",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Lagebericht bears evidence of having been prepared and approved by the Geschäftsführung (e.g. signature, date, or declaration of responsibility)."
+    },
+    {
+      "id": "LAG-015",
+      "section": "Lagebericht",
+      "sub_section": "Prüfung Nichtanwendbarkeit",
+      "disclosure_item": "Has the entity confirmed or evidenced that the requirements of § 289 Abs. 3 HGB (non-financial indicators / CSR reporting) do not apply as it is a medium-sized GmbH?",
+      "hgb_reference": "§ 289 Abs. 3 HGB, § 267 Abs. 2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the entity has either confirmed non-applicability of § 289 Abs. 3 HGB or that the Lagebericht contains no CSR/non-financial reporting section, consistent with medium-sized GmbH status."
+    },
+    {
+      "id": "LAG-016",
+      "section": "Lagebericht",
+      "sub_section": "Prüfung Nichtanwendbarkeit",
+      "disclosure_item": "Has the entity confirmed or evidenced that the requirements of § 289 Abs. 4 HGB (description of the internal control and risk management system in relation to the accounting process) do not apply as it is not capital-market-oriented (§ 264d HGB)?",
+      "hgb_reference": "§ 289 Abs. 4 HGB, § 264d HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that no IKS/Risikomanagement description per § 289 Abs. 4 HGB is required or present, as the entity is not capital-market-oriented."
+    },
+    {
+      "id": "ANH-001",
+      "section": "Anhang",
+      "sub_section": "Bilanzierungs- und Bewertungsmethoden",
+      "disclosure_item": "Has the entity disclosed the accounting and valuation methods (Bilanzierungs- und Bewertungsmethoden) applied in the preparation of the financial statements per § 284 Abs. 2 Nr. 1 HGB?",
+      "hgb_reference": "§ 284 Abs. 2 Nr. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang contains a narrative section describing all material accounting policies used for recognition and measurement of assets, liabilities, income, and expenses."
+    },
+    {
+      "id": "ANH-002",
+      "section": "Anhang",
+      "sub_section": "Bilanzierungs- und Bewertungsmethoden",
+      "disclosure_item": "Has the entity disclosed the currency translation methods used for foreign currency items per § 284 Abs. 2 Nr. 2 HGB?",
+      "hgb_reference": "§ 284 Abs. 2 Nr. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has foreign currency receivables, payables, or transactions",
+      "completeness_prompt": "Verify that the Anhang describes the methods used for translating foreign currency items (e.g. historical cost vs. closing rate) if applicable."
+    },
+    {
+      "id": "ANH-003",
+      "section": "Anhang",
+      "sub_section": "Bilanzierungs- und Bewertungsmethoden",
+      "disclosure_item": "Has the entity disclosed the application of the provision in § 284 Abs. 2 Nr. 3 HGB regarding the treatment of latent taxes (latente Steuern)?",
+      "hgb_reference": "§ 284 Abs. 2 Nr. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if deferred tax positions have been recognised or waived",
+      "completeness_prompt": "Verify that the Anhang explains the entity's policy on deferred taxes and the method used for calculating temporary differences."
+    },
+    {
+      "id": "ANH-004",
+      "section": "Anhang",
+      "sub_section": "Allgemeine Angaben",
+      "disclosure_item": "Has the entity disclosed the average number of employees during the financial year per § 285 Nr. 7 HGB?",
+      "hgb_reference": "§ 285 Nr. 7 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang states the average number of employees broken down by group if appropriate, or at least a total figure. (Note: this requirement also appears in the GuV section as GUV-015 from the P&L perspective.)"
+    },
+    {
+      "id": "ANH-005",
+      "section": "Anhang",
+      "sub_section": "Organ- und Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed the total remuneration of the managing directors (Geschaftsfuhrer) including pensions per § 285 Nr. 9a HGB, or has it invoked the § 286 Abs. 4 HGB protective clause?",
+      "hgb_reference": "§ 285 Nr. 9a HGB i.V.m. § 286 Abs. 4 HGB",
+      "obligation": "C",
+      "trigger_condition": "Always applicable for GmbH — the entity must either disclose or invoke the protective clause under § 286 Abs. 4 HGB",
+      "completeness_prompt": "Verify that the Anhang either discloses the total remuneration of Geschaftsfuhrer per § 285 Nr. 9a or explicitly states that the protective clause of § 286 Abs. 4 has been applied."
+    },
+    {
+      "id": "ANH-006",
+      "section": "Anhang",
+      "sub_section": "Organ- und Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed remuneration for former Geschaftsfuhrer including pensions per § 285 Nr. 9b HGB?",
+      "hgb_reference": "§ 285 Nr. 9b HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if payments were made to former managing directors during the financial year",
+      "completeness_prompt": "Verify whether remuneration was paid to former managing directors; if so, confirm disclosure in the Anhang."
+    },
+    {
+      "id": "ANH-007",
+      "section": "Anhang",
+      "sub_section": "Organ- und Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed loans granted to Geschaftsfuhrer (or Vorstandsmitglieder) per § 285 Nr. 9c HGB?",
+      "hgb_reference": "§ 285 Nr. 9c HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if loans or advances were granted to managing directors during the financial year",
+      "completeness_prompt": "Verify whether the entity has granted loans to managing directors; if so, confirm disclosure of amount, interest rate, and terms in the Anhang."
+    },
+    {
+      "id": "ANH-008",
+      "section": "Anhang",
+      "sub_section": "Organ- und Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed the names of the Geschaftsfuhrer (or Vorstandsmitglieder) per § 285 Nr. 10 HGB?",
+      "hgb_reference": "§ 285 Nr. 10 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang lists the names of all managing directors who served during the financial year."
+    },
+    {
+      "id": "ANH-009",
+      "section": "Anhang",
+      "sub_section": "Organ- und Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed the names of Aufsichtsrat members (if any) per § 285 Nr. 10 HGB?",
+      "hgb_reference": "§ 285 Nr. 10 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the GmbH has an Aufsichtsrat (e.g. due to co-determination requirements)",
+      "completeness_prompt": "Verify whether an Aufsichtsrat exists; if so, confirm that its members are listed in the Anhang."
+    },
+    {
+      "id": "ANH-010",
+      "section": "Anhang",
+      "sub_section": "Beteiligungen und verbundene Unternehmen",
+      "disclosure_item": "Has the entity disclosed the names and registered offices of undertakings in which it holds a participation (Beteiligungen) per § 285 Nr. 11 HGB?",
+      "hgb_reference": "§ 285 Nr. 11 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity holds participations in other companies",
+      "completeness_prompt": "Verify that the Anhang lists all significant participations (name, registered office, share of capital) held by the entity."
+    },
+    {
+      "id": "ANH-011",
+      "section": "Anhang",
+      "sub_section": "Beteiligungen und verbundene Unternehmen",
+      "disclosure_item": "Has the entity disclosed the names and registered offices of its parent company (Mutterunternehmen) per § 285 Nr. 14 HGB?",
+      "hgb_reference": "§ 285 Nr. 14 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity is a subsidiary of another company",
+      "completeness_prompt": "Verify whether a parent undertaking exists; if so, confirm that its name and registered office are disclosed in the Anhang."
+    },
+    {
+      "id": "ANH-012",
+      "section": "Anhang",
+      "sub_section": "Beteiligungen und verbundene Unternehmen",
+      "disclosure_item": "Has the entity disclosed the ultimate parent (oberstes Mutterunternehmen) that prepares consolidated statements per § 285 Nr. 14a HGB?",
+      "hgb_reference": "§ 285 Nr. 14a HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity is part of a group whose ultimate parent prepares consolidated financial statements",
+      "completeness_prompt": "Verify whether the entity's ultimate parent prepares consolidated statements; if so, confirm that this is stated in the Anhang."
+    },
+    {
+      "id": "ANH-013",
+      "section": "Anhang",
+      "sub_section": "Rueckstellungen",
+      "disclosure_item": "Has the entity disclosed a breakdown of provisions (Rueckstellungen) by type and nature per § 285 Nr. 12 HGB?",
+      "hgb_reference": "§ 285 Nr. 12 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang contains a breakdown of provisions by major type (e.g. pension, tax, other) with an explanation of each category."
+    },
+    {
+      "id": "ANH-014",
+      "section": "Anhang",
+      "sub_section": "Geschaeftswert",
+      "disclosure_item": "Has the entity disclosed the amortisation period and reason for the chosen period for any goodwill (Geschaeftswert) per § 285 Nr. 13 HGB?",
+      "hgb_reference": "§ 285 Nr. 13 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if goodwill exists on the balance sheet",
+      "completeness_prompt": "Verify that the Anhang discloses the carrying amount of goodwill, the amortisation method, and the expected useful life with justification for the chosen period."
+    },
+    {
+      "id": "ANH-015",
+      "section": "Anhang",
+      "sub_section": "Finanzinstrumente",
+      "disclosure_item": "Has the entity disclosed convertible bonds, participation rights (Genussrechte), or similar instruments per § 285 Nr. 15a HGB?",
+      "hgb_reference": "§ 285 Nr. 15a HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has issued convertible bonds, Genussrechte, or other profit-participating instruments",
+      "completeness_prompt": "Verify whether convertible bonds or participation rights exist; if so, confirm that the Anhang discloses the number, type, and terms of such instruments."
+    },
+    {
+      "id": "ANH-016",
+      "section": "Anhang",
+      "sub_section": "Haftungsverhaeltnisse und ausserbilanzielle Geschaefte",
+      "disclosure_item": "Has the entity disclosed off-balance-sheet financial commitments (sonstige finanzielle Verpflichtungen) not shown in the balance sheet per § 285 Nr. 3 HGB?",
+      "hgb_reference": "§ 285 Nr. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if significant off-balance-sheet commitments exist (e.g. operating leases, purchase commitments)",
+      "completeness_prompt": "Verify that the Anhang discloses the nature and extent of significant financial commitments not recognised in the balance sheet, broken down by type where appropriate."
+    },
+    {
+      "id": "ANH-017",
+      "section": "Anhang",
+      "sub_section": "Haftungsverhaeltnisse und ausserbilanzielle Geschaefte",
+      "disclosure_item": "Has the entity disclosed commitments from operating lease agreements (Leasingverhaeltnisse) per § 285 Nr. 3a HGB?",
+      "hgb_reference": "§ 285 Nr. 3a HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity is a lessee or lessor under operating lease agreements",
+      "completeness_prompt": "Verify that the Anhang discloses commitments from operating lease agreements with a breakdown by maturity period (up to 1 year, 1-5 years, over 5 years)."
+    },
+    {
+      "id": "ANH-018",
+      "section": "Anhang",
+      "sub_section": "Haftungsverhaeltnisse und ausserbilanzielle Geschaefte",
+      "disclosure_item": "Has the entity disclosed contingent liabilities (Haftungsverhaeltnisse) per § 268 Abs. 7 HGB?",
+      "hgb_reference": "§ 268 Abs. 7 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has Buergschaften, Wechselbuergschaften, or other Haftungsverhaeltnisse",
+      "completeness_prompt": "Verify that the Anhang discloses the nature and amount of all Haftungsverhaeltnisse and indicates any security provided."
+    },
+    {
+      "id": "ANH-019",
+      "section": "Anhang",
+      "sub_section": "Wirtschaftsprueferhonorar",
+      "disclosure_item": "Has the entity disclosed a breakdown of the auditor fees by category per §285 Nr. 17 HGB, or has it invoked the §288 Abs. 2 exemption for medium-sized entities?",
+      "hgb_reference": "§285 Nr. 17 HGB, §288 Abs. 2 HGB",
+      "obligation": "C",
+      "trigger_condition": "Does not apply if the medium-sized entity invokes §288 Abs. 2 HGB to omit auditor fee breakdown (must still report to WPK on request)",
+      "completeness_prompt": "Check the Anhang for the auditor fee breakdown (audit, other assurance, tax advisory, other services). If absent, verify whether the entity has invoked the §288 Abs. 2 exemption (medium GmbH may omit §285 Nr. 17 but must report to WPK on request)."
+    },
+    {
+      "id": "ANH-020",
+      "section": "Anhang",
+      "sub_section": "Finanzinstrumente",
+      "disclosure_item": "Has the entity disclosed financial instruments using fair value measurement methods per § 285 Nr. 18 HGB?",
+      "hgb_reference": "§ 285 Nr. 18 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has measured financial instruments at fair value (e.g. derivatives held at fair value)",
+      "completeness_prompt": "Verify whether financial instruments are measured at fair value; if so, confirm that the Anhang discloses the measurement method and fair value hierarchy level."
+    },
+    {
+      "id": "ANH-021",
+      "section": "Anhang",
+      "sub_section": "Finanzinstrumente",
+      "disclosure_item": "Has the entity disclosed the fair value of derivative financial instruments per § 285 Nr. 19 HGB?",
+      "hgb_reference": "§ 285 Nr. 19 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if derivative financial instruments (futures, options, swaps) are held",
+      "completeness_prompt": "Verify whether the entity holds derivative financial instruments; if so, confirm that their fair value is disclosed in the Anhang."
+    },
+    {
+      "id": "ANH-022",
+      "section": "Anhang",
+      "sub_section": "Finanzinstrumente",
+      "disclosure_item": "Has the entity disclosed unrealised gains and losses on derivative financial instruments per § 285 Nr. 20 HGB?",
+      "hgb_reference": "§ 285 Nr. 20 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity holds derivative financial instruments",
+      "completeness_prompt": "Verify that the Anhang discloses unrealised gains and losses on derivative instruments, indicating whether they have been recognised in profit or loss."
+    },
+    {
+      "id": "ANH-023",
+      "section": "Anhang",
+      "sub_section": "Gesellschafterangaben",
+      "disclosure_item": "Has the entity disclosed the Stammeinlage (registered capital contribution) and any additional Einlagen per § 42 GmbHG?",
+      "hgb_reference": "§ 42 GmbHG",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang discloses the registered share capital (Stammeinlage) and any additional capital contributions made by shareholders."
+    },
+    {
+      "id": "ANH-024",
+      "section": "Anhang",
+      "sub_section": "Verschleierung",
+      "disclosure_item": "Has the entity invoked the protective clause (Schutzklausel) of § 286 Abs. 4 HGB to withhold disclosure of managing director remuneration, and if so, has it stated this clearly in the Anhang?",
+      "hgb_reference": "§ 286 Abs. 4 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity chooses not to disclose managing director remuneration",
+      "completeness_prompt": "Verify that the Anhang explicitly states when the protective clause of § 286 Abs. 4 has been applied; confirm that no remuneration details are inadvertently disclosed."
+    },
+    {
+      "id": "ANH-025",
+      "section": "Anhang",
+      "sub_section": "Verschleierung",
+      "disclosure_item": "Has the entity provided a breakdown of balance sheet line items per §266 Abs. 2 HGB (Aktiva) and §266 Abs. 3 HGB (Passiva)?",
+      "hgb_reference": "§266 Abs. 2 HGB, §266 Abs. 3 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has waived disclosure under § 286 Abs. 2 or Abs. 3",
+      "completeness_prompt": "Verify whether the entity has applied any disclosure waivers under § 286; if so, confirm that the Anhang states the waiver and the reason."
+    },
+    {
+      "id": "ANH-026",
+      "section": "Anhang",
+      "sub_section": "BilMoG-Uebergangsregelungen",
+      "disclosure_item": "Has the entity disclosed the application of BilMoG transitional provisions (Art. 67 Abs. 3-5 EGHGB) where applicable?",
+      "hgb_reference": "Art. 67 EGHGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity still applies BilMoG transition rules for goodwill or pension provisions",
+      "completeness_prompt": "Verify whether the entity applies BilMoG transitional provisions (especially for goodwill per Art. 67 Abs. 3 EGHGB); if so, confirm that this is disclosed in the Anhang."
+    },
+    {
+      "id": "ANH-027",
+      "section": "Anhang",
+      "sub_section": "Unterlassene Angaben",
+      "disclosure_item": "Has the entity confirmed that it has NOT applied the small-entity size exemptions under § 288 Abs. 1 HGB?",
+      "hgb_reference": "§ 288 Abs. 1 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang does not claim small-entity size exemptions under § 288 Abs. 1 HGB, confirming full compliance with all medium-GmbH disclosure requirements."
+    },
+    {
+      "id": "ANH-028",
+      "section": "Anhang",
+      "sub_section": "Bilanzierungs- und Bewertungsmethoden",
+      "disclosure_item": "Has the entity disclosed the treatment of aktive latente Steuern (deferred tax assets) and the reasons for any waiver of recognition per § 274 HGB?",
+      "hgb_reference": "§ 274 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has made a policy choice regarding deferred tax recognition",
+      "completeness_prompt": "Verify whether deferred tax assets/liabilities are recognised; if waived, confirm that the Anhang explains the entity's policy on deferred tax recognition."
+    },
+    {
+      "id": "ANH-029",
+      "section": "Anhang",
+      "sub_section": "Angaben zu Forderungen und Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed the amounts of Forderungen and Verbindlichkeiten broken down by residual maturity per § 285 Nr. 1a and Nr. 2 HGB?",
+      "hgb_reference": "§ 285 Nr. 1a/2 HGB",
+      "obligation": "M",
+      "trigger_condition": null,
+      "completeness_prompt": "Verify that the Anhang presents a maturity analysis of receivables and/or payables showing amounts with a remaining term exceeding one year."
+    },
+    {
+      "id": "ANH-030",
+      "section": "Anhang",
+      "sub_section": "Selbstgeschaffene immaterielle Vermögensgegenstände",
+      "disclosure_item": "Has the entity disclosed whether it has capitalised development costs per §248 Abs. 2 HGB, and if so, the amounts and amortisation periods?",
+      "hgb_reference": "§248 Abs. 2 HGB, §285 Nr. 22 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has capitalised internally generated intangible assets",
+      "completeness_prompt": "Check whether the entity has capitalised development costs under §248 Abs. 2 HGB. If yes, verify that the Anhang discloses the amounts, amortisation methods, and useful lives per §285 Nr. 22."
+    },
+    {
+      "id": "ANH-031",
+      "section": "Anhang",
+      "sub_section": "Angaben zu Forderungen und Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed any Verbindlichkeiten with Pfandrechten or aehnlichen Sicherungsrechten (pledged or similarly secured liabilities) per § 285 Nr. 1b HGB?",
+      "hgb_reference": "§ 285 Nr. 1b HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if the entity has secured liabilities",
+      "completeness_prompt": "Verify that the Anhang discloses the total amount of secured liabilities and describes the type and form of the security (e.g. real property mortgages, shares pledged)."
+    },
+    {
+      "id": "ANH-032",
+      "section": "Anhang",
+      "sub_section": "Forderungen und Verbindlichkeiten",
+      "disclosure_item": "Has the entity disclosed Forderungen gegenueber Gesellschaftern (receivables from shareholders) per § 42 Abs. 3 GmbHG and § 268 Abs. 5 HGB?",
+      "hgb_reference": "§ 42 Abs. 3 GmbHG i.V.m. § 268 Abs. 5 HGB",
+      "obligation": "C",
+      "trigger_condition": "Only if receivables from shareholders exist",
+      "completeness_prompt": "Verify that any Forderungen gegenueber Gesellschaftern are disclosed in the Anhang with reference to § 42 GmbHG repayment restrictions."
+    }
+  ]
+}

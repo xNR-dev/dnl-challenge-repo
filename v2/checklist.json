@@ -1214,8 +1214,8 @@
       "hgb_reference": "§285 Nr. 8 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify breakdown of raw materials and supplies costs is disclosed"
     },
@@ -1227,8 +1227,8 @@
       "hgb_reference": "§285 Nr. 8 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify breakdown of merchandise costs is disclosed"
     },
@@ -1240,8 +1240,8 @@
       "hgb_reference": "§285 Nr. 8 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify breakdown of purchased services costs is disclosed"
     },
@@ -1253,8 +1253,8 @@
       "hgb_reference": "§285 Nr. 9 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify breakdown of Löhne und Gehälter is disclosed"
     },
@@ -1266,8 +1266,8 @@
       "hgb_reference": "§285 Nr. 9 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify breakdown of social security and pension costs is disclosed"
     },
@@ -1279,8 +1279,8 @@
       "hgb_reference": "§285 Nr. 9 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Notes (Anhang)",
       "completeness_prompt": "Verify average number of employees is disclosed"
     },
@@ -1475,7 +1475,7 @@
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
       "obligation": "C",
-      "trigger_condition": "Entity invokes §288 Abs. 2 exemption",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 4",
       "completeness_prompt": "Verify revenue breakdown by business segment and geographic market; conditional on not claiming §288 Abs. 2 exemption"
     },
@@ -1527,7 +1527,7 @@
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
       "obligation": "C",
-      "trigger_condition": "Entity invokes §288 Abs. 2 exemption",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 8",
       "completeness_prompt": "Verify breakdown of material costs by category; conditional on not claiming §288 Abs. 2 exemption"
     },
@@ -1540,7 +1540,7 @@
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
       "obligation": "C",
-      "trigger_condition": "Entity invokes §288 Abs. 2 exemption",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 9",
       "completeness_prompt": "Verify breakdown of personnel costs (wages, salaries, social security, pensions); conditional on not claiming §288 Abs. 2 exemption"
     },
@@ -1657,7 +1657,7 @@
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
       "obligation": "C",
-      "trigger_condition": "Entity invokes §288 Abs. 2 exemption",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 17",
       "completeness_prompt": "Verify disclosure of transactions with controlling company; conditional on not claiming §288 Abs. 2 exemption"
     },
@@ -1709,7 +1709,7 @@
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
       "obligation": "C",
-      "trigger_condition": "Entity invokes §288 Abs. 2 exemption",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 21",
       "completeness_prompt": "Verify IFRS transition disclosures if applicable; conditional on not claiming §288 Abs. 2 exemption"
     },
@@ -1812,8 +1812,8 @@
       "hgb_reference": "§285 Nr. 29 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 29",
       "completeness_prompt": "Verify detailed breakdown of revenue by type of business activity"
     },
@@ -1851,8 +1851,8 @@
       "hgb_reference": "§285 Nr. 32 HGB",
       "version_info": "HGB (as of 31 Dec 2023)",
       "source_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
-      "obligation": "M",
-      "trigger_condition": null,
+      "obligation": "C",
+      "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB - not required to disclose",
       "evidence_location": "Anhang - §285 Nr. 32",
       "completeness_prompt": "Verify disclosure of government grants received and their accounting treatment"
     },

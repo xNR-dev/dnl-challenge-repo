@@ -11,6 +11,21 @@ flagged as NOT_APPLICABLE.
 
 ---
 
+## EXECUTION ARCHITECTURE
+
+### Parallel Agent Execution (Recommended)
+To mitigate token cost and processing time, run section drafter agents in parallel:
+
+- **Bilanz Agent** — generates BIL-1xx items
+- **GuV Agent** — generates GUV-1xx items
+- **Anhang Agent** — generates ANH-3xx, 5xx items
+- **Lagebericht Agent** — generates LAG-6xx items
+
+Each agent fetches the relevant HGB sections independently, reducing the input token load per agent.
+A merge step combines outputs and performs schema validation.
+
+---
+
 ## SCOPE PARAMETERS (from scope.md)
 
 | Parameter | Value | Source |
@@ -28,10 +43,8 @@ flagged as NOT_APPLICABLE.
 **The critical difference from v1:** Every checklist item must be traceable to a specific version
 of the HGB as it existed at the target FY date.
 
-- **Primary source:** [Gesetze im Internet](https://www.gesetze-im-internet.de/hgb/) — official
-  federal government statute; this is the authoritative citation source
-- **Secondary source:** [Buzer.de](https://www.buzer.de/) — use for historical version lookup and
-  amendment tracking where Gesetze im Internet does not expose version history
+- **Primary source:** [Buzer.de](https://www.buzer.de/) — use for version-stamped HGB text at target FY date
+- **Secondary source:** [Gesetze im Internet](https://www.gesetze-im-internet.de/hgb/) — validate against official consolidated text; acknowledge that provisions may have been amended post-FY
 - **Version metadata:** Store as `version_info` field — e.g., "HGB (as of 31 Dec 2023)"
 - **Post-FY amendments:** Flag any provisions introduced after the target FY as `NOT_APPLICABLE`
 
@@ -124,10 +137,11 @@ For each checklist item, output:
 | `evidence_location` | Where to look in the financial statements | "Anhang, notes to provisions section" |
 | `completeness_prompt` | Verification instruction for checking agent | "Verify the balance sheet is in two-column account form..." |
 
-> **Note on `evidence_location`:** This field is new in v2. It must specify the expected location
-> of the evidence within the financial statements — e.g., "Bilanz, assets side", "Anhang, note
-> on fixed assets", "Lagebericht, risk section". This anchors the verification agent and prevents
-> inconsistent evidence-hunting across items.
+> **Note on `evidence_location`:** This field should describe the **semantic** section (e.g.,
+> "Notes on provisions", "Management Report: Risk section") rather than assuming a specific
+> numbered heading. German Mittelstand Anhang (Notes) structures vary — some follow the balance
+> sheet sequence, others group by theme. Semantic descriptions are more robust against
+> structural variation.
 
 ---
 
@@ -139,23 +153,25 @@ For each checklist item, output:
 |-----------|--------|---------|
 | Framework | 2-4 chars | `HGB`, `IFRS`, `UKG` |
 | Section | 3-letter | `BIL`, `GUV`, `ANH`, `LAG` |
-| Sequence | 3-digit, padded | `001`, `042` |
+| Sequence | 3-digit, padded | `001`, `042`, `100` |
 
 **Examples:**
 - `HGB-BIL-001` — German GAAP, Bilanz (Balance Sheet) section
 - `HGB-ANH-042` — German GAAP, Anhang (Notes) section
+- `HGB-ANH-300` — German GAAP, Anhang (Notes) section, upper block
 
-**Block reservation by section:**
+**1000-series accounting taxonomy:**
 
-| Section | Block size | Rationale |
-|---------|-----------|-----------|
-| Bilanz | 50 sequences per sub-section | Standard density |
-| GuV | 50 sequences per sub-section | Standard density |
-| Anhang | 100 sequences per sub-section | §285 is dense; 33 numbered requirements, many multi-part |
-| Lagebericht | 50 sequences per sub-section | Standard density |
+| Section | Block | Rationale |
+|---------|-------|-----------|
+| BIL (Assets) | 100-199 | Anlagevermögen (Fixed Assets), Umlaufvermögen (Current Assets) |
+| BIL (Equity & Liab) | 200-299 | Eigenkapital (Equity), Rückstellungen (Provisions), Verbindlichkeiten (Liabilities) |
+| GUV | 100-199 | P&L line items |
+| ANH (§284-286) | 300-499 | Notes disclosures — §285 has 33+ numbered items, dense |
+| ANH (§287-288) | 500-599 | Additional notes, exemptions |
+| LAG | 600-699 | Management Report sections |
 
-Where a sub-section would exceed its block, append a lowercase suffix to the sequence number
-(e.g. `HGB-ANH-042a`) rather than overflowing into the next block.
+Where a block is exhausted, reserve the next 100-block for that sub-section.
 
 ---
 
@@ -163,8 +179,8 @@ Where a sub-section would exceed its block, append a lowercase suffix to the seq
 
 ### Grounding
 - Every item must have a valid HGB reference traced to the version-stamped source
-- Primary citation: Gesetze im Internet (`https://www.gesetze-im-internet.de/hgb/`)
-- Secondary lookup: Buzer.de for historical version confirmation where needed
+- Primary citation: Buzer.de (`https://www.buzer.de/`) — fetch HGB text @ target FY
+- Secondary lookup: Gesetze im Internet (`https://www.gesetze-im-internet.de/hgb/`) — validate against official consolidated text; note provisions may have been amended post-FY
 - Cross-check that the cited provision existed and was in force as of 31 December 2023
 
 ### Completeness

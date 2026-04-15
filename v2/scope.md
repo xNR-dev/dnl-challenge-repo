@@ -15,7 +15,7 @@ This v2 scope replaces the hardcoded year references in v1 with **relative versi
 | **Target FY** | 31 December 2023 | scope.md |
 | **Reporting framework** | HGB (German Commercial Code) §§ 264 ff. | scope.md |
 | **P&L format** | Gesamtkostenverfahren (Total Cost Method) (§ 275 Abs. 1 HGB) | scope.md |
-| **Framework version** | BilRUG (23.07.2015) | Resolved at generation |
+| **Framework version** | HGB (German Commercial Code) as of target FY date | Resolved at generation |
 
 ---
 
@@ -25,7 +25,7 @@ This v2 scope replaces the hardcoded year references in v1 with **relative versi
 
 - **Source:** Fetch HGB text from [Buzer.de](https://www.buzer.de/) filtered to the target FY date
 - **Primary URL:** [Gesetze im Internet](https://www.gesetze-im-internet.de/hgb/) (official statute)
-- **Version metadata:** Store as `version_info` field — e.g., "BilRUG (23.07.2015)" for FY 2023
+- **Version metadata:** Store as `version_info` field — e.g., "HGB (as of 31 Dec 2023)"
 - **Post-FY amendments:** Flag any provisions introduced after the target FY as `NOT_APPLICABLE`
 
 ---
@@ -89,7 +89,7 @@ For each checklist item, output:
 | `sub_section` | Logical grouping | `Form und Gliederung`, `Rückstellungen` |
 | `disclosure_item` | Audit question in English | "Has the balance sheet been prepared in account form?" |
 | `hgb_reference` | German statutory reference | `§266 Abs. 1 HGB` |
-| `version_info` | Amendment metadata | `BilRUG (23.07.2015)` |
+| `version_info` | Amendment metadata | `HGB (as of 31 Dec 2023)` |
 | `source_url` | Official statute URL | `https://www.gesetze-im-internet.de/hgb/__266.html` |
 | `obligation` | M (Mandatory) or C (Conditional) | `M` or `C` |
 | `trigger_condition` | Condition for C items | "Only if pension provisions exist" |

@@ -81,11 +81,14 @@ v2 of the HGB disclosure checklist addresses five feedback points from the v1 su
 
 | Component | Format | Example |
 |-----------|--------|---------|
-| Framework | 3-letter | `HGB`, `IFRS`, `UKG` |
+| Framework | Variable (2-4 chars) | `HGB`, `IFRS`, `UKG`, `IAS` |
 | Section | 3-letter | `BIL`, `GUV`, `ANH`, `LAG` |
 | Sequence | 3-digit, padded | `001`, `042` |
 
-**Full ID example:** `HGB-ANH-042`
+**Full ID examples:** 
+- `HGB-ANH-042` (German GAAP)
+- `IFRS-ANN-042` (IAS/IFRS)
+- `UKG-PLN-042` (UK GAAP)
 
 ### Block Reservation (No Decimals)
 
@@ -145,14 +148,17 @@ To ensure stable IDs across FYs and avoid decimal accumulation, sequence blocks 
 ## Agent Workflow
 
 ```
-INPUT: Entity + FY
+INPUT: scope.md
+        │
+        │ (contains: entity type, FY, framework, size class)
         │
         ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ STEP 1: SCOPING AGENT                                                      │
+│ - Parse scope.md for target FY                                            │
 │ - Fetch German source from Buzer.de @ FY date (snapshot)                  │
 │ - Fetch English terminology from gesetze-im-internet.de                   │
-│ - Flag 2024+ amendments as NOT_APPLICABLE                                 │
+│ - Flag amendments POST_FY as NOT_APPLICABLE                               │
 │ - Freeze version_info into metadata                                       │
 └─────────────────────────────────────────────────────────────────────────────┘
         │
@@ -171,7 +177,7 @@ INPUT: Entity + FY
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ STEP 3: MERGE & VALIDATE                                                   │
 │ - Schema validation                                                       │
-│ - Version diff check (2024 content flagged)                                │
+│ - Version diff check (post-FY amendments flagged)                                │
 │ - Citation validation: regex check paragraph format, verify URL resolves │
 │ - Serial number formatting                                                │
 └─────────────────────────────────────────────────────────────────────────────┘

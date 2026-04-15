@@ -11,10 +11,10 @@ This v2 scope replaces the hardcoded year references in v1 with **relative versi
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
-| **Entity type** | GmbH — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB) | scope.md |
+| **Entity type** | GmbH (Private Limited Company) — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB) | scope.md |
 | **Target FY** | 31 December 2023 | scope.md |
-| **Reporting framework** | HGB §§ 264 ff. | scope.md |
-| **P&L format** | Gesamtkostenverfahren (§ 275 Abs. 1 HGB) | scope.md |
+| **Reporting framework** | HGB (German Commercial Code) §§ 264 ff. | scope.md |
+| **P&L format** | Gesamtkostenverfahren (Total Cost Method) (§ 275 Abs. 1 HGB) | scope.md |
 | **Framework version** | BilRUG (23.07.2015) | Resolved at generation |
 
 ---
@@ -33,21 +33,21 @@ This v2 scope replaces the hardcoded year references in v1 with **relative versi
 ## SCOPE MANIFEST
 
 ### Entity & Size
-- **Entity type:** GmbH — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB)
+- **Entity type:** GmbH (Private Limited Company) — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB)
 - **Size class:** Medium (mittelgroß)
 - **Small entity exemptions (§ 288 Abs. 1 HGB):** Do NOT apply
 - **Medium entity exemptions (§ 288 Abs. 2 HGB):** Apply — items affected marked as Conditional (C)
 
 ### Reporting Framework
 - **Framework:** German GAAP (HGB §§ 264 ff.)
-- **P&L format:** Gesamtkostenverfahren (§ 275 Abs. 1 HGB)
-- **Components in scope:** Bilanz, Gewinn- und Verlustrechnung, Anhang, Lagebericht
+- **P&L format:** Gesamtkostenverfahren (Total Cost Method) (§ 275 Abs. 1 HGB)
+- **Components in scope:** Bilanz (Balance Sheet), Gewinn- und Verlustrechnung (Profit & Loss Account), Anhang (Notes), Lagebericht (Management Report)
 - **Focus:** Disclosure requirements only — not recognition or measurement
 
 ### Out of Scope
-- Konzernabschluss (§§ 290 ff.)
-- Kapitalflussrechnung
-- Segmentberichterstattung
+- Konzernabschluss (Consolidated Financial Statements) (§§ 290 ff.)
+- Kapitalflussrechnung (Cash Flow Statement)
+- Segmentberichterstattung (Segment Reporting)
 - Sector-specific formats
 - Large entity requirements (e.g., § 285 Nr. 9 full remuneration disclosure for AG)
 - Listed company requirements (e.g., § 160 AktG)
@@ -73,10 +73,10 @@ These disclosure items MAY be omitted by medium-sized GmbHs. Mark as **Condition
 Generate a version-stamped disclosure checklist with the following structure:
 
 ### Sections
-1. **Bilanz** (§ 266 HGB)
-2. **Gewinn- und Verlustrechnung** (§ 275 HGB)
-3. **Anhang** (§§ 284–288 HGB)
-4. **Lagebericht** (§ 289 HGB)
+1. **Bilanz (Balance Sheet)** (§ 266 HGB)
+2. **Gewinn- und Verlustrechnung (Profit & Loss Account / P&L)** (§ 275 HGB)
+3. **Anhang (Notes / Annex)** (§§ 284–288 HGB)
+4. **Lagebericht (Management Report)** (§ 289 HGB)
 
 ### Output Schema (v2)
 
@@ -108,8 +108,8 @@ For each checklist item, output:
 | Sequence | 3-digit, padded | `001`, `042` |
 
 **Examples:**
-- `HGB-BIL-001` — German GAAP, Bilanz section
-- `HGB-ANH-042` — German GAAP, Anhang section
+- `HGB-BIL-001` — German GAAP, Bilanz (Balance Sheet) section
+- `HGB-ANH-042` — German GAAP, Anhang (Notes) section
 
 **Block reservation:** Allocate 50 sequence numbers per sub-section to allow for future insertions.
 
@@ -171,45 +171,3 @@ Aim for 80-100 checklist items across all four sections.
 ## LANGUAGE ASSUMPTION
 
 > This checklist is designed for English-speaking audit teams working with German HGB source material. The `hgb_reference` field provides the German statutory citation for cross-verification. Output is in English; source text is German.
-
----
-
-## TERMINOLOGY MAPPING (German → English)
-
-| German | English | Context |
-|--------|---------|---------|
-| Bilanz | Balance Sheet | Primary financial statement |
-| Gewinn- und Verlustrechnung (GuV) | Profit & Loss Account (P&L) | Income statement |
-| Anhang | Notes / Annex | Disclosure notes |
-| Lagebericht | Management Report | Forward-looking report |
-| Jahresabschluss | Annual Financial Statements | Full set of FS |
-| Mittelgroße Kapitalgesellschaft | Medium-sized Corporation | §267(2) HGB size class |
-| GmbH | Private Limited Company | German corporate form |
-| Gezeichnetes Kapital | Share Capital | Capital subscribed |
-| Kapitalrücklage | Capital Reserve | Share premium |
-| Gewinnrücklagen | Retained Earnings | Revenue reserves |
-| Rückstellungen | Provisions | Liabilities of uncertain timing/amount |
-| Verbindlichkeiten | Liabilities / Payables | Debts owing |
-| Forderungen | Receivables | Amounts owed to entity |
-| Umlaufvermögen | Current Assets | Circulating assets |
-| Anlagevermögen | Fixed Assets | Long-term assets |
-| Umsatzerlöse | Revenue / Sales | Sales proceeds |
-| Materialaufwand | Material Costs / Cost of Materials |
-| Personalaufwand | Personnel Costs / Staff Costs |
-| Abschreibungen | Depreciation / Amortisation |
-| latente Steuern | Deferred Taxes |
-| Haftungsverhältnisse | Contingent Liabilities |
-| Anlagenspiegel | Fixed Assets Schedule / Movement Schedule |
-| Geschäfts- oder Firmen goodwill | Goodwill |
-| Kleinstkapitalgesellschaft | Micro-entity | §267a HGB |
-| Klein | Small | §267(1) HGB |
-| Groß | Large | §267(3) HGB |
-| Gesamtkostenverfahren | Total Cost Method | Cost-type P&L format |
-| Umsatzkostenverfahren | Sales Cost Method | Function-type P&L format |
-| Kontoform | Account Form | Two-column balance sheet format |
-| Staffelform | Step Form | Single-column P&L format |
-| Darstellungsstetigkeit | Consistency of Presentation | §265(1) HGB |
-| Vollständigkeitsvermerk | Audit Opinion / Auditor's Report |
-| Bestätigungsvermerk | Unqualified Opinion |
-| Prüfungsbericht | Audit Report |
-

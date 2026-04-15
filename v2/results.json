@@ -1,1213 +1,1386 @@
 [
   {
     "id": "HGB-BIL-10001",
-    "disclosure_item": "Is immaterielles Anlagevermögen (intangible assets) properly presented, including self-created vs. acquired separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: Immaterielle Vermögensgegenstände EUR 278,004.50 disclosed under Anlagevermögen"
+    "page": 5,
+    "amount": "800,00",
+    "german_term": "Anlageverm\u00f6gen"
   },
   {
     "id": "HGB-BIL-10002",
-    "disclosure_item": "Is selbst geschaffene gewerbliche Schutzrechte (self-created industrial property rights) disclosed separately from entgeltlich erworbene (acquired) items?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 3: Immaterielle Vermögensgegenstände EUR 278,004.50 disclosed as single line under Anlagevermögen"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10003",
-    "disclosure_item": "Is Geschäfts- oder Firmenwert (goodwill) from business combinations separately recognised and amortised over useful life?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Geschäfts- oder Firmenwert disclosed in Anlagevermögen"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Gesch\u00e4fts"
   },
   {
     "id": "HGB-BIL-10004",
-    "disclosure_item": "Are geleistete Anzahlungen on intangible assets disclosed as prepayments on non-current assets?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 3: geleistete Anzahlungen und Anlagen im Bau EUR 219,069.98 disclosed under Sachanlagen"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10005",
-    "disclosure_item": "Is Sachanlagen (tangible fixed assets) properly classified into Grundstücke/Bauten, Technische Anlagen/Maschinen, and Betriebs- und Geschäftsausstattung?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: Sachanlagen EUR 2,310,931.48 disclosed with all four categories"
+    "page": 5,
+    "amount": "2.000,00",
+    "german_term": "Anlagen"
   },
   {
     "id": "HGB-BIL-10006",
-    "disclosure_item": "Are Grundstücke und grundstücksgleiche Rechte (land and land rights) including buildings on third-party land disclosed separately?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 3: Grundstücke, grundstücksgleiche Rechte und Bauten EUR 260,009 disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10007",
-    "disclosure_item": "Is technical equipment and machinery (technische Anlagen und Maschinen) disclosed as a separate line item?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: technische Anlagen und Maschinen EUR 91,533 disclosed"
+    "page": 5,
+    "amount": "2.000,00",
+    "german_term": "Anlagen"
   },
   {
     "id": "HGB-BIL-10008",
-    "disclosure_item": "Are other plant, equipment, and office fixtures (andere Anlagen, Betriebs- und Geschäftsausstattung) disclosed as a separate line item?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: andere Anlagen, Betriebs- und Geschäftsausstattung EUR 1,740,319.50 disclosed"
+    "page": 5,
+    "amount": "2.000,00",
+    "german_term": "Anlagen"
   },
   {
     "id": "HGB-BIL-10009",
-    "disclosure_item": "Are prepayments and construction in progress (geleistete Anzahlungen und Anlagen im Bau) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: geleistete Anzahlungen und Anlagen im Bau EUR 219,069.98 disclosed"
+    "page": 5,
+    "amount": "2.000,00",
+    "german_term": "Anlagen"
   },
   {
     "id": "HGB-BIL-10010",
-    "disclosure_item": "Is Finanzanlagen (financial assets) properly classified into the six specified categories?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 3: Finanzanlagen EUR 86,904 disclosed (Beteiligungen)"
+    "page": 3,
+    "amount": "86.904,00",
+    "german_term": "Finanzanlagen"
   },
   {
     "id": "HGB-BIL-10011",
-    "disclosure_item": "Are Anteile an verbundenen Unternehmen (shares in affiliated companies) disclosed separately from Beteiligungen (participations)?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No separate Anteile an verbundenen Unternehmen disclosed - only Beteiligungen EUR 86,904 shown"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 5,
+    "amount": "15.367,05",
+    "german_term": "Unternehmen"
   },
   {
     "id": "HGB-BIL-10012",
-    "disclosure_item": "Are Ausleihungen (loans) to affiliated companies and to companies with participation interests disclosed separately from equity items?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Ausleihungen against affiliated companies disclosed in Finanzanlagen"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10013",
-    "disclosure_item": "Are Wertpapiere des Anlagevermögens (securities held as non-current assets) disclosed separately from current portfolio?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Wertpapiere des Anlagevermögens disclosed"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 5,
+    "amount": "800,00",
+    "german_term": "Anlageverm\u00f6gens"
   },
   {
     "id": "HGB-BIL-10014",
-    "disclosure_item": "Are sonstige Ausleihungen (other loans) disclosed as a final line item under financial assets?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No sonstige Ausleihungen disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10020",
-    "disclosure_item": "Is Vorräte (inventories) properly broken down into raw materials, work-in-progress, finished goods, and prepayments?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Vorräte EUR 18,756,886.55 disclosed"
+    "page": 3,
+    "amount": "31.442.119,72",
+    "german_term": "Vorr\u00e4te"
   },
   {
     "id": "HGB-BIL-10021",
-    "disclosure_item": "Are Roh-, Hilfs- und Betriebsstoffe (raw materials, consumables, and supplies) disclosed separately?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10022",
-    "disclosure_item": "Are unfertige Erzeugnisse and unfertige Leistungen (work in progress and services not yet billed) disclosed together?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Leistungen"
   },
   {
     "id": "HGB-BIL-10023",
-    "disclosure_item": "Are finished goods and merchandise (fertige Erzeugnisse und Waren) disclosed as a single line item?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Waren"
   },
   {
     "id": "HGB-BIL-10024",
-    "disclosure_item": "Are prepayments on inventory (geleistete Anzahlungen) disclosed as the final inventory line?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "31.442.119,72",
+    "german_term": "Vorr\u00e4te"
   },
   {
     "id": "HGB-BIL-10025",
-    "disclosure_item": "Are Forderungen und sonstige Vermögensgegenstände (receivables and other assets) broken down by counterparty type?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Forderungen und sonstige Vermögensgegenstände EUR 6,855,202.02 disclosed"
+    "page": 3,
+    "amount": "19.780.374,21",
+    "german_term": "Verm\u00f6gensgegenst\u00e4nde"
   },
   {
     "id": "HGB-BIL-10026",
-    "disclosure_item": "Are Forderungen aus Lieferungen und Leistungen (trade receivables) disclosed separately?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Forderungen broken down by counterparty (Gesellschafter, Beteiligungsverhältnis) - no separate Forderungen aus Lieferungen und Leistungen line"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Leistungen"
   },
   {
     "id": "HGB-BIL-10027",
-    "disclosure_item": "Are receivables from affiliated companies (Forderungen gegen verbundene Unternehmen) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Forderungen gegen Gesellschafter EUR 5,024,986.74 disclosed"
+    "page": 3,
+    "amount": "19.780.374,21",
+    "german_term": "Forderungen"
   },
   {
     "id": "HGB-BIL-10028",
-    "disclosure_item": "Are receivables from companies with participation interests (Forderungen gegen Unternehmen mit Beteiligungsverhältnis) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Forderungen gegen Unternehmen mit Beteiligungsverhältnis EUR 15,367.05 disclosed"
+    "page": 3,
+    "amount": "19.780.374,21",
+    "german_term": "Forderungen"
   },
   {
     "id": "HGB-BIL-10029",
-    "disclosure_item": "Are sonstige Vermögensgegenstände (other assets) disclosed as a catch-all for non-trade receivables?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: sonstige Vermögensgegenstände EUR 1,814,848.23 disclosed"
+    "page": 3,
+    "amount": "19.780.374,21",
+    "german_term": "Verm\u00f6gensgegenst\u00e4nde"
   },
   {
     "id": "HGB-BIL-10030",
-    "disclosure_item": "Are Wertpapiere (securities) classified in current assets split into shares in affiliates and other securities?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 4: Wertpapiere EUR 2,000 disclosed (shown as single line)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-10031",
-    "disclosure_item": "Is liquid cash position (Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks) disclosed as a single line?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks EUR 194,604.57 disclosed"
+    "page": 5,
+    "amount": "1,82",
+    "german_term": "Guthaben"
   },
   {
     "id": "HGB-BIL-10032",
-    "disclosure_item": "Is the Rechnungsabgrenzungsposten (prepaid expenses) on the asset side disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Rechnungsabgrenzungsposten EUR 61,169.78 disclosed"
+    "page": 5,
+    "amount": "1,82",
+    "german_term": "Rechnungsabgrenzungsposten"
   },
   {
     "id": "HGB-BIL-10033",
-    "disclosure_item": "Are aktive latente Steuern (deferred tax assets) disclosed as a separate posten under asset side?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No aktive latente Steuern visible in Bilanz (amount is 0)"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 4,
+    "amount": "157.730,68",
+    "german_term": "Steuern"
   },
   {
     "id": "HGB-BIL-10034",
-    "disclosure_item": "Is aktiver Unterschiedsbetrag aus der Vermögensverrechnung (asset difference from asset offsetting) disclosed separately?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No aktiver Unterschiedsbetrag disclosed"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 5,
+    "amount": "1,82",
+    "german_term": "Unterschiedsbetrag"
   },
   {
     "id": "HGB-BIL-20001",
-    "disclosure_item": "Is Eigenkapital (equity) properly structured with the five main components: subscribed capital, capital reserves, retained earnings, profit/loss brought forward, and annual result?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Eigenkapital properly structured with Gezeichnetes Kapital, Gewinnrücklagen, Gewinnvortrag, Bilanzgewinn"
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-BIL-20002",
-    "disclosure_item": "Is Gezeichnetes Kapital (subscribed capital) disclosed at the nominal amount per Articles of Association?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Gezeichnetes Kapital EUR 512,000 disclosed"
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Gezeichnetes"
   },
   {
     "id": "HGB-BIL-20003",
-    "disclosure_item": "Is Kapitalrücklage (capital reserve) disclosed separately and showing share premium from capital contributions?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Gewinnrücklagen EUR 450,000 disclosed (Kapitalrücklage combined with retained earnings)"
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-BIL-20004",
-    "disclosure_item": "Are Gewinnrücklagen (retained earnings) disclosed with all four sub-categories: legal reserve, reserve for own shares, statutory reserves, and other retained earnings?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Gewinnrücklagen EUR 450,000 disclosed as single line"
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinnr\u00fccklagen"
   },
   {
     "id": "HGB-BIL-20005",
-    "disclosure_item": "Is the gesetzliche Rücklage (legal reserve) disclosed separately and is the required 10% of subscribed capital maintained?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Cannot determine gesetzliche Rücklage separately - Gewinnrücklagen shown as EUR 450,000"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-BIL-20006",
-    "disclosure_item": "Is Rücklage für Anteile an einem herrschenden oder mehrheitlich beteiligten Unternehmen (reserve for shares in controlling company) disclosed if applicable?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Rücklage für Anteile an herrschendem Unternehmen disclosed"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 5,
+    "amount": "15.367,05",
+    "german_term": "Unternehmen"
   },
   {
     "id": "HGB-BIL-20007",
-    "disclosure_item": "Are satzungsmäßige Rücklagen (statutory reserves per articles of association) disclosed separately?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No satzungsmäßige Rücklagen disclosed separately"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-20008",
-    "disclosure_item": "Are andere Gewinnrücklagen (other retained earnings) disclosed as a catch-all for voluntary reserves?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: andere Gewinnrücklagen included in Gewinnrücklagen EUR 450,000"
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinnr\u00fccklagen"
   },
   {
     "id": "HGB-BIL-20009",
-    "disclosure_item": "Is Gewinnvortrag/Verlustvortrag (profit/loss brought forward) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Gewinnvortrag EUR 15,967,079.87 disclosed"
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinn"
   },
   {
     "id": "HGB-BIL-20010",
-    "disclosure_item": "Is Jahresüberschuss/Jahresfehlbetrag (annual profit or loss for the year) disclosed as the final equity line?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Jahresüberschuss EUR 301,937.27 disclosed"
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-BIL-20011",
-    "disclosure_item": "Are Rückstellungen (provisions) disclosed as three separate categories: pension provisions, tax provisions, and other provisions?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Rückstellungen EUR 1,956,451.58 disclosed (single line, no breakdown per §288)"
+    "page": 3,
+    "amount": "16.505.583,97",
+    "german_term": "R\u00fcckstellung"
   },
   {
     "id": "HGB-BIL-20012",
-    "disclosure_item": "Are Rückstellungen für Pensionen und ähnliche Verpflichtungen (pension provisions and similar obligations) disclosed separately?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Rückstellungen shown as single line - cannot determine pension provisions separately"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.505.583,97",
+    "german_term": "R\u00fcckstellung"
   },
   {
     "id": "HGB-BIL-20013",
-    "disclosure_item": "Is the underlying actuarial calculation for pension provisions performed in accordance with §253 Abs. 2 HGB and disclosed in the Anhang?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6 Anhang: pension provisions disclosed with Heubeck-Richttafeln 2018G, discount rate 1.82%"
+    "page": 4,
+    "amount": "15.967.079,87",
+    "german_term": "Anhang"
   },
   {
     "id": "HGB-BIL-20014",
-    "disclosure_item": "Are Steuerrückstellungen (tax provisions) disclosed as a separate line item?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Rückstellungen shown as single line EUR 1,956,451.58 - no separate Steuerrückstellungen visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.505.583,97",
+    "german_term": "R\u00fcckstellung"
   },
   {
     "id": "HGB-BIL-20015",
-    "disclosure_item": "Are sonstige Rückstellungen (other provisions) disclosed as the final provisions line, including all non-pension/tax provisions?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Rückstellungen shown as single line - no separate sonstige Rückstellungen visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.505.583,97",
+    "german_term": "R\u00fcckstellung"
   },
   {
     "id": "HGB-BIL-20016",
-    "disclosure_item": "Are other provisions measured at the settlement amount that reflects the best estimate, with discounting for long-term provisions per §253 Abs. 2?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6 Anhang: Rückstellungen measured at Erfüllungsbetrag with prudent assessment"
+    "page": 3,
+    "amount": "16.505.583,97",
+    "german_term": "R\u00fcckstellung"
   },
   {
     "id": "HGB-BIL-20020",
-    "disclosure_item": "Are Verbindlichkeiten (liabilities) disclosed with all eight categories in prescribed order, including sub-detail for convertible bonds and tax/social security?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4-5: Verbindlichkeiten disclosed with categories"
+    "page": 3,
+    "amount": "2.000.869,00",
+    "german_term": "Verbindlichkeiten"
   },
   {
     "id": "HGB-BIL-20021",
-    "disclosure_item": "Are Anleihen (bonds) disclosed, with a sub-row showing the convertible portion if applicable?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Anleihen disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-20022",
-    "disclosure_item": "Are Verbindlichkeiten gegenüber Kreditinstituten (bank loans and borrowings) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Verbindlichkeiten gegenüber Kreditinstituten EUR 7,253,591.71 disclosed"
+    "page": 3,
+    "amount": "15.312.240,01",
+    "german_term": "Kreditinstituten"
   },
   {
     "id": "HGB-BIL-20023",
-    "disclosure_item": "Are erhaltene Anzahlungen auf Bestellungen (advance payments received on orders) disclosed separately?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No erhaltene Anzahlungen on balance sheet"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-20024",
-    "disclosure_item": "Are Verbindlichkeiten aus Lieferungen und Leistungen (trade payables) disclosed separately?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Verbindlichkeiten shown as total - cannot isolate Verbindlichkeiten aus Lieferungen und Leistungen separately"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Leistungen"
   },
   {
     "id": "HGB-BIL-20025",
-    "disclosure_item": "Are liabilities from accepted drafts (Wechselverbindlichkeiten) disclosed separately?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Wechselverbindlichkeiten disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-20026",
-    "disclosure_item": "Are Verbindlichkeiten gegenüber verbundenen Unternehmen (payables to affiliated companies) disclosed separately?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Verbindlichkeiten gegenüber verbundenen Unternehmen disclosed separately"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 5,
+    "amount": "15.367,05",
+    "german_term": "Unternehmen"
   },
   {
     "id": "HGB-BIL-20027",
-    "disclosure_item": "Are Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis (payables to related party companies) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 7 Anhang: Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis EUR 278,930.99 disclosed"
+    "page": 5,
+    "amount": "15.367,05",
+    "german_term": "Unternehmen"
   },
   {
     "id": "HGB-BIL-20028",
-    "disclosure_item": "Are sonstige Verbindlichkeiten (other liabilities) disclosed as item 8 with sub-totals for tax liabilities and social security?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: sonstige Verbindlichkeiten EUR 2,099,302.47 disclosed"
+    "page": 3,
+    "amount": "2.000.869,00",
+    "german_term": "Verbindlichkeiten"
   },
   {
     "id": "HGB-BIL-20029",
-    "disclosure_item": "Is the Rechnungsabgrenzungsposten (deferred income) on the liability side disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: Rechnungsabgrenzungsposten (passiv) EUR 3,340 disclosed"
+    "page": 5,
+    "amount": "1,82",
+    "german_term": "Rechnungsabgrenzungsposten"
   },
   {
     "id": "HGB-BIL-20030",
-    "disclosure_item": "Are passive latente Steuern (deferred tax liabilities) disclosed as the final liability item?",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No passive latente Steuern visible in Bilanz"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "2.000.869,00",
+    "german_term": "Verbindlichkeiten"
   },
   {
     "id": "HGB-BIL-20031",
-    "disclosure_item": "For liabilities with maturity exceeding one year, is the breakdown by remaining maturity disclosed in the Anhang per §285 No. 1 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Verbindlichkeiten with maturity breakdown disclosed (bis zu einem Jahr, mehr als ein Jahr)"
+    "page": 4,
+    "amount": "15.967.079,87",
+    "german_term": "Anhang"
   },
   {
     "id": "HGB-BIL-20032",
-    "disclosure_item": "Is collateral provided for liabilities disclosed in the Anhang per §285 No. 2 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 7 Anhang: collateral disclosed - Sicherungsübereignung Warenlager EUR 18,392 for Kreditinstitute"
+    "page": 4,
+    "amount": "15.967.079,87",
+    "german_term": "Anhang"
   },
   {
     "id": "HGB-BIL-20033",
-    "disclosure_item": "Is the nominal capital and changes in capital reserves disclosed per §285 No. 3 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 4: Gezeichnetes Kapital EUR 512,000 disclosed, no changes in capital reserves visible"
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-BIL-20034",
-    "disclosure_item": "For medium GmbH, is the disclosure of the entity's profit appropriation proposal required or is the proposal disclosed in the Anhang?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 7 Anhang: Ergebnisverwendungsvorschlag - Jahresüberschuss to Gewinnvortrag"
+    "page": 4,
+    "amount": "15.967.079,87",
+    "german_term": "Anhang"
   },
   {
     "id": "HGB-BIL-20035",
-    "disclosure_item": "Is the total amount of liabilities secured by collateral (Pfandbriefe, etc.) disclosed per §285 No. 3a?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: secured liabilities disclosed - Sicherungsübereignung"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-BIL-20036",
-    "disclosure_item": "For medium GmbH, is the exemption from detailed disclosure of provisions in the Anhang applied per §288 Abs. 2?",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 4,
+    "amount": "15.967.079,87",
+    "german_term": "Anhang"
   },
   {
     "id": "HGB-GUV-30001",
-    "disclosure_item": "Is the profit and loss account (Gewinn- und Verlustrechnung) prepared using the total cost method (Gesamtkostenverfahren) as required by §275 Abs. 1 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6 Anhang: Gliederung erfolgt gemäß §275 Abs. 1 HGB nach dem Gesamtkostenverfahren"
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinn"
   },
   {
     "id": "HGB-GUV-30002",
-    "disclosure_item": "Revenue (Umsatzerlöse) - Line item 1 of Gesamtkostenverfahren",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Lagebericht: Umsatzerlöse TEUR 20,489 (2023)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30003",
-    "disclosure_item": "Increase or decrease in inventory of finished goods and work in progress (Bestand an fertigen und unfertigen Erzeugnissen) - Line item 2",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5 GuV: 1. Rohergebnis EUR 9,784,398.70 (includes Bestandsveränderung)"
+    "page": 3,
+    "amount": "31.442.119,72",
+    "german_term": "Vorr\u00e4te"
   },
   {
     "id": "HGB-GUV-30004",
-    "disclosure_item": "Other own work capitalized (Andere aktivierte Eigenleistungen) - Line item 3",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No separate Andere aktivierte Eigenleistungen line visible in GuV"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-GUV-30005",
-    "disclosure_item": "Total operating performance (Gesamtleistung) - Calculated from lines 1-3",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 5: Gesamtleistung shown as Rohergebnis EUR 9,784,398.70"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30006",
-    "disclosure_item": "Cost of materials (Materialaufwand) - Line item 4",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Materialaufwand included in Rohergebnis - no separate line in GuV format shown"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30007",
-    "disclosure_item": "Personnel costs (Personalaufwand) - Line item 5",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 2. Personalaufwand EUR 4,186,545.21 disclosed"
+    "page": 4,
+    "amount": "9.735.426,62",
+    "german_term": "Personalaufwand"
   },
   {
     "id": "HGB-GUV-30008",
-    "disclosure_item": "Depreciation and amortization (Abschreibungen) - Line item 6",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 3. Abschreibungen EUR 510,704.32 disclosed"
+    "page": 4,
+    "amount": "12.627,69",
+    "german_term": "Abschreibungen"
   },
   {
     "id": "HGB-GUV-30009",
-    "disclosure_item": "Other operating expenses (Sonstige betriebliche Aufwendungen) - Line item 7",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 4. sonstige betriebliche Aufwendungen EUR 4,432,041.45 disclosed"
+    "page": 6,
+    "amount": "2.076.950,00",
+    "german_term": "Sonstige"
   },
   {
     "id": "HGB-GUV-30010",
-    "disclosure_item": "Operating result (Betriebsergebnis) - Calculated as gross profit less lines 4-7",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Operating result implicit in EBIT TEUR 806 per Lagebericht"
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinn"
   },
   {
     "id": "HGB-GUV-30011",
-    "disclosure_item": "Income from equity interests (Erträge aus Beteiligungen) - Line item 8",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 5. Erträge aus Beteiligungen EUR 8,007 disclosed"
+    "page": 3,
+    "amount": "86.904,00",
+    "german_term": "Beteiligungen"
   },
   {
     "id": "HGB-GUV-30012",
-    "disclosure_item": "Income from other securities and loans (Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens) - Line item 9",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No separate Erträge aus anderen Wertpapieren und Ausleihungen line visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 4,
+    "amount": "4.969,00",
+    "german_term": "Ertr\u00e4ge"
   },
   {
     "id": "HGB-GUV-30013",
-    "disclosure_item": "Other interest and similar income (Sonstige Zinsen und ähnliche Erträge) - Line item 10",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 6. sonstige Zinsen und ähnliche Erträge EUR 179,710.83 disclosed"
+    "page": 4,
+    "amount": "179.710,83",
+    "german_term": "Zinsen"
   },
   {
     "id": "HGB-GUV-30014",
-    "disclosure_item": "Depreciation and amortization of financial assets and securities (Abschreibungen auf Finanzanlagen und auf Wertpapiere des Umlaufvermögens) - Line item 11",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No separate Abschreibungen auf Finanzanlagen line visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 4,
+    "amount": "12.627,69",
+    "german_term": "Abschreibungen"
   },
   {
     "id": "HGB-GUV-30015",
-    "disclosure_item": "Interest and similar expenses (Zinsen und ähnliche Aufwendungen) - Line item 12",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 7. Zinsen und ähnliche Aufwendungen EUR 457,906.42 disclosed"
+    "page": 4,
+    "amount": "179.710,83",
+    "german_term": "Zinsen"
   },
   {
     "id": "HGB-GUV-30016",
-    "disclosure_item": "Tax on income (Steuern vom Einkommen und vom Ertrag) - Line item 13",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 8. Steuern vom Einkommen und vom Ertrag EUR 46,156.90 disclosed"
+    "page": 4,
+    "amount": "157.730,68",
+    "german_term": "Ertrag"
   },
   {
     "id": "HGB-GUV-30017",
-    "disclosure_item": "Other taxes (Sonstige Steuern) - Line item 14",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 10. sonstige Steuern EUR 36,824.96 disclosed"
+    "page": 6,
+    "amount": "2.076.950,00",
+    "german_term": "Sonstige"
   },
   {
     "id": "HGB-GUV-30018",
-    "disclosure_item": "Income from equity holdings (Erträge aus Beteiligungen) - Line item 8 alternative (capital cost method variant)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Same as 30011 - Erträge aus Beteiligungen EUR 8,007"
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-GUV-30019",
-    "disclosure_item": "Income from profit pooling, profit transfer or partial profit transfer agreements (Erträge aus Gewinnabführung) - Line item 15",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Erträge aus Gewinnabführung visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinn"
   },
   {
     "id": "HGB-GUV-30020",
-    "disclosure_item": "Expenses from loss absorption (Verluste aus Gewinnabführung) - Line item 16",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Verluste aus Gewinnabführung visible"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-GUV-30021",
-    "disclosure_item": "Annual profit (Jahresüberschuss) - Line item 17",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 11. Jahresüberschuss EUR 301,937.27 disclosed"
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Jahres\u00fcberschuss"
   },
   {
     "id": "HGB-GUV-30022",
-    "disclosure_item": "Net loss (Jahresfehlbetrag) - Line item 18",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Jahresüberschuss positive, no Jahresfehlbetrag"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-GUV-30023",
-    "disclosure_item": "Profit/loss brought forward (Gewinnvortrag/Verlustvortrag) - Line item 19",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 12. Gewinnvortrag aus dem Vorjahr EUR 16,505,583.97 disclosed"
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-GUV-30024",
-    "disclosure_item": "Appropriation to other revenue reserves (Entnahme aus der Kapitalrücklage, Entnahme aus Gewinnrücklagen) - Line item 20",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Entnahme from reserves visible in GuV"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinnr\u00fccklagen"
   },
   {
     "id": "HGB-GUV-30025",
-    "disclosure_item": "Appropriation to other revenue reserves (Einstellung in Gewinnrücklagen) - Line item 20 alternative",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Einstellung in Gewinnrücklagen visible in GuV"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "512.000,00",
+    "german_term": "Gewinnr\u00fccklagen"
   },
   {
     "id": "HGB-GUV-30026",
-    "disclosure_item": "Undistributed profit (Bilanzgewinn) - Line item 21",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 5: 13. Bilanzgewinn EUR 15,967,079.87 disclosed"
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Bilanzgewinn"
   },
   {
     "id": "HGB-GUV-30027",
-    "disclosure_item": "Uncovered loss (Bilanzverlust) - Line item 21 alternative",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "Bilanzgewinn positive, no Bilanzverlust"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "15.967.079,87",
+    "german_term": "Verlust"
   },
   {
     "id": "HGB-GUV-30030",
-    "disclosure_item": "Does the entity have a chart of accounts (Kontenplan) that maps to the Gesamtkostenverfahren line items per §275 Abs. 2 HGB?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Kontenplan not included in PDF financial statements"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30031",
-    "disclosure_item": "Are comparative figures for the prior financial year disclosed in the GuV per §275 Abs. 3 HGB?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 3-5 Bilanz and GuV show prior year figures (Vorjahr EUR column)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30032",
-    "disclosure_item": "Are items in the GuV presented in accordance with the prior year's classification if any material changes in business activities require reclassification per §275 Abs. 4 HGB?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No reclassifications disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30040",
-    "disclosure_item": "Is the cost of raw materials and supplies (Aufwendungen für Roh-, Hilfs- und Betriebsstoffe) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30041",
-    "disclosure_item": "Are the cost of merchandise purchased (Aufwendungen für bezogene Waren) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30042",
-    "disclosure_item": "Is the cost of services purchased (Aufwendungen für bezogene Leistungen) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30050",
-    "disclosure_item": "Are personnel costs broken down by wage and salary costs ( Löhne und Gehälter) per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30051",
-    "disclosure_item": "Are personnel costs broken down by social security and other pension costs (Soziale Abgaben und Aufwendungen für Altersversorgung) per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30052",
-    "disclosure_item": "Are the average number of employees during the financial year disclosed per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30060",
-    "disclosure_item": "Is revenue broken down by business activity (Tätigkeit) per §285 Nr. 14 HGB?",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 - no revenue breakdown by activity"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30061",
-    "disclosure_item": "Is revenue broken down by geographic market ( Märkte) per §285 Nr. 14 HGB?",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 - no revenue breakdown by geography"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30070",
-    "disclosure_item": "If revenue breakdown by activity or geography is not disclosed, has the entity invoked the protective clause under §286 Abs. 2 HGB?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No explicit §286 Abs. 2 protective clause invocation for revenue breakdown"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30080",
-    "disclosure_item": "Is the entity eligible for exemptions under §288 Abs. 2 HGB for medium-sized GmbH?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 6 Anhang: mittelgroße Kapitalgesellschaft i.S.d. §267 Abs. 2 HGB"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30081",
-    "disclosure_item": "If eligible under §288 Abs. 2, are certain notes disclosures omitted (e.g., certain breakdowns)?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30082",
-    "disclosure_item": "Is the entity required to provide a management report (Lagebericht) despite being medium-sized under §289 HGB?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Lagebericht included (page 1-2 of PDF)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30090",
-    "disclosure_item": "Is there a clear presentation of the GuV using the vertically aligned format per §275 Abs. 1 HGB?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 5: GuV presented in vertical format with all mandatory line items"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-GUV-30091",
-    "disclosure_item": "Are material items in the GuV not netted but shown separately per §265 Abs. 7 HGB?",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "No material netting visible - items shown separately"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40001",
-    "disclosure_item": "Have the accounting and valuation methods used been disclosed? (Bilanzierungsmethoden)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 6 Anhang: Bilanzierungs- und Bewertungsmethoden disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40002",
-    "disclosure_item": "Have any changes to accounting and valuation methods been disclosed with justification? (Änderung der Bilanzierungsmethoden)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 6 Anhang: Bewertung Warenbestand angepasst - change disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40003",
-    "disclosure_item": "Has the impact of any material changes in estimates been disclosed? (Wesentliche Schätzungsänderungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No material estimate changes disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40101",
-    "disclosure_item": "Has the name and registered office of subsidiaries been disclosed? (Name und Sitz von Tochterunternehmen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No subsidiary information disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40102",
-    "disclosure_item": "Has the equity ( Eigenkapital) of subsidiaries been disclosed? (Eigenkapital der Tochterunternehmen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No equity of subsidiaries disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40103",
-    "disclosure_item": "Has an exemption from preparing consolidated accounts (Konzernabschluss) been disclosed with reasons and criteria? (Befreiung von Konzernabschluss)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "No Konzernabschluss prepared - size qualifies for exemption"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40104",
-    "disclosure_item": "Has a breakdown of revenue by category and geographic market been disclosed? (Umsatzaufteilung nach Segmenten bzw. Märkten)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40105",
-    "disclosure_item": "Has a disclosure of stock movements / changes in inventories been made? (Vorratsbestandsveränderung)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 6 Anhang: Vorräte with groups Bewertung disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40106",
-    "disclosure_item": "Have other operating income (sonstige Erträge) been broken down by category? (Sonstige Erträge)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6 Anhang: detailed methods disclosed for Bewertung"
+    "page": 6,
+    "amount": "2.076.950,00",
+    "german_term": "Sonstige"
   },
   {
     "id": "HGB-ANH-40107",
-    "disclosure_item": "Has research and development (Forschung und Entwicklung) expenditure been disclosed? (Forschungs- und Entwicklungskosten)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No separate F&E Kosten disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40108",
-    "disclosure_item": "Has a breakdown of material costs ( Materialaufwand) been disclosed? (Materialaufwand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40109",
-    "disclosure_item": "Has a breakdown of personnel costs ( Personalaufwand) been disclosed? (Personalaufwand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40110",
-    "disclosure_item": "Have depreciation and amortization methods and periods been disclosed? (Abschreibungsmethoden)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 6 Anhang: Abschreibungen linear, Nutzungsdauer disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40111",
-    "disclosure_item": "Has information on related party transactions (Nahestehende Unternehmen und Personen) been disclosed? (Geschäfte mit nahestehenden Unternehmen)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 7 Anhang: Forderungen/Verbindlichkeiten against Beteiligungsverhältnis disclosed"
+    "page": 5,
+    "amount": "15.367,05",
+    "german_term": "Unternehmen"
   },
   {
     "id": "HGB-ANH-40112",
-    "disclosure_item": "Have off-balance sheet commitments (außerbilanzielle Verpflichtungen) been disclosed? (Haftungsverhältnisse)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 7 Anhang: Mietverpflichtungen EUR 2,076,950, Leasing EUR 238,635.72 disclosed"
+    "page": 6,
+    "amount": "2.076.950,00",
+    "german_term": "Verpflichtungen"
   },
   {
     "id": "HGB-ANH-40113",
-    "disclosure_item": "Have any restatements of prior year figures (Rückwirkung von Bilanzänderungen) been disclosed? (Rückwirkende Änderungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No prior year restatements disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40114",
-    "disclosure_item": "Have subsequent events (nachträgliche Ereignisse) after the balance sheet date been disclosed? (Nachtragsbericht)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No subsequent events disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40115",
-    "disclosure_item": "Has the average number of employees (Durchschnittszahl der Beschäftigten) been disclosed? (Beschäftigtenzahl)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: Durchschnittszahl 63 (49 Angestellte, 14 gewerbliche)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40115",
-    "disclosure_item": "Have audit fees (Honorar des Abschlussprüfers) for the auditor been disclosed? (Abschlussprüferhonorar)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: Durchschnittszahl 63 (49 Angestellte, 14 gewerbliche)"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40116",
-    "disclosure_item": "Has management remuneration (Vorstands-/Geschäftsführungsvergütung) been disclosed individually or in aggregate? (Gesamtbezüge der Organmitglieder)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: Bezüge der Geschäftsführer uses §286 Abs. 4 Schutzrecht"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40117",
-    "disclosure_item": "Have transactions with controlling entities or their related parties been disclosed? (Geschäfte mit beherrschendem Unternehmen)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40118",
-    "disclosure_item": "Has any share-based payment (aktienbasierte Vergütung) been disclosed? (Aktienbasierte Vergütung)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No share-based payment disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40119",
-    "disclosure_item": "Has any significant uncalled capital (ausstehende Einlagen) been disclosed? (Nicht eingeforderte Einlagen)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "No uncalled capital disclosed (all paid)"
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-ANH-40120",
-    "disclosure_item": "Has parent company information (Mutterunternehmen) been disclosed? (Mutterunternehmen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No parent company disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40121",
-    "disclosure_item": "Has a simplified IFRS transition disclosure been made? (Vereinfachter IFRS-Übergangsbericht)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40122",
-    "disclosure_item": "Has information on consolidated entities (Konsolidierungskreis) been disclosed? (Tochterunternehmen im Konzernabschluss)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No group entities disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40123",
-    "disclosure_item": "Has information on branch offices (Zweigniederlassungen) been disclosed? (Zweigniederlassungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No branch offices disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40124",
-    "disclosure_item": "Has information on pension commitments ( Pensionsverpflichtungen) been disclosed? (Pensionsverpflichtungen)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6 Anhang: Pensionsverpflichtungen with Heubeck-Richttafeln 2018G, 1.82% disclosed"
+    "page": 5,
+    "amount": "1,82",
+    "german_term": "Pensionsverpflichtungen"
   },
   {
     "id": "HGB-ANH-40125",
-    "disclosure_item": "Have audit fees been broken down by activity (Abschlussprüferleistungen)? (Aufschlüsselung des Prüfungshonorars)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No breakdown of auditor fees"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40126",
-    "disclosure_item": "Has a statement on the application of the simplification rule for deferred taxes (§274a HGB) been disclosed? ( Vereinfachungsregelung latente Steuern)",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No simplified deferred tax statement"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 4,
+    "amount": "157.730,68",
+    "german_term": "Steuern"
   },
   {
     "id": "HGB-ANH-40127",
-    "disclosure_item": "Has a statement on the use of the exemption under §264 Abs. 3 HGB (small company relief) been made? (Handelsrechtliche Befreiung)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No §264 Abs. 3 exemption disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40128",
-    "disclosure_item": "Has the disclosure of financial instruments at fair value (Bewertungseinheiten) been made? (Bewertungseinheiten)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Bewertungseinheiten disclosed"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40129",
-    "disclosure_item": "Has information on the disaggregation of revenue (Umsatzzerlegung) been disclosed? (Umsatzzerlegung)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40130",
-    "disclosure_item": "Has information on the fair value of financial instruments (Beizulegender Zeitwert) been disclosed? (Fair-Value-Angaben)",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No fair value disclosures for financial instruments"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Angaben"
   },
   {
     "id": "HGB-ANH-40131",
-    "disclosure_item": "Has a statement on the recognition and measurement of lease assets and liabilities been disclosed? (Leasingangaben)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: Leasingverträge EUR 238,635.72 disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40132",
-    "disclosure_item": "Has information on the nature and extent of government grants (Investitionszulagen) been disclosed? (Zuwendungen der öffentlichen Hand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40133",
-    "disclosure_item": "Has a statement on the underlying currency for significant transactions been disclosed? (Währungsangaben)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7 Anhang: Währungsrisiko USD disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-40201",
-    "disclosure_item": "Has the protective clause (Schutzklausel) under §286 HGB been invoked appropriately? (Befreiung von Einzelangaben)",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50001",
-    "disclosure_item": "Have other mandatory disclosures under §287 HGB been provided? (Sonstige Pflichtangaben)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 6-7 Anhang: all mandatory §287 requirements met"
+    "page": 6,
+    "amount": "2.076.950,00",
+    "german_term": "Sonstige"
   },
   {
     "id": "HGB-ANH-50002",
-    "disclosure_item": "Has a statement on the assumption of going concern (Fortführung der Unternehmenstätigkeit) been disclosed? (Going-Concern-Annahme)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Going concern assumed - no uncertainties disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50003",
-    "disclosure_item": "Has the balance sheet date (Bilanzstichtag) been disclosed? (Jahresabschlussstichtag)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 1: Bilanzstichtag 31.12.2023 disclosed"
+    "page": 6,
+    "amount": "278.930,99",
+    "german_term": "Bilanzstichtag"
   },
   {
     "id": "HGB-ANH-50004",
-    "disclosure_item": "Has the legal form (Rechtsform) of the entity been disclosed? (Rechtsform)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Legal form GmbH disclosed in header"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50005",
-    "disclosure_item": "Has the company's registered office (Sitz der Gesellschaft) been disclosed? (Sitz der Gesellschaft)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Page 1: Schwäbisch Gmünd disclosed as registered office"
+    "page": 3,
+    "amount": "7.490.043,97",
+    "german_term": "Gesellschaft"
   },
   {
     "id": "HGB-ANH-50006",
-    "disclosure_item": "Has the company's object (Unternehmensgegenstand) been disclosed? (Gegenstand des Unternehmens)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 1: HiFi-Produkte described in Lagebericht"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50007",
-    "disclosure_item": "Has a list of managing directors (Geschäftsführer) with names been disclosed? (Name(n) der Geschäftsführer)",
-    "response": "Yes",
-    "reason_code": null,
-    "evidence": "Page 7: Geschäftsführer Günther Nubert, Markus Pedal, Daniel T. Schütze disclosed"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50008",
-    "disclosure_item": "Has membership of the Gesellschafterversammlung been disclosed? (Gesellschafter)",
     "response": "Yes",
     "reason_code": null,
-    "evidence": "Forderungen gegen Gesellschafter disclosed - shows shareholder relationship"
+    "page": 3,
+    "amount": "7.490.043,97",
+    "german_term": "Gesellschafter"
   },
   {
     "id": "HGB-ANH-50009",
-    "disclosure_item": "Have the members of the supervisory board (Aufsichtsrat) been disclosed? (Mitglieder des Aufsichtsrats)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "evidence": "No Aufsichtsrat - not required for GmbH under 500 employees"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50101",
-    "disclosure_item": "Has the entity claimed the §288 Abs. 2 exemption from certain §285 disclosures? (Kleinunternehmerprivileg)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50102",
-    "disclosure_item": "If §288 Abs. 2 exemption is claimed, has the entity met the size criteria? (Größenkriterien)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-ANH-50103",
-    "disclosure_item": "Has the entity disclosed the exercise of the 5-year exemption option for medium companies? (Fünf-Jahres-Befreiung)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60001",
-    "disclosure_item": "Does the Lagebericht present the business progress (Geschäftsverlauf) including the business result (Geschäftsergebnis) in a manner that gives a true and fair view of the company's position?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60002",
-    "disclosure_item": "Does the Lagebericht present the Lage (position) of the capital company so that a true and fair view (den tatsächlichen Verhältnissen entsprechendes Bild) is conveyed?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "Yes",
+    "reason_code": null,
+    "page": 3,
+    "amount": "16.929.079,87",
+    "german_term": "Kapital"
   },
   {
     "id": "HGB-LAG-60003",
-    "disclosure_item": "Does the Lagebericht contain a balanced and comprehensive analysis (ausgewogene und umfassende Analyse) appropriate to the scope and complexity of the business activities?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60004",
-    "disclosure_item": "Does the Lagebericht include the most significant financial performance indicators (finanzielle Leistungsindikatoren) that are material to the business activities?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60005",
-    "disclosure_item": "Are the financial performance indicators explained with reference to the amounts shown in the annual financial statements?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60006",
-    "disclosure_item": "Does the Lagebericht assess and explain the expected future development (voraussichtliche Entwicklung) including its material opportunities (Chancen) and risks (Risiken)?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60007",
-    "disclosure_item": "Are the underlying assumptions (Annahmen) for the expected development disclosed in the Lagebericht?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60008",
-    "disclosure_item": "Does the Lagebericht disclose the risk management objectives and methods (Risikomanagementziele und -methoden) of the company?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60009",
-    "disclosure_item": "Does the Lagebericht disclose the methods used to hedge all important types of transactions that are recognised in hedge accounting?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60010",
-    "disclosure_item": "Does the Lagebericht disclose price change risks (Preisänderungsrisiken) to which the company is exposed, in relation to the use of financial instruments?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60011",
-    "disclosure_item": "Does the Lagebericht disclose default risks (Ausfallrisiken) to which the company is exposed, in relation to the use of financial instruments?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60012",
-    "disclosure_item": "Does the Lagebericht disclose liquidity risks (Liquiditätsrisiken) to which the company is exposed, in relation to the use of financial instruments?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60013",
-    "disclosure_item": "Does the Lagebericht disclose risks from payment flow fluctuations (Zahlungsstromschwankungen) to which the company is exposed, in relation to the use of financial instruments?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60014",
-    "disclosure_item": "Does the Lagebericht include disclosure on the research and development area (Bereich Forschung und Entwicklung)?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60015",
-    "disclosure_item": "Does the Lagebericht disclose existing branch offices (bestehende Zweigniederlassungen) of the company?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60016",
-    "disclosure_item": "Does the Lagebericht describe the essential features of the internal control system (wesentliche Merkmale des internen Kontrollsystems) in relation to the accounting process?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   },
   {
     "id": "HGB-LAG-60017",
-    "disclosure_item": "Does the Lagebericht describe the essential features of the risk management system (wesentliche Merkmale des Risikomanagementsystems) in relation to the accounting process?",
-    "response": "Review",
-    "reason_code": "PDF_EXTRACTION_LIMIT",
-    "evidence": "Item requires detailed review - not clearly determinable from PDF"
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "page": null,
+    "amount": null,
+    "german_term": null
   }
 ]

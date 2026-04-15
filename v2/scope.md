@@ -90,18 +90,14 @@ The agent should resolve §288 Abs. 2 exemptions at runtime by fetching the HGB 
 
 Generate a version-stamped disclosure checklist with the following structure:
 
-### Sections and Minimum Item Counts
+### Sections
 
-Thoroughness takes precedence over any numeric target. The minimums below are floors, not targets
-— if grounded, reference-traced requirements exist beyond the minimum, include them.
+1. **Bilanz (Balance Sheet)** (§ 266 HGB)
+2. **Gewinn- und Verlustrechnung (Profit & Loss Account / P&L)** (§ 275 HGB)
+3. **Anhang (Notes / Annex)** (§§ 284–288 HGB)
+4. **Lagebericht (Management Report)** (§ 289 HGB)
 
-| Section | Minimum Items | Notes |
-|---------|--------------|-------|
-| **Bilanz** (§ 266 HGB) | 12 | Balance sheet form, structure, and presentation requirements |
-| **GuV** (§ 275 HGB) | 10 | P&L line items under Gesamtkostenverfahren |
-| **Anhang** (§§ 284–288 HGB) | 55 | §285 alone carries 33 numbered requirements, many multi-part |
-| **Lagebericht** (§ 289 HGB) | 15 | See Lagebericht sub-section breakdown below |
-| **Total** | **≥ 92** | Expected range 100–130 for a thorough medium GmbH checklist |
+> **Note on item counts:** Do NOT target a specific number. Focus on 100% extraction of statutory obligations from the grounded source. The validation script will flag if items fall below expected ranges.
 
 ### Lagebericht Sub-Section Breakdown (§ 289 HGB)
 
@@ -142,6 +138,12 @@ For each checklist item, output:
 > numbered heading. German Mittelstand Anhang (Notes) structures vary — some follow the balance
 > sheet sequence, others group by theme. Semantic descriptions are more robust against
 > structural variation.
+
+> **Note on translation:** For highly specific technical accounting terms, the English
+> `disclosure_item` MUST include the original German term in parentheses. Example:
+> "Are provisions for pensions (Pensionsrückstellungen) disclosed per §285 Nr. 24?"
+> This provides a safety net against translation ambiguity (e.g., "Provisions" vs
+> "Wertberichtigungen").
 
 ---
 

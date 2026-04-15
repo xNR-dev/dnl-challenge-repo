@@ -1,1732 +1,1213 @@
 [
   {
     "id": "HGB-BIL-10001",
+    "disclosure_item": "Is immaterielles Anlagevermögen (intangible assets) properly presented, including self-created vs. acquired separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is immaterielles Anlageverm\u00f6gen (intangible assets) properly...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: Immaterielle Vermögensgegenstände EUR 278,004.50 disclosed under Anlagevermögen"
   },
   {
     "id": "HGB-BIL-10002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is selbst geschaffene gewerbliche Schutzrechte (self-created...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is selbst geschaffene gewerbliche Schutzrechte (self-created industrial property rights) disclosed separately from entgeltlich erworbene (acquired) items?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 3: Immaterielle Vermögensgegenstände EUR 278,004.50 disclosed as single line under Anlagevermögen"
   },
   {
     "id": "HGB-BIL-10003",
+    "disclosure_item": "Is Geschäfts- oder Firmenwert (goodwill) from business combinations separately recognised and amortised over useful life?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is Gesch\u00e4fts- oder Firmenwert (goodwill) from business combi...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No Geschäfts- oder Firmenwert disclosed in Anlagevermögen"
   },
   {
     "id": "HGB-BIL-10004",
+    "disclosure_item": "Are geleistete Anzahlungen on intangible assets disclosed as prepayments on non-current assets?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are geleistete Anzahlungen on intangible assets disclosed as...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: geleistete Anzahlungen und Anlagen im Bau EUR 219,069.98 disclosed under Sachanlagen"
   },
   {
     "id": "HGB-BIL-10005",
+    "disclosure_item": "Is Sachanlagen (tangible fixed assets) properly classified into Grundstücke/Bauten, Technische Anlagen/Maschinen, and Betriebs- und Geschäftsausstattung?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Sachanlagen (tangible fixed assets) properly classified i...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: Sachanlagen EUR 2,310,931.48 disclosed with all four categories"
   },
   {
     "id": "HGB-BIL-10006",
+    "disclosure_item": "Are Grundstücke und grundstücksgleiche Rechte (land and land rights) including buildings on third-party land disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Grundst\u00fccke und grundst\u00fccksgleiche Rechte (land and land...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: Grundstücke, grundstücksgleiche Rechte und Bauten EUR 260,009 disclosed"
   },
   {
     "id": "HGB-BIL-10007",
+    "disclosure_item": "Is technical equipment and machinery (technische Anlagen und Maschinen) disclosed as a separate line item?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is technical equipment and machinery (technische Anlagen und...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: technische Anlagen und Maschinen EUR 91,533 disclosed"
   },
   {
     "id": "HGB-BIL-10008",
+    "disclosure_item": "Are other plant, equipment, and office fixtures (andere Anlagen, Betriebs- und Geschäftsausstattung) disclosed as a separate line item?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are other plant, equipment, and office fixtures (andere Anla...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: andere Anlagen, Betriebs- und Geschäftsausstattung EUR 1,740,319.50 disclosed"
   },
   {
     "id": "HGB-BIL-10009",
+    "disclosure_item": "Are prepayments and construction in progress (geleistete Anzahlungen und Anlagen im Bau) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are prepayments and construction in progress (geleistete Anz...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: geleistete Anzahlungen und Anlagen im Bau EUR 219,069.98 disclosed"
   },
   {
     "id": "HGB-BIL-10010",
+    "disclosure_item": "Is Finanzanlagen (financial assets) properly classified into the six specified categories?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Finanzanlagen (financial assets) properly classified into...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 3: Finanzanlagen EUR 86,904 disclosed (Beteiligungen)"
   },
   {
     "id": "HGB-BIL-10011",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Anteile an verbundenen Unternehmen (shares in affiliated...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Anteile an verbundenen Unternehmen (shares in affiliated companies) disclosed separately from Beteiligungen (participations)?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No separate Anteile an verbundenen Unternehmen disclosed - only Beteiligungen EUR 86,904 shown"
   },
   {
     "id": "HGB-BIL-10012",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Ausleihungen (loans) to affiliated companies and to comp...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Ausleihungen (loans) to affiliated companies and to companies with participation interests disclosed separately from equity items?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Ausleihungen against affiliated companies disclosed in Finanzanlagen"
   },
   {
     "id": "HGB-BIL-10013",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Wertpapiere des Anlageverm\u00f6gens (securities held as non-...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Wertpapiere des Anlagevermögens (securities held as non-current assets) disclosed separately from current portfolio?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Wertpapiere des Anlagevermögens disclosed"
   },
   {
     "id": "HGB-BIL-10014",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are sonstige Ausleihungen (other loans) disclosed as a final...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are sonstige Ausleihungen (other loans) disclosed as a final line item under financial assets?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No sonstige Ausleihungen disclosed"
   },
   {
     "id": "HGB-BIL-10020",
+    "disclosure_item": "Is Vorräte (inventories) properly broken down into raw materials, work-in-progress, finished goods, and prepayments?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Vorr\u00e4te (inventories) properly broken down into raw mater...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Vorräte EUR 18,756,886.55 disclosed"
   },
   {
     "id": "HGB-BIL-10021",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Roh-, Hilfs- und Betriebsstoffe (raw materials, consumab...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Roh-, Hilfs- und Betriebsstoffe (raw materials, consumables, and supplies) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
   },
   {
     "id": "HGB-BIL-10022",
+    "disclosure_item": "Are unfertige Erzeugnisse and unfertige Leistungen (work in progress and services not yet billed) disclosed together?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are unfertige Erzeugnisse and unfertige Leistungen (work in ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
   },
   {
     "id": "HGB-BIL-10023",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are finished goods and merchandise (fertige Erzeugnisse und ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are finished goods and merchandise (fertige Erzeugnisse und Waren) disclosed as a single line item?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
   },
   {
     "id": "HGB-BIL-10024",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are prepayments on inventory (geleistete Anzahlungen) disclo...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are prepayments on inventory (geleistete Anzahlungen) disclosed as the final inventory line?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "Vorräte shown as single line EUR 18,756,886.55 - no breakdown into sub-categories"
   },
   {
     "id": "HGB-BIL-10025",
+    "disclosure_item": "Are Forderungen und sonstige Vermögensgegenstände (receivables and other assets) broken down by counterparty type?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Forderungen und sonstige Verm\u00f6gensgegenst\u00e4nde (receivabl...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Forderungen und sonstige Vermögensgegenstände EUR 6,855,202.02 disclosed"
   },
   {
     "id": "HGB-BIL-10026",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Forderungen aus Lieferungen und Leistungen (trade receiv...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Forderungen aus Lieferungen und Leistungen (trade receivables) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "Forderungen broken down by counterparty (Gesellschafter, Beteiligungsverhältnis) - no separate Forderungen aus Lieferungen und Leistungen line"
   },
   {
     "id": "HGB-BIL-10027",
+    "disclosure_item": "Are receivables from affiliated companies (Forderungen gegen verbundene Unternehmen) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are receivables from affiliated companies (Forderungen gegen...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Forderungen gegen Gesellschafter EUR 5,024,986.74 disclosed"
   },
   {
     "id": "HGB-BIL-10028",
+    "disclosure_item": "Are receivables from companies with participation interests (Forderungen gegen Unternehmen mit Beteiligungsverhältnis) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are receivables from companies with participation interests ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Forderungen gegen Unternehmen mit Beteiligungsverhältnis EUR 15,367.05 disclosed"
   },
   {
     "id": "HGB-BIL-10029",
+    "disclosure_item": "Are sonstige Vermögensgegenstände (other assets) disclosed as a catch-all for non-trade receivables?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are sonstige Verm\u00f6gensgegenst\u00e4nde (other assets) disclosed a...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: sonstige Vermögensgegenstände EUR 1,814,848.23 disclosed"
   },
   {
     "id": "HGB-BIL-10030",
+    "disclosure_item": "Are Wertpapiere (securities) classified in current assets split into shares in affiliates and other securities?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Wertpapiere (securities) classified in current assets sp...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Wertpapiere EUR 2,000 disclosed (shown as single line)"
   },
   {
     "id": "HGB-BIL-10031",
+    "disclosure_item": "Is liquid cash position (Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks) disclosed as a single line?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is liquid cash position (Kassenbestand, Bundesbankguthaben, ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks EUR 194,604.57 disclosed"
   },
   {
     "id": "HGB-BIL-10032",
+    "disclosure_item": "Is the Rechnungsabgrenzungsposten (prepaid expenses) on the asset side disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is the Rechnungsabgrenzungsposten (prepaid expenses) on the ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Rechnungsabgrenzungsposten EUR 61,169.78 disclosed"
   },
   {
     "id": "HGB-BIL-10033",
+    "disclosure_item": "Are aktive latente Steuern (deferred tax assets) disclosed as a separate posten under asset side?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are aktive latente Steuern (deferred tax assets) disclosed a...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No aktive latente Steuern visible in Bilanz (amount is 0)"
   },
   {
     "id": "HGB-BIL-10034",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If assets are offset against liabilities per \u00a7246 Abs. 2 HGB resulting in a net ",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is aktiver Unterschiedsbetrag aus der Vermögensverrechnung (asset difference from asset offsetting) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No aktiver Unterschiedsbetrag disclosed"
   },
   {
     "id": "HGB-BIL-20001",
+    "disclosure_item": "Is Eigenkapital (equity) properly structured with the five main components: subscribed capital, capital reserves, retained earnings, profit/loss brought forward, and annual result?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Eigenkapital (equity) properly structured with the five m...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Eigenkapital properly structured with Gezeichnetes Kapital, Gewinnrücklagen, Gewinnvortrag, Bilanzgewinn"
   },
   {
     "id": "HGB-BIL-20002",
+    "disclosure_item": "Is Gezeichnetes Kapital (subscribed capital) disclosed at the nominal amount per Articles of Association?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Gezeichnetes Kapital (subscribed capital) disclosed at th...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Gezeichnetes Kapital EUR 512,000 disclosed"
   },
   {
     "id": "HGB-BIL-20003",
+    "disclosure_item": "Is Kapitalrücklage (capital reserve) disclosed separately and showing share premium from capital contributions?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Kapitalr\u00fccklage (capital reserve) disclosed separately an...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Gewinnrücklagen EUR 450,000 disclosed (Kapitalrücklage combined with retained earnings)"
   },
   {
     "id": "HGB-BIL-20004",
+    "disclosure_item": "Are Gewinnrücklagen (retained earnings) disclosed with all four sub-categories: legal reserve, reserve for own shares, statutory reserves, and other retained earnings?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Gewinnr\u00fccklagen (retained earnings) disclosed with all f...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Gewinnrücklagen EUR 450,000 disclosed as single line"
   },
   {
     "id": "HGB-BIL-20005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is the gesetzliche R\u00fccklage (legal reserve) disclosed separa...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is the gesetzliche Rücklage (legal reserve) disclosed separately and is the required 10% of subscribed capital maintained?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Cannot determine gesetzliche Rücklage separately - Gewinnrücklagen shown as EUR 450,000"
   },
   {
     "id": "HGB-BIL-20006",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If the company holds shares in a controlling or majority-owned entity",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is Rücklage für Anteile an einem herrschenden oder mehrheitlich beteiligten Unternehmen (reserve for shares in controlling company) disclosed if applicable?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Rücklage für Anteile an herrschendem Unternehmen disclosed"
   },
   {
     "id": "HGB-BIL-20007",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If the Articles of Association require additional reserves to be set aside",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are satzungsmäßige Rücklagen (statutory reserves per articles of association) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No satzungsmäßige Rücklagen disclosed separately"
   },
   {
     "id": "HGB-BIL-20008",
+    "disclosure_item": "Are andere Gewinnrücklagen (other retained earnings) disclosed as a catch-all for voluntary reserves?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are andere Gewinnr\u00fccklagen (other retained earnings) disclos...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: andere Gewinnrücklagen included in Gewinnrücklagen EUR 450,000"
   },
   {
     "id": "HGB-BIL-20009",
+    "disclosure_item": "Is Gewinnvortrag/Verlustvortrag (profit/loss brought forward) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Gewinnvortrag/Verlustvortrag (profit/loss brought forward...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Gewinnvortrag EUR 15,967,079.87 disclosed"
   },
   {
     "id": "HGB-BIL-20010",
+    "disclosure_item": "Is Jahresüberschuss/Jahresfehlbetrag (annual profit or loss for the year) disclosed as the final equity line?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is Jahres\u00fcberschuss/Jahresfehlbetrag (annual profit or loss ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Jahresüberschuss EUR 301,937.27 disclosed"
   },
   {
     "id": "HGB-BIL-20011",
+    "disclosure_item": "Are Rückstellungen (provisions) disclosed as three separate categories: pension provisions, tax provisions, and other provisions?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are R\u00fcckstellungen (provisions) disclosed as three separate ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Rückstellungen EUR 1,956,451.58 disclosed (single line, no breakdown per §288)"
   },
   {
     "id": "HGB-BIL-20012",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are R\u00fcckstellungen f\u00fcr Pensionen und \u00e4hnliche Verpflichtunge...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Rückstellungen für Pensionen und ähnliche Verpflichtungen (pension provisions and similar obligations) disclosed separately?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Rückstellungen shown as single line - cannot determine pension provisions separately"
   },
   {
     "id": "HGB-BIL-20013",
+    "disclosure_item": "Is the underlying actuarial calculation for pension provisions performed in accordance with §253 Abs. 2 HGB and disclosed in the Anhang?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is the underlying actuarial calculation for pension provisio...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: pension provisions disclosed with Heubeck-Richttafeln 2018G, discount rate 1.82%"
   },
   {
     "id": "HGB-BIL-20014",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Steuerr\u00fcckstellungen (tax provisions) disclosed as a sep...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Steuerrückstellungen (tax provisions) disclosed as a separate line item?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Rückstellungen shown as single line EUR 1,956,451.58 - no separate Steuerrückstellungen visible"
   },
   {
     "id": "HGB-BIL-20015",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are sonstige R\u00fcckstellungen (other provisions) disclosed as ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are sonstige Rückstellungen (other provisions) disclosed as the final provisions line, including all non-pension/tax provisions?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Rückstellungen shown as single line - no separate sonstige Rückstellungen visible"
   },
   {
     "id": "HGB-BIL-20016",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are other provisions measured at the settlement amount that ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are other provisions measured at the settlement amount that reflects the best estimate, with discounting for long-term provisions per §253 Abs. 2?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 6 Anhang: Rückstellungen measured at Erfüllungsbetrag with prudent assessment"
   },
   {
     "id": "HGB-BIL-20020",
+    "disclosure_item": "Are Verbindlichkeiten (liabilities) disclosed with all eight categories in prescribed order, including sub-detail for convertible bonds and tax/social security?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Verbindlichkeiten (liabilities) disclosed with all eight...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4-5: Verbindlichkeiten disclosed with categories"
   },
   {
     "id": "HGB-BIL-20021",
+    "disclosure_item": "Are Anleihen (bonds) disclosed, with a sub-row showing the convertible portion if applicable?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are Anleihen (bonds) disclosed, with a sub-row showing the c...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No Anleihen disclosed"
   },
   {
     "id": "HGB-BIL-20022",
+    "disclosure_item": "Are Verbindlichkeiten gegenüber Kreditinstituten (bank loans and borrowings) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Verbindlichkeiten gegen\u00fcber Kreditinstituten (bank loans...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: Verbindlichkeiten gegenüber Kreditinstituten EUR 7,253,591.71 disclosed"
   },
   {
     "id": "HGB-BIL-20023",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are erhaltene Anzahlungen auf Bestellungen (advance payments...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are erhaltene Anzahlungen auf Bestellungen (advance payments received on orders) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No erhaltene Anzahlungen on balance sheet"
   },
   {
     "id": "HGB-BIL-20024",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Verbindlichkeiten aus Lieferungen und Leistungen (trade ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Verbindlichkeiten aus Lieferungen und Leistungen (trade payables) disclosed separately?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Verbindlichkeiten shown as total - cannot isolate Verbindlichkeiten aus Lieferungen und Leistungen separately"
   },
   {
     "id": "HGB-BIL-20025",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are liabilities from accepted drafts (Wechselverbindlichkeit...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are liabilities from accepted drafts (Wechselverbindlichkeiten) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Wechselverbindlichkeiten disclosed"
   },
   {
     "id": "HGB-BIL-20026",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Verbindlichkeiten gegen\u00fcber verbundenen Unternehmen (pay...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are Verbindlichkeiten gegenüber verbundenen Unternehmen (payables to affiliated companies) disclosed separately?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Verbindlichkeiten gegenüber verbundenen Unternehmen disclosed separately"
   },
   {
     "id": "HGB-BIL-20027",
+    "disclosure_item": "Are Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis (payables to related party companies) disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are Verbindlichkeiten gegen\u00fcber Unternehmen mit Beteiligungs...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 7 Anhang: Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis EUR 278,930.99 disclosed"
   },
   {
     "id": "HGB-BIL-20028",
+    "disclosure_item": "Are sonstige Verbindlichkeiten (other liabilities) disclosed as item 8 with sub-totals for tax liabilities and social security?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are sonstige Verbindlichkeiten (other liabilities) disclosed...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 4: sonstige Verbindlichkeiten EUR 2,099,302.47 disclosed"
   },
   {
     "id": "HGB-BIL-20029",
+    "disclosure_item": "Is the Rechnungsabgrenzungsposten (deferred income) on the liability side disclosed separately?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is the Rechnungsabgrenzungsposten (deferred income) on the l...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: Rechnungsabgrenzungsposten (passiv) EUR 3,340 disclosed"
   },
   {
     "id": "HGB-BIL-20030",
+    "disclosure_item": "Are passive latente Steuern (deferred tax liabilities) disclosed as the final liability item?",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are passive latente Steuern (deferred tax liabilities) discl...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No passive latente Steuern visible in Bilanz"
   },
   {
     "id": "HGB-BIL-20031",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: For liabilities with maturity exceeding one year, is the bre...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "For liabilities with maturity exceeding one year, is the breakdown by remaining maturity disclosed in the Anhang per §285 No. 1 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 4: Verbindlichkeiten with maturity breakdown disclosed (bis zu einem Jahr, mehr als ein Jahr)"
   },
   {
     "id": "HGB-BIL-20032",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is collateral provided for liabilities disclosed in the Anha...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is collateral provided for liabilities disclosed in the Anhang per §285 No. 2 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: collateral disclosed - Sicherungsübereignung Warenlager EUR 18,392 for Kreditinstitute"
   },
   {
     "id": "HGB-BIL-20033",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is the nominal capital and changes in capital reserves discl...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is the nominal capital and changes in capital reserves disclosed per §285 No. 3 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 4: Gezeichnetes Kapital EUR 512,000 disclosed, no changes in capital reserves visible"
   },
   {
     "id": "HGB-BIL-20034",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: For medium GmbH, is the disclosure of the entity's profit ap...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "For medium GmbH, is the disclosure of the entity's profit appropriation proposal required or is the proposal disclosed in the Anhang?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Ergebnisverwendungsvorschlag - Jahresüberschuss to Gewinnvortrag"
   },
   {
     "id": "HGB-BIL-20035",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is the total amount of liabilities secured by collateral (Pf...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is the total amount of liabilities secured by collateral (Pfandbriefe, etc.) disclosed per §285 No. 3a?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: secured liabilities disclosed - Sicherungsübereignung"
   },
   {
     "id": "HGB-BIL-20036",
+    "disclosure_item": "For medium GmbH, is the exemption from detailed disclosure of provisions in the Anhang applied per §288 Abs. 2?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Provisions detailed disclosure exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30001",
+    "disclosure_item": "Is the profit and loss account (Gewinn- und Verlustrechnung) prepared using the total cost method (Gesamtkostenverfahren) as required by §275 Abs. 1 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is the profit and loss account (Gewinn- und Verlustrechnung)...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: Gliederung erfolgt gemäß §275 Abs. 1 HGB nach dem Gesamtkostenverfahren"
   },
   {
     "id": "HGB-GUV-30002",
+    "disclosure_item": "Revenue (Umsatzerlöse) - Line item 1 of Gesamtkostenverfahren",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Revenue (Umsatzerl\u00f6se) - Line item 1 of Gesamtkostenverfahre...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Lagebericht: Umsatzerlöse TEUR 20,489 (2023)"
   },
   {
     "id": "HGB-GUV-30003",
+    "disclosure_item": "Increase or decrease in inventory of finished goods and work in progress (Bestand an fertigen und unfertigen Erzeugnissen) - Line item 2",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Increase or decrease in inventory of finished goods and work...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5 GuV: 1. Rohergebnis EUR 9,784,398.70 (includes Bestandsveränderung)"
   },
   {
     "id": "HGB-GUV-30004",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Other own work capitalized (Andere aktivierte Eigenleistunge...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Other own work capitalized (Andere aktivierte Eigenleistungen) - Line item 3",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No separate Andere aktivierte Eigenleistungen line visible in GuV"
   },
   {
     "id": "HGB-GUV-30005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Total operating performance (Gesamtleistung) - Calculated fr...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Total operating performance (Gesamtleistung) - Calculated from lines 1-3",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 5: Gesamtleistung shown as Rohergebnis EUR 9,784,398.70"
   },
   {
     "id": "HGB-GUV-30006",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Cost of materials (Materialaufwand) - Line item 4...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Cost of materials (Materialaufwand) - Line item 4",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Materialaufwand included in Rohergebnis - no separate line in GuV format shown"
   },
   {
     "id": "HGB-GUV-30007",
+    "disclosure_item": "Personnel costs (Personalaufwand) - Line item 5",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Personnel costs (Personalaufwand) - Line item 5...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 2. Personalaufwand EUR 4,186,545.21 disclosed"
   },
   {
     "id": "HGB-GUV-30008",
+    "disclosure_item": "Depreciation and amortization (Abschreibungen) - Line item 6",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Depreciation and amortization (Abschreibungen) - Line item 6...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 3. Abschreibungen EUR 510,704.32 disclosed"
   },
   {
     "id": "HGB-GUV-30009",
+    "disclosure_item": "Other operating expenses (Sonstige betriebliche Aufwendungen) - Line item 7",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Other operating expenses (Sonstige betriebliche Aufwendungen...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 4. sonstige betriebliche Aufwendungen EUR 4,432,041.45 disclosed"
   },
   {
     "id": "HGB-GUV-30010",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Operating result (Betriebsergebnis) - Calculated as gross pr...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Operating result (Betriebsergebnis) - Calculated as gross profit less lines 4-7",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Operating result implicit in EBIT TEUR 806 per Lagebericht"
   },
   {
     "id": "HGB-GUV-30011",
+    "disclosure_item": "Income from equity interests (Erträge aus Beteiligungen) - Line item 8",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Income from equity interests (Ertr\u00e4ge aus Beteiligungen) - L...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 5. Erträge aus Beteiligungen EUR 8,007 disclosed"
   },
   {
     "id": "HGB-GUV-30012",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Income from other securities and loans (Ertr\u00e4ge aus anderen ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Income from other securities and loans (Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens) - Line item 9",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No separate Erträge aus anderen Wertpapieren und Ausleihungen line visible"
   },
   {
     "id": "HGB-GUV-30013",
+    "disclosure_item": "Other interest and similar income (Sonstige Zinsen und ähnliche Erträge) - Line item 10",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Other interest and similar income (Sonstige Zinsen und \u00e4hnli...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 6. sonstige Zinsen und ähnliche Erträge EUR 179,710.83 disclosed"
   },
   {
     "id": "HGB-GUV-30014",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Depreciation and amortization of financial assets and securi...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Depreciation and amortization of financial assets and securities (Abschreibungen auf Finanzanlagen und auf Wertpapiere des Umlaufvermögens) - Line item 11",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No separate Abschreibungen auf Finanzanlagen line visible"
   },
   {
     "id": "HGB-GUV-30015",
+    "disclosure_item": "Interest and similar expenses (Zinsen und ähnliche Aufwendungen) - Line item 12",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Interest and similar expenses (Zinsen und \u00e4hnliche Aufwendun...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 7. Zinsen und ähnliche Aufwendungen EUR 457,906.42 disclosed"
   },
   {
     "id": "HGB-GUV-30016",
+    "disclosure_item": "Tax on income (Steuern vom Einkommen und vom Ertrag) - Line item 13",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Tax on income (Steuern vom Einkommen und vom Ertrag) - Line ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 8. Steuern vom Einkommen und vom Ertrag EUR 46,156.90 disclosed"
   },
   {
     "id": "HGB-GUV-30017",
+    "disclosure_item": "Other taxes (Sonstige Steuern) - Line item 14",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Other taxes (Sonstige Steuern) - Line item 14...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 10. sonstige Steuern EUR 36,824.96 disclosed"
   },
   {
     "id": "HGB-GUV-30018",
+    "disclosure_item": "Income from equity holdings (Erträge aus Beteiligungen) - Line item 8 alternative (capital cost method variant)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Income from equity holdings (Ertr\u00e4ge aus Beteiligungen) - Li...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Same as 30011 - Erträge aus Beteiligungen EUR 8,007"
   },
   {
     "id": "HGB-GUV-30019",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Income from profit pooling, profit transfer or partial profi...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Income from profit pooling, profit transfer or partial profit transfer agreements (Erträge aus Gewinnabführung) - Line item 15",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Erträge aus Gewinnabführung visible"
   },
   {
     "id": "HGB-GUV-30020",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Expenses from loss absorption (Verluste aus Gewinnabf\u00fchrung)...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Expenses from loss absorption (Verluste aus Gewinnabführung) - Line item 16",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Verluste aus Gewinnabführung visible"
   },
   {
     "id": "HGB-GUV-30021",
+    "disclosure_item": "Annual profit (Jahresüberschuss) - Line item 17",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Annual profit (Jahres\u00fcberschuss) - Line item 17...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 11. Jahresüberschuss EUR 301,937.27 disclosed"
   },
   {
     "id": "HGB-GUV-30022",
+    "disclosure_item": "Net loss (Jahresfehlbetrag) - Line item 18",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Net loss (Jahresfehlbetrag) - Line item 18...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Jahresüberschuss positive, no Jahresfehlbetrag"
   },
   {
     "id": "HGB-GUV-30023",
+    "disclosure_item": "Profit/loss brought forward (Gewinnvortrag/Verlustvortrag) - Line item 19",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Profit/loss brought forward (Gewinnvortrag/Verlustvortrag) -...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 12. Gewinnvortrag aus dem Vorjahr EUR 16,505,583.97 disclosed"
   },
   {
     "id": "HGB-GUV-30024",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Appropriation to other revenue reserves (Entnahme aus der Ka...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Appropriation to other revenue reserves (Entnahme aus der Kapitalrücklage, Entnahme aus Gewinnrücklagen) - Line item 20",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Entnahme from reserves visible in GuV"
   },
   {
     "id": "HGB-GUV-30025",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Appropriation to other revenue reserves (Einstellung in Gewi...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Appropriation to other revenue reserves (Einstellung in Gewinnrücklagen) - Line item 20 alternative",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No Einstellung in Gewinnrücklagen visible in GuV"
   },
   {
     "id": "HGB-GUV-30026",
+    "disclosure_item": "Undistributed profit (Bilanzgewinn) - Line item 21",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Undistributed profit (Bilanzgewinn) - Line item 21...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 5: 13. Bilanzgewinn EUR 15,967,079.87 disclosed"
   },
   {
     "id": "HGB-GUV-30027",
+    "disclosure_item": "Uncovered loss (Bilanzverlust) - Line item 21 alternative",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Uncovered loss (Bilanzverlust) - Line item 21 alternative...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Bilanzgewinn positive, no Bilanzverlust"
   },
   {
     "id": "HGB-GUV-30030",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Does the entity have a chart of accounts (Kontenplan) that m...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the entity have a chart of accounts (Kontenplan) that maps to the Gesamtkostenverfahren line items per §275 Abs. 2 HGB?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Kontenplan not included in PDF financial statements"
   },
   {
     "id": "HGB-GUV-30031",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are comparative figures for the prior financial year disclos...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are comparative figures for the prior financial year disclosed in the GuV per §275 Abs. 3 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 3-5 Bilanz and GuV show prior year figures (Vorjahr EUR column)"
   },
   {
     "id": "HGB-GUV-30032",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If material changes in business activities require reclassification of prior yea",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are items in the GuV presented in accordance with the prior year's classification if any material changes in business activities require reclassification per §275 Abs. 4 HGB?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No reclassifications disclosed"
   },
   {
     "id": "HGB-GUV-30040",
+    "disclosure_item": "Is the cost of raw materials and supplies (Aufwendungen für Roh-, Hilfs- und Betriebsstoffe) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Material cost breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30041",
+    "disclosure_item": "Are the cost of merchandise purchased (Aufwendungen für bezogene Waren) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Merchandise cost breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30042",
+    "disclosure_item": "Is the cost of services purchased (Aufwendungen für bezogene Leistungen) broken down per §285 Nr. 8 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Services cost breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30050",
+    "disclosure_item": "Are personnel costs broken down by wage and salary costs ( Löhne und Gehälter) per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Wages/salaries breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30051",
+    "disclosure_item": "Are personnel costs broken down by social security and other pension costs (Soziale Abgaben und Aufwendungen für Altersversorgung) per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Social security/pension breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30052",
+    "disclosure_item": "Are the average number of employees during the financial year disclosed per §285 Nr. 9 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Employee count breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30060",
+    "disclosure_item": "Is revenue broken down by business activity (Tätigkeit) per §285 Nr. 14 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Revenue by activity exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 - no revenue breakdown by activity"
   },
   {
     "id": "HGB-GUV-30061",
+    "disclosure_item": "Is revenue broken down by geographic market ( Märkte) per §285 Nr. 14 HGB?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Revenue by geography exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 - no revenue breakdown by geography"
   },
   {
     "id": "HGB-GUV-30070",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Protective clause invocation",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "If revenue breakdown by activity or geography is not disclosed, has the entity invoked the protective clause under §286 Abs. 2 HGB?",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No explicit §286 Abs. 2 protective clause invocation for revenue breakdown"
   },
   {
     "id": "HGB-GUV-30080",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - \u00a7288 Abs. 2 eligibility",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is the entity eligible for exemptions under §288 Abs. 2 HGB for medium-sized GmbH?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 6 Anhang: mittelgroße Kapitalgesellschaft i.S.d. §267 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30081",
+    "disclosure_item": "If eligible under §288 Abs. 2, are certain notes disclosures omitted (e.g., certain breakdowns)?",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - \u00a7288 Abs. 2 exemptions applied",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-GUV-30082",
+    "disclosure_item": "Is the entity required to provide a management report (Lagebericht) despite being medium-sized under §289 HGB?",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Is the entity required to provide a management report (Lageb...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Lagebericht included (page 1-2 of PDF)"
   },
   {
     "id": "HGB-GUV-30090",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Is there a clear presentation of the GuV using the verticall...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Is there a clear presentation of the GuV using the vertically aligned format per §275 Abs. 1 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 5: GuV presented in vertical format with all mandatory line items"
   },
   {
     "id": "HGB-GUV-30091",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are material items in the GuV not netted but shown separatel...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are material items in the GuV not netted but shown separately per §265 Abs. 7 HGB?",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "No material netting visible - items shown separately"
   },
   {
     "id": "HGB-ANH-40001",
+    "disclosure_item": "Have the accounting and valuation methods used been disclosed? (Bilanzierungsmethoden)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Have the accounting and valuation methods used been disclose...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: Bilanzierungs- und Bewertungsmethoden disclosed"
   },
   {
     "id": "HGB-ANH-40002",
+    "disclosure_item": "Have any changes to accounting and valuation methods been disclosed with justification? (Änderung der Bilanzierungsmethoden)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Have any changes to accounting and valuation methods been di...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: Bewertung Warenbestand angepasst - change disclosed"
   },
   {
     "id": "HGB-ANH-40003",
+    "disclosure_item": "Has the impact of any material changes in estimates been disclosed? (Wesentliche Schätzungsänderungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the impact of any material changes in estimates been dis...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No material estimate changes disclosed"
   },
   {
     "id": "HGB-ANH-40101",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has the name and registered office of subsidiaries been disc...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the name and registered office of subsidiaries been disclosed? (Name und Sitz von Tochterunternehmen)",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No subsidiary information disclosed"
   },
   {
     "id": "HGB-ANH-40102",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has the equity ( Eigenkapital) of subsidiaries been disclose...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the equity ( Eigenkapital) of subsidiaries been disclosed? (Eigenkapital der Tochterunternehmen)",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No equity of subsidiaries disclosed"
   },
   {
     "id": "HGB-ANH-40103",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has an exemption from preparing consolidated accounts (Konze...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has an exemption from preparing consolidated accounts (Konzernabschluss) been disclosed with reasons and criteria? (Befreiung von Konzernabschluss)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "No Konzernabschluss prepared - size qualifies for exemption"
   },
   {
     "id": "HGB-ANH-40104",
+    "disclosure_item": "Has a breakdown of revenue by category and geographic market been disclosed? (Umsatzaufteilung nach Segmenten bzw. Märkten)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Revenue segmentation exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40105",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has a disclosure of stock movements / changes in inventories...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has a disclosure of stock movements / changes in inventories been made? (Vorratsbestandsveränderung)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 6 Anhang: Vorräte with groups Bewertung disclosed"
   },
   {
     "id": "HGB-ANH-40106",
+    "disclosure_item": "Have other operating income (sonstige Erträge) been broken down by category? (Sonstige Erträge)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Have other operating income (sonstige Ertr\u00e4ge) been broken d...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: detailed methods disclosed for Bewertung"
   },
   {
     "id": "HGB-ANH-40107",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has research and development (Forschung und Entwicklung) exp...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has research and development (Forschung und Entwicklung) expenditure been disclosed? (Forschungs- und Entwicklungskosten)",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No separate F&E Kosten disclosed"
   },
   {
     "id": "HGB-ANH-40108",
+    "disclosure_item": "Has a breakdown of material costs ( Materialaufwand) been disclosed? (Materialaufwand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Material cost breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40109",
+    "disclosure_item": "Has a breakdown of personnel costs ( Personalaufwand) been disclosed? (Personalaufwand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Personnel cost breakdown exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40110",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have depreciation and amortization methods and periods been ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Have depreciation and amortization methods and periods been disclosed? (Abschreibungsmethoden)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 6 Anhang: Abschreibungen linear, Nutzungsdauer disclosed"
   },
   {
     "id": "HGB-ANH-40111",
+    "disclosure_item": "Has information on related party transactions (Nahestehende Unternehmen und Personen) been disclosed? (Geschäfte mit nahestehenden Unternehmen)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has information on related party transactions (Nahestehende ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 7 Anhang: Forderungen/Verbindlichkeiten against Beteiligungsverhältnis disclosed"
   },
   {
     "id": "HGB-ANH-40112",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have off-balance sheet commitments (au\u00dferbilanzielle Verpfli...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Have off-balance sheet commitments (außerbilanzielle Verpflichtungen) been disclosed? (Haftungsverhältnisse)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Mietverpflichtungen EUR 2,076,950, Leasing EUR 238,635.72 disclosed"
   },
   {
     "id": "HGB-ANH-40113",
+    "disclosure_item": "Have any restatements of prior year figures (Rückwirkung von Bilanzänderungen) been disclosed? (Rückwirkende Änderungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have any restatements of prior year figures (R\u00fcckwirkung von...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No prior year restatements disclosed"
   },
   {
     "id": "HGB-ANH-40114",
+    "disclosure_item": "Have subsequent events (nachträgliche Ereignisse) after the balance sheet date been disclosed? (Nachtragsbericht)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have subsequent events (nachtr\u00e4gliche Ereignisse) after the ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No subsequent events disclosed"
   },
   {
     "id": "HGB-ANH-40115",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the average number of employees (Durchschnittszahl der B...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the average number of employees (Durchschnittszahl der Beschäftigten) been disclosed? (Beschäftigtenzahl)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Durchschnittszahl 63 (49 Angestellte, 14 gewerbliche)"
   },
   {
     "id": "HGB-ANH-40115",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have audit fees (Honorar des Abschlusspr\u00fcfers) for the audit...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Have audit fees (Honorar des Abschlussprüfers) for the auditor been disclosed? (Abschlussprüferhonorar)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Durchschnittszahl 63 (49 Angestellte, 14 gewerbliche)"
   },
   {
     "id": "HGB-ANH-40116",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has management remuneration (Vorstands-/Gesch\u00e4ftsf\u00fchrungsver...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has management remuneration (Vorstands-/Geschäftsführungsvergütung) been disclosed individually or in aggregate? (Gesamtbezüge der Organmitglieder)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Bezüge der Geschäftsführer uses §286 Abs. 4 Schutzrecht"
   },
   {
     "id": "HGB-ANH-40117",
+    "disclosure_item": "Have transactions with controlling entities or their related parties been disclosed? (Geschäfte mit beherrschendem Unternehmen)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Transactions with controlling entity exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40118",
+    "disclosure_item": "Has any share-based payment (aktienbasierte Vergütung) been disclosed? (Aktienbasierte Vergütung)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has any share-based payment (aktienbasierte Verg\u00fctung) been ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No share-based payment disclosed"
   },
   {
     "id": "HGB-ANH-40119",
+    "disclosure_item": "Has any significant uncalled capital (ausstehende Einlagen) been disclosed? (Nicht eingeforderte Einlagen)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has any significant uncalled capital (ausstehende Einlagen) ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No uncalled capital disclosed (all paid)"
   },
   {
     "id": "HGB-ANH-40120",
+    "disclosure_item": "Has parent company information (Mutterunternehmen) been disclosed? (Mutterunternehmen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has parent company information (Mutterunternehmen) been disc...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No parent company disclosed"
   },
   {
     "id": "HGB-ANH-40121",
+    "disclosure_item": "Has a simplified IFRS transition disclosure been made? (Vereinfachter IFRS-Übergangsbericht)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - IFRS transition disclosure exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40122",
+    "disclosure_item": "Has information on consolidated entities (Konsolidierungskreis) been disclosed? (Tochterunternehmen im Konzernabschluss)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has information on consolidated entities (Konsolidierungskre...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No group entities disclosed"
   },
   {
     "id": "HGB-ANH-40123",
+    "disclosure_item": "Has information on branch offices (Zweigniederlassungen) been disclosed? (Zweigniederlassungen)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has information on branch offices (Zweigniederlassungen) bee...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No branch offices disclosed"
   },
   {
     "id": "HGB-ANH-40124",
+    "disclosure_item": "Has information on pension commitments ( Pensionsverpflichtungen) been disclosed? (Pensionsverpflichtungen)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has information on pension commitments ( Pensionsverpflichtu...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6 Anhang: Pensionsverpflichtungen with Heubeck-Richttafeln 2018G, 1.82% disclosed"
   },
   {
     "id": "HGB-ANH-40125",
+    "disclosure_item": "Have audit fees been broken down by activity (Abschlussprüferleistungen)? (Aufschlüsselung des Prüfungshonorars)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have audit fees been broken down by activity (Abschlusspr\u00fcfe...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No breakdown of auditor fees"
   },
   {
     "id": "HGB-ANH-40126",
+    "disclosure_item": "Has a statement on the application of the simplification rule for deferred taxes (§274a HGB) been disclosed? ( Vereinfachungsregelung latente Steuern)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has a statement on the application of the simplification rul...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No simplified deferred tax statement"
   },
   {
     "id": "HGB-ANH-40127",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has a statement on the use of the exemption under \u00a7264 Abs. ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has a statement on the use of the exemption under §264 Abs. 3 HGB (small company relief) been made? (Handelsrechtliche Befreiung)",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "evidence": "No §264 Abs. 3 exemption disclosed"
   },
   {
     "id": "HGB-ANH-40128",
+    "disclosure_item": "Has the disclosure of financial instruments at fair value (Bewertungseinheiten) been made? (Bewertungseinheiten)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the disclosure of financial instruments at fair value (B...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No Bewertungseinheiten disclosed"
   },
   {
     "id": "HGB-ANH-40129",
+    "disclosure_item": "Has information on the disaggregation of revenue (Umsatzzerlegung) been disclosed? (Umsatzzerlegung)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Revenue disaggregation exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40130",
+    "disclosure_item": "Has information on the fair value of financial instruments (Beizulegender Zeitwert) been disclosed? (Fair-Value-Angaben)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has information on the fair value of financial instruments (...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No fair value disclosures for financial instruments"
   },
   {
     "id": "HGB-ANH-40131",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has a statement on the recognition and measurement of lease ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has a statement on the recognition and measurement of lease assets and liabilities been disclosed? (Leasingangaben)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 7 Anhang: Leasingverträge EUR 238,635.72 disclosed"
   },
   {
     "id": "HGB-ANH-40132",
+    "disclosure_item": "Has information on the nature and extent of government grants (Investitionszulagen) been disclosed? (Zuwendungen der öffentlichen Hand)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - Government grants exemption",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-40133",
+    "disclosure_item": "Has a statement on the underlying currency for significant transactions been disclosed? (Währungsangaben)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has a statement on the underlying currency for significant t...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 7 Anhang: Währungsrisiko USD disclosed"
   },
   {
     "id": "HGB-ANH-40201",
+    "disclosure_item": "Has the protective clause (Schutzklausel) under §286 HGB been invoked appropriately? (Befreiung von Einzelangaben)",
     "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: Entity claims \u00a7286 exemption for specific disclosures",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "reason_code": "EXEMPTION_CLAIMED",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-50001",
+    "disclosure_item": "Have other mandatory disclosures under §287 HGB been provided? (Sonstige Pflichtangaben)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Have other mandatory disclosures under \u00a7287 HGB been provide...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 6-7 Anhang: all mandatory §287 requirements met"
   },
   {
     "id": "HGB-ANH-50002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has a statement on the assumption of going concern (Fortf\u00fchr...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has a statement on the assumption of going concern (Fortführung der Unternehmenstätigkeit) been disclosed? (Going-Concern-Annahme)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Going concern assumed - no uncertainties disclosed"
   },
   {
     "id": "HGB-ANH-50003",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the balance sheet date (Bilanzstichtag) been disclosed? ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the balance sheet date (Bilanzstichtag) been disclosed? (Jahresabschlussstichtag)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 1: Bilanzstichtag 31.12.2023 disclosed"
   },
   {
     "id": "HGB-ANH-50004",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the legal form (Rechtsform) of the entity been disclosed...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the legal form (Rechtsform) of the entity been disclosed? (Rechtsform)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Legal form GmbH disclosed in header"
   },
   {
     "id": "HGB-ANH-50005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has the company's registered office (Sitz der Gesellschaft) ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has the company's registered office (Sitz der Gesellschaft) been disclosed? (Sitz der Gesellschaft)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Page 1: Schwäbisch Gmünd disclosed as registered office"
   },
   {
     "id": "HGB-ANH-50006",
+    "disclosure_item": "Has the company's object (Unternehmensgegenstand) been disclosed? (Gegenstand des Unternehmens)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has the company's object (Unternehmensgegenstand) been discl...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 1: HiFi-Produkte described in Lagebericht"
   },
   {
     "id": "HGB-ANH-50007",
+    "disclosure_item": "Has a list of managing directors (Geschäftsführer) with names been disclosed? (Name(n) der Geschäftsführer)",
     "response": "Yes",
     "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Has a list of managing directors (Gesch\u00e4ftsf\u00fchrer) with name...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Page 7: Geschäftsführer Günther Nubert, Markus Pedal, Daniel T. Schütze disclosed"
   },
   {
     "id": "HGB-ANH-50008",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Has membership of the Gesellschafterversammlung been disclos...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Has membership of the Gesellschafterversammlung been disclosed? (Gesellschafter)",
+    "response": "Yes",
+    "reason_code": null,
+    "evidence": "Forderungen gegen Gesellschafter disclosed - shows shareholder relationship"
   },
   {
     "id": "HGB-ANH-50009",
+    "disclosure_item": "Have the members of the supervisory board (Aufsichtsrat) been disclosed? (Mitglieder des Aufsichtsrats)",
     "response": "No",
     "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Have the members of the supervisory board (Aufsichtsrat) bee...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "No Aufsichtsrat - not required for GmbH under 500 employees"
   },
   {
     "id": "HGB-ANH-50101",
+    "disclosure_item": "Has the entity claimed the §288 Abs. 2 exemption from certain §285 disclosures? (Kleinunternehmerprivileg)",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "confidence": "High",
-    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB - \u00a7288 Abs. 2 exemption claim disclosure",
-    "audit_notes": "Medium GmbH qualifies for \u00a7288 Abs. 2 exemptions from certain disclosure requirements",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-50102",
+    "disclosure_item": "If §288 Abs. 2 exemption is claimed, has the entity met the size criteria? (Größenkriterien)",
     "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: Entity claims \u00a7288 Abs. 2 exemption",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "reason_code": "EXEMPTION_CLAIMED",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-ANH-50103",
+    "disclosure_item": "Has the entity disclosed the exercise of the 5-year exemption option for medium companies? (Fünf-Jahres-Befreiung)",
     "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: Entity invokes 5-year exemption under \u00a7288 Abs. 1",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "reason_code": "EXEMPTION_CLAIMED",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB"
   },
   {
     "id": "HGB-LAG-60001",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Does the Lagebericht present the business progress (Gesch\u00e4ft...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht present the business progress (Geschäftsverlauf) including the business result (Geschäftsergebnis) in a manner that gives a true and fair view of the company's position?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Does the Lagebericht present the Lage (position) of the capi...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht present the Lage (position) of the capital company so that a true and fair view (den tatsächlichen Verhältnissen entsprechendes Bild) is conveyed?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60003",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Does the Lagebericht contain a balanced and comprehensive an...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht contain a balanced and comprehensive analysis (ausgewogene und umfassende Analyse) appropriate to the scope and complexity of the business activities?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60004",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Does the Lagebericht include the most significant financial ...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht include the most significant financial performance indicators (finanzielle Leistungsindikatoren) that are material to the business activities?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Are the financial performance indicators explained with refe...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are the financial performance indicators explained with reference to the amounts shown in the annual financial statements?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60006",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Does the Lagebericht assess and explain the expected future ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht assess and explain the expected future development (voraussichtliche Entwicklung) including its material opportunities (Chancen) and risks (Risiken)?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60007",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Are the underlying assumptions (Annahmen) for the expected d...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Are the underlying assumptions (Annahmen) for the expected development disclosed in the Lagebericht?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60008",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Does the Lagebericht disclose the risk management objectives...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose the risk management objectives and methods (Risikomanagementziele und -methoden) of the company?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60009",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If the company uses hedge accounting (Bilanzierung von Sicherungsgesch\u00e4ften)",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose the methods used to hedge all important types of transactions that are recognised in hedge accounting?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60010",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If price change risks are material for assessing the company's position or expec",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose price change risks (Preisänderungsrisiken) to which the company is exposed, in relation to the use of financial instruments?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60011",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If default risks are material for assessing the company's position or expected d",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose default risks (Ausfallrisiken) to which the company is exposed, in relation to the use of financial instruments?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60012",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If liquidity risks are material for assessing the company's position or expected",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose liquidity risks (Liquiditätsrisiken) to which the company is exposed, in relation to the use of financial instruments?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60013",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If cash flow fluctuation risks are material for assessing the company's position",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose risks from payment flow fluctuations (Zahlungsstromschwankungen) to which the company is exposed, in relation to the use of financial instruments?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60014",
-    "response": "Yes",
-    "reason_code": null,
-    "confidence": "High",
-    "evidence": "Item disclosed in financial statements: Does the Lagebericht include disclosure on the research and ...",
-    "audit_notes": "Verified - present in FS structure",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht include disclosure on the research and development area (Bereich Forschung und Entwicklung)?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60015",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "confidence": "High",
-    "evidence": "Mandatory item not found in FS: Does the Lagebericht disclose existing branch offices (beste...",
-    "audit_notes": "Required but not found in extracted text",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht disclose existing branch offices (bestehende Zweigniederlassungen) of the company?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60016",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If the company is a capital market oriented company (\u00a7 264d HGB - Kapitalmarktor",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht describe the essential features of the internal control system (wesentliche Merkmale des internen Kontrollsystems) in relation to the accounting process?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   },
   {
     "id": "HGB-LAG-60017",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "High",
-    "evidence": "Conditional item - trigger condition not applicable: If the company is a capital market oriented company (\u00a7 264d HGB - Kapitalmarktor",
-    "audit_notes": "Not applicable for this entity",
-    "verified_by": "verification-agent-v2",
-    "verification_date": "2026-04-15"
+    "disclosure_item": "Does the Lagebericht describe the essential features of the risk management system (wesentliche Merkmale des Risikomanagementsystems) in relation to the accounting process?",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "evidence": "Item requires detailed review - not clearly determinable from PDF"
   }
 ]

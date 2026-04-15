@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "HGB-BIL-10001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Line item shows EUR 278,004.50 under immaterielle Verm\u00f6gensgegenst\u00e4nde",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10002",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "Intangible assets shown as single line item",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10003",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No goodwill reported",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10004",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Prepayments shown under Sachanlagen",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10005",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "All four categories disclosed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10006",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 260,009",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10007",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 91,533",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10008",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 1,740,319.50",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10009",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 219,069.98",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10010",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "Medium",
+    "evidence": "Financial assets shown; may use \u00a7288 exemption",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10011",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "Only Beteiligungen shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10012",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No loans to affiliates",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10013",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No securities in fixed assets",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10014",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No other loans",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10020",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 18,756,886.55",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10021",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "Inventory not broken down",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10022",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "No WIP breakdown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10023",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "No finished goods breakdown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10024",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "No inventory prepayments",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10025",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Breakdown present",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10026",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "Trade receivables not separate",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10027",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No receivables from affiliates",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10028",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 15,367.05",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10029",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 1,814,848.23",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10030",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 0",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10031",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 194,604.57",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10032",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 61,169.78",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10033",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No deferred tax assets",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-10034",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No asset offsetting",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "All components shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20002",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 512,000",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20003",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "Medium",
+    "evidence": "Capital reserve not separately shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20004",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 450,000",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20005",
+    "response": "No",
+    "reason_code": "PARTIAL_DISCLOSURE",
+    "confidence": "Medium",
+    "evidence": "Legal reserve not shown separately",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20006",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No controlling shares",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20007",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No statutory reserve",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20008",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Included in EUR 450,000",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20009",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 15,967,079.87",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20010",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 301,937.27",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20011",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Three categories disclosed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20012",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "TEUR 1,287",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20013",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Heubeck-Richttafeln 2018G, 1.82%",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20014",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "TEUR 44",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20015",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "TEUR 625",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20016",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "At settlement amount",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20020",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Multiple categories",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20021",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No bonds",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20022",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 7,253,591.71",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20023",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "TEUR 30",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20024",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 1,257,000",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20025",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No drafts",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20026",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No payables to affiliates",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20027",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 278,930.99",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20028",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 811,000",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20029",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 3,340",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20030",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No deferred tax liabilities",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20031",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Maturity breakdown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20032",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Security assignment",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20033",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20034",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20035",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "TEUR 7,254",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-BIL-20036",
+    "response": "Yes",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Medium GmbH",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Gesamtkostenverfahren",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30002",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "Rohergebnis present",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30003",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "In Rohergebnis",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30004",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "Not shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30005",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "Not calculable",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30006",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "Not separated",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30007",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 4,186,545.21",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30008",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 510,704.32",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30009",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 4,432,041.45",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30010",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "Not shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30011",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 8,007",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30012",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "Not disclosed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30013",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 179,710.83",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30014",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No such line",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30015",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 457,906.42",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30016",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 46,156.90",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30017",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 36,824.96",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30018",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 8,007",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30019",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No pooling",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30020",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No pooling",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30021",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 301,937.27",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30022",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "Profit not loss",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30023",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 16,505,583.97",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30024",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30025",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30026",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 15,967,079.87",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30027",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "Profit",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30030",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30031",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Prior year shown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30032",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No reclassifications",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30040",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30041",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30042",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30050",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 3,562,103.98",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30051",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 624,441.23",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30052",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "63 employees",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30060",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30061",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30070",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "No explicit \u00a7286",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30080",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Medium GmbH",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30081",
+    "response": "Yes",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "\u00a7288 applied",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30082",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Lagebericht present",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30090",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Vertical format",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-GUV-30091",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No netting",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Section II",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40002",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Warenbestand changed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40003",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No estimate changes",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40101",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40102",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40103",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40104",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40105",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40106",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40107",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "R&D not disclosed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40108",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40109",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40110",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Linear depreciation",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40111",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Shareholder loan",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40112",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 2,076,950 + 238,636",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40113",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No restatements",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40114",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "No events",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40115",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "63 employees",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40115",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "63 employees",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40116",
+    "response": "Yes",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "\u00a7286 Abs. 4",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40117",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No controlling",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40118",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No equity comp",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40119",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No uncalled capital",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40120",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No parent",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40121",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No IFRS",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40122",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No consolidation",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40123",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Two stores",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40124",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Pension disclosed",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40125",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No fee breakdown",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40126",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40127",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No small company",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40128",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No hedges",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40129",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No revenue split",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40130",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No fair value",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40131",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "EUR 238,636",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40132",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No grants",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40133",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No currency",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-40201",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Basic disclosures",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50002",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Going concern",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50003",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "31.12.2023",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50004",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "GmbH",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50005",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Schw\u00e4bisch Gm\u00fcnd",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50006",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "HiFi audio",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50007",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Three managers",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50008",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "Owner loan visible but full structure not",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50009",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "No Aufsichtsrat required",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50101",
+    "response": "Yes",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "\u00a7288 Abs. 2",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50102",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Medium company",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-ANH-50103",
+    "response": "No",
+    "reason_code": "MISSING_EVIDENCE",
+    "confidence": "High",
+    "evidence": "No 5-year exemption",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60001",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60002",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60003",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60004",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60005",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60006",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60007",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60008",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60009",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60010",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60011",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60012",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60013",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60014",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60015",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60016",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  },
+  {
+    "id": "HGB-LAG-60017",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "",
+    "audit_notes": "",
+    "verified_by": "verification-agent",
+    "verification_date": "2026-04-15"
+  }
+]

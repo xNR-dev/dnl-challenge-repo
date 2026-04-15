@@ -171,3 +171,45 @@ Aim for 80-100 checklist items across all four sections.
 ## LANGUAGE ASSUMPTION
 
 > This checklist is designed for English-speaking audit teams working with German HGB source material. The `hgb_reference` field provides the German statutory citation for cross-verification. Output is in English; source text is German.
+
+---
+
+## TERMINOLOGY MAPPING (German → English)
+
+| German | English | Context |
+|--------|---------|---------|
+| Bilanz | Balance Sheet | Primary financial statement |
+| Gewinn- und Verlustrechnung (GuV) | Profit & Loss Account (P&L) | Income statement |
+| Anhang | Notes / Annex | Disclosure notes |
+| Lagebericht | Management Report | Forward-looking report |
+| Jahresabschluss | Annual Financial Statements | Full set of FS |
+| Mittelgroße Kapitalgesellschaft | Medium-sized Corporation | §267(2) HGB size class |
+| GmbH | Private Limited Company | German corporate form |
+| Gezeichnetes Kapital | Share Capital | Capital subscribed |
+| Kapitalrücklage | Capital Reserve | Share premium |
+| Gewinnrücklagen | Retained Earnings | Revenue reserves |
+| Rückstellungen | Provisions | Liabilities of uncertain timing/amount |
+| Verbindlichkeiten | Liabilities / Payables | Debts owing |
+| Forderungen | Receivables | Amounts owed to entity |
+| Umlaufvermögen | Current Assets | Circulating assets |
+| Anlagevermögen | Fixed Assets | Long-term assets |
+| Umsatzerlöse | Revenue / Sales | Sales proceeds |
+| Materialaufwand | Material Costs / Cost of Materials |
+| Personalaufwand | Personnel Costs / Staff Costs |
+| Abschreibungen | Depreciation / Amortisation |
+| latente Steuern | Deferred Taxes |
+| Haftungsverhältnisse | Contingent Liabilities |
+| Anlagenspiegel | Fixed Assets Schedule / Movement Schedule |
+| Geschäfts- oder Firmen goodwill | Goodwill |
+| Kleinstkapitalgesellschaft | Micro-entity | §267a HGB |
+| Klein | Small | §267(1) HGB |
+| Groß | Large | §267(3) HGB |
+| Gesamtkostenverfahren | Total Cost Method | Cost-type P&L format |
+| Umsatzkostenverfahren | Sales Cost Method | Function-type P&L format |
+| Kontoform | Account Form | Two-column balance sheet format |
+| Staffelform | Step Form | Single-column P&L format |
+| Darstellungsstetigkeit | Consistency of Presentation | §265(1) HGB |
+| Vollständigkeitsvermerk | Audit Opinion / Auditor's Report |
+| Bestätigungsvermerk | Unqualified Opinion |
+| Prüfungsbericht | Audit Report |
+

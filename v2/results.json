@@ -3,1384 +3,1557 @@
     "id": "HGB-BIL-10001",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "800,00",
-    "german_term": "Anlageverm\u00f6gen"
+    "confidence": "High",
+    "evidence": "Found 27 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 16 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10003",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Gesch\u00e4fts"
+    "confidence": "High",
+    "evidence": "Found 16 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10004",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 25 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10005",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "2.000,00",
-    "german_term": "Anlagen"
+    "confidence": "High",
+    "evidence": "Found 15 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10006",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 17 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10007",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "2.000,00",
-    "german_term": "Anlagen"
+    "confidence": "High",
+    "evidence": "Found 21 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10008",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "2.000,00",
-    "german_term": "Anlagen"
+    "confidence": "High",
+    "evidence": "Found 20 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10009",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "2.000,00",
-    "german_term": "Anlagen"
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10010",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "86.904,00",
-    "german_term": "Finanzanlagen"
+    "confidence": "High",
+    "evidence": "Found 14 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10011",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "15.367,05",
-    "german_term": "Unternehmen"
+    "confidence": "High",
+    "evidence": "Found 14 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10012",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 16 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10013",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "800,00",
-    "german_term": "Anlageverm\u00f6gens"
+    "confidence": "High",
+    "evidence": "Found 20 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10014",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 14 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10020",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "31.442.119,72",
-    "german_term": "Vorr\u00e4te"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10021",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 15 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10022",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Leistungen"
+    "confidence": "High",
+    "evidence": "Found 15 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10023",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Waren"
+    "confidence": "High",
+    "evidence": "Found 15 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10024",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "31.442.119,72",
-    "german_term": "Vorr\u00e4te"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10025",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "19.780.374,21",
-    "german_term": "Verm\u00f6gensgegenst\u00e4nde"
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10026",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Leistungen"
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10027",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "19.780.374,21",
-    "german_term": "Forderungen"
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10028",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "19.780.374,21",
-    "german_term": "Forderungen"
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10029",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "19.780.374,21",
-    "german_term": "Verm\u00f6gensgegenst\u00e4nde"
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10030",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 14 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10031",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "1,82",
-    "german_term": "Guthaben"
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10032",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "1,82",
-    "german_term": "Rechnungsabgrenzungsposten"
+    "confidence": "High",
+    "evidence": "Found 25 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10033",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "157.730,68",
-    "german_term": "Steuern"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-10034",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "1,82",
-    "german_term": "Unterschiedsbetrag"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20001",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 34 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20002",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Gezeichnetes"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20003",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20004",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinnr\u00fccklagen"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20005",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20006",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "15.367,05",
-    "german_term": "Unternehmen"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20007",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20008",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinnr\u00fccklagen"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20009",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinn"
+    "confidence": "High",
+    "evidence": "Found 32 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20010",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 34 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20011",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.505.583,97",
-    "german_term": "R\u00fcckstellung"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20012",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.505.583,97",
-    "german_term": "R\u00fcckstellung"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20013",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "15.967.079,87",
-    "german_term": "Anhang"
+    "confidence": "High",
+    "evidence": "Found 5 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20014",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.505.583,97",
-    "german_term": "R\u00fcckstellung"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20015",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.505.583,97",
-    "german_term": "R\u00fcckstellung"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20016",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.505.583,97",
-    "german_term": "R\u00fcckstellung"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20020",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "2.000.869,00",
-    "german_term": "Verbindlichkeiten"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20021",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20022",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.312.240,01",
-    "german_term": "Kreditinstituten"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20023",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20024",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Leistungen"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20025",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20026",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "15.367,05",
-    "german_term": "Unternehmen"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20027",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "15.367,05",
-    "german_term": "Unternehmen"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20028",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "2.000.869,00",
-    "german_term": "Verbindlichkeiten"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20029",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "1,82",
-    "german_term": "Rechnungsabgrenzungsposten"
+    "confidence": "High",
+    "evidence": "Found 21 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20030",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "2.000.869,00",
-    "german_term": "Verbindlichkeiten"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20031",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "15.967.079,87",
-    "german_term": "Anhang"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20032",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "15.967.079,87",
-    "german_term": "Anhang"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20033",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 2 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20034",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "15.967.079,87",
-    "german_term": "Anhang"
+    "confidence": "High",
+    "evidence": "Found 25 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20035",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-BIL-20036",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "15.967.079,87",
-    "german_term": "Anhang"
+    "confidence": "High",
+    "evidence": "Found 18 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30001",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinn"
+    "confidence": "High",
+    "evidence": "Found 46 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30003",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "31.442.119,72",
-    "german_term": "Vorr\u00e4te"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30004",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30006",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30007",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "9.735.426,62",
-    "german_term": "Personalaufwand"
+    "confidence": "High",
+    "evidence": "Found 25 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30008",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "12.627,69",
-    "german_term": "Abschreibungen"
+    "confidence": "High",
+    "evidence": "Found 28 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30009",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "2.076.950,00",
-    "german_term": "Sonstige"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30010",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinn"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30011",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "86.904,00",
-    "german_term": "Beteiligungen"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30012",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "4.969,00",
-    "german_term": "Ertr\u00e4ge"
+    "confidence": "High",
+    "evidence": "Found 29 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30013",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "179.710,83",
-    "german_term": "Zinsen"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30014",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "12.627,69",
-    "german_term": "Abschreibungen"
+    "confidence": "High",
+    "evidence": "Found 32 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30015",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "179.710,83",
-    "german_term": "Zinsen"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30016",
     "response": "Yes",
     "reason_code": null,
-    "page": 4,
-    "amount": "157.730,68",
-    "german_term": "Ertrag"
+    "confidence": "High",
+    "evidence": "Found 25 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30017",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "2.076.950,00",
-    "german_term": "Sonstige"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30018",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30019",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinn"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30020",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30021",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Jahres\u00fcberschuss"
+    "confidence": "High",
+    "evidence": "Found 26 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30022",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30023",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30024",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinnr\u00fccklagen"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30025",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "512.000,00",
-    "german_term": "Gewinnr\u00fccklagen"
+    "confidence": "High",
+    "evidence": "Found 24 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30026",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Bilanzgewinn"
+    "confidence": "High",
+    "evidence": "Found 38 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30027",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "15.967.079,87",
-    "german_term": "Verlust"
+    "confidence": "High",
+    "evidence": "Found 38 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30030",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 4 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30031",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30032",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30040",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30041",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30042",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30050",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 6 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30051",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 6 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30052",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30060",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 10 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30061",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 6 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30070",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 4 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30080",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "Medium",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30081",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 3 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30082",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30090",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-GUV-30091",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 23 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40001",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40003",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40101",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40102",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 2 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40103",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40104",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 1 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40105",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 2 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40106",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 6,
-    "amount": "2.076.950,00",
-    "german_term": "Sonstige"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40107",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40108",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "confidence": "Medium",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40109",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 2 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40110",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 5 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40111",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 5,
-    "amount": "15.367,05",
-    "german_term": "Unternehmen"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40112",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "2.076.950,00",
-    "german_term": "Verpflichtungen"
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40113",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40114",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40115",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Protected under §286 Abs. 4 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40115",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Protected under §286 Abs. 4 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40116",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Protected under §286 Abs. 4 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40117",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "confidence": "Medium",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40118",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40119",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40120",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40121",
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "confidence": "Medium",
+    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40122",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "Not applicable - entity does not have subsidiaries/parent/group",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40123",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40124",
     "response": "Yes",
     "reason_code": null,
-    "page": 5,
-    "amount": "1,82",
-    "german_term": "Pensionsverpflichtungen"
+    "confidence": "High",
+    "evidence": "Found 1 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40125",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40126",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 4,
-    "amount": "157.730,68",
-    "german_term": "Steuern"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40127",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40128",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40129",
-    "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 1 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40130",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Angaben"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40131",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 13 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40132",
     "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40133",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40201",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50001",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 6,
-    "amount": "2.076.950,00",
-    "german_term": "Sonstige"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50002",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 4 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50003",
     "response": "Yes",
     "reason_code": null,
-    "page": 6,
-    "amount": "278.930,99",
-    "german_term": "Bilanzstichtag"
+    "confidence": "High",
+    "evidence": "Found 17 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50004",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50005",
-    "response": "Yes",
-    "reason_code": null,
-    "page": 3,
-    "amount": "7.490.043,97",
-    "german_term": "Gesellschaft"
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50006",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50007",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 2 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50008",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "7.490.043,97",
-    "german_term": "Gesellschafter"
+    "confidence": "High",
+    "evidence": "Found 4 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50009",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50101",
     "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50102",
     "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-50103",
     "response": "N/A",
-    "reason_code": "EXEMPTION_CLAIMED",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60001",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 20 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60002",
     "response": "Yes",
     "reason_code": null,
-    "page": 3,
-    "amount": "16.929.079,87",
-    "german_term": "Kapital"
+    "confidence": "High",
+    "evidence": "Found 21 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60003",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60004",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60005",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60006",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 37 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60007",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 21 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60008",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60009",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 22 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60010",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60011",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60012",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60013",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60014",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60015",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60016",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-LAG-60017",
-    "response": "No",
-    "reason_code": "MISSING_EVIDENCE",
-    "page": null,
-    "amount": null,
-    "german_term": null
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found 19 matches in PDF",
+    "verified_by": "verification-agent-v5",
+    "verification_date": "2026-04-15"
   }
 ]

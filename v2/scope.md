@@ -16,10 +16,10 @@ flagged as NOT_APPLICABLE.
 ### Parallel Agent Execution (Recommended)
 To mitigate token cost and processing time, run section drafter agents in parallel:
 
-- **Bilanz Agent** — generates BIL-1xx items
-- **GuV Agent** — generates GUV-1xx items
-- **Anhang Agent** — generates ANH-3xx, 5xx items
-- **Lagebericht Agent** — generates LAG-6xx items
+- **Bilanz Agent** — generates BIL-10000 items
+- **GuV Agent** — generates GUV-30000 items
+- **Anhang Agent** — generates ANH-40000, 50000 items
+- **Lagebericht Agent** — generates LAG-60000 items
 
 Each agent fetches the relevant HGB sections independently, reducing the input token load per agent.
 A merge step combines outputs and performs schema validation.
@@ -155,23 +155,23 @@ For each checklist item, output:
 |-----------|--------|---------|
 | Framework | 2-4 chars | `HGB`, `IFRS`, `UKG` |
 | Section | 3-letter | `BIL`, `GUV`, `ANH`, `LAG` |
-| Sequence | 3-digit, padded | `001`, `042`, `100` |
+| Sequence | 5-digit, padded | `10000`, `10420`, `20000` |
 
 **Examples:**
-- `HGB-BIL-001` — German GAAP, Bilanz (Balance Sheet) section
-- `HGB-ANH-042` — German GAAP, Anhang (Notes) section
-- `HGB-ANH-300` — German GAAP, Anhang (Notes) section, upper block
+- `HGB-BIL-10000` — German GAAP, Bilanz (Balance Sheet) section
+- `HGB-ANH-40420` — German GAAP, Anhang (Notes) section
+- `HGB-ANH-50000` — German GAAP, Anhang (Notes) section, upper block
 
-**1000-series accounting taxonomy:**
+**10000-series accounting taxonomy:**
 
 | Section | Block | Rationale |
 |---------|-------|-----------|
-| BIL (Assets) | 100-199 | Anlagevermögen (Fixed Assets), Umlaufvermögen (Current Assets) |
-| BIL (Equity & Liab) | 200-299 | Eigenkapital (Equity), Rückstellungen (Provisions), Verbindlichkeiten (Liabilities) |
-| GUV | 100-199 | P&L line items |
-| ANH (§284-286) | 300-499 | Notes disclosures — §285 has 33+ numbered items, dense |
-| ANH (§287-288) | 500-599 | Additional notes, exemptions |
-| LAG | 600-699 | Management Report sections |
+| BIL (Assets) | 10000-19999 | Anlagevermögen (Fixed Assets), Umlaufvermögen (Current Assets) |
+| BIL (Equity & Liab) | 20000-29999 | Eigenkapital (Equity), Rückstellungen (Provisions), Verbindlichkeiten (Liabilities) |
+| GUV | 30000-39999 | P&L line items |
+| ANH (§284-286) | 40000-49999 | Notes disclosures — §285 has 33+ numbered items, dense |
+| ANH (§287-288) | 50000-59999 | Additional notes, exemptions |
+| LAG | 60000-69999 | Management Report sections |
 
 Where a block is exhausted, reserve the next 100-block for that sub-section.
 

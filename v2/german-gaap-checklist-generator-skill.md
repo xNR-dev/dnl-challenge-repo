@@ -44,9 +44,15 @@ This skill is pre-configured for the most common German audit scenario and produ
 
 ---
 
-## Section Agents
+## Section Agents (Parallel Execution)
 
-Run these agents in parallel:
+### Coordination Layer
+When running agents in parallel, use a merge step:
+
+1. **Output format:** Each agent outputs a JSON array of checklist items
+2. **Merge:** Combine all arrays, check for duplicate IDs
+3. **Deduplicate:** If same ID appears, keep first or merge fields
+4. **Validate:** Run schema validation on combined output
 
 ### Bilanz Agent
 - Generates: BIL-10000 to BIL-29999
@@ -55,6 +61,7 @@ Run these agents in parallel:
 ### GuV Agent
 - Generates: GUV-30000 to GUV-39999
 - Coverage: §275 HGB (P&L formats and line items)
+- **Note:** If `pl_format = Umsatzkostenverfahren`, generate §275 Abs. 2 items instead of Abs. 1
 
 ### Anhang Agent
 - Generates: ANH-40000 to ANH-59999
@@ -66,31 +73,83 @@ Run these agents in parallel:
 
 ---
 
-## Version Stamping
+## Version Stamping (INSTRUCTIONAL)
 
-Each checklist item must be traceable to a specific version of the HGB as of the target FY date.
+The version_info field must be **derived**, not hallucinated.
 
-- **Primary source:** Buzer.de (version-stamped text)
-- **Secondary source:** Gesetze im Internet (official consolidated)
-- **Version metadata:** Store as `version_info` field (e.g., "HGB (as of 31 Dec 2023)")
+### How to Derive Version Info:
+
+1. **Fetch from Buzer.de:**
+   ```
+   https://www.buzer.de/[PARAGRAPH]_HGB.htm
+   ```
+   Look for the version date at the top of the page.
+
+2. **Fetch from Gesetze im Internet:**
+   ```
+   https://www.gesetze-im-internet.de/hgb/__[PARAGRAPH].html
+   ```
+   Note the "Stand" (as of date) at the top.
+
+3. **Format the version_info:**
+   ```
+   HGB (as of DD Mon YYYY)
+   ```
+   Examples:
+   - "HGB (as of 31 Dec 2023)"
+   - "§266 Abs. 2 (as of 1 Jan 2024)"
+   - "BilRUG (23.07.2015)" - for specific amendment laws
+
+4. **For each item:** Copy the specific provision's version date as version_info
+
+### Example:
+```json
+{
+  "hgb_reference": "§266 Abs. 2 HGB",
+  "version_info": "HGB (as of 31 Dec 2023)",
+  "source_url": "https://www.gesetze-im-internet.de/hgb/__266.html"
+}
+```
 
 ---
 
-## §288 Abs. 2 Exemptions
+## §288 Abs. 2 Exemptions (VERIFIED)
 
-For medium GmbH, these items are exempt from disclosure:
+**For medium GmbH (§267 Abs. 2), these §285 items are EXEMPT:**
 
-| §285 Ref | Disclosure |
-|----------|-------------|
-| Nr. 4 | Revenue breakdown by activity/geography |
-| Nr. 8 | Material cost breakdown |
-| Nr. 9 | Personnel cost breakdown |
-| Nr. 17 | Related party (controlling entity) |
-| Nr. 21 | IFRS transition disclosure |
-| Nr. 29 | Auditor fees |
-| Nr. 32 | Related party disclosures |
+| §285 Ref | Disclosure | Notes |
+|----------|-------------|-------|
+| Nr. 4 | Revenue breakdown by activity/geography | Fully exempt |
+| Nr. 29 | Auditor fees | Fully exempt |
+| Nr. 32 | Related party disclosures | Fully exempt |
+| Nr. 17 | Related party (controlling) | Must supply to WPK if not disclosed |
+| Nr. 21 | IFRS transition | Only if related party transactions exist |
 
-**Action:** Mark these as `obligation: "C"` with `trigger_condition: "Exempt for medium GmbH per §288 Abs. 2"`
+**Note:** Nr. 8 and Nr. 9 are **NOT exempt** for medium GmbH (only small GmbH under §288 Abs. 1).
+
+**Action for exempt items:**
+```json
+{
+  "obligation": "C",
+  "trigger_condition": "Exempt for medium GmbH per §288 Abs. 2 HGB"
+}
+```
+
+---
+
+## pl_format Gating
+
+The `pl_format` parameter **MUST** gate which §275 items are included:
+
+### If Gesamtkostenverfahren (§275 Abs. 1):
+- Generate items for total cost method (items 1-21)
+- Include: Materialaufwand, Personalaufwand, etc.
+
+### If Umsatzkostenverfahren (§275 Abs. 2):
+- Generate items for cost of sales method (items 1-21)
+- Include: Herstellungskosten, Vertriebskosten, etc.
+
+**The GuV agent MUST check this parameter and select the appropriate HGB reference.**
 
 ---
 
@@ -105,7 +164,7 @@ For medium GmbH, these items are exempt from disclosure:
 | `sub_section` | string | Yes | Logical grouping |
 | `disclosure_item` | string | Yes | Audit question in English |
 | `hgb_reference` | string | Yes | German statutory reference |
-| `version_info` | string | Yes | Amendment metadata |
+| `version_info` | string | Yes | Derived version metadata |
 | `source_url` | string | Yes | Gesetze im Internet URL |
 | `obligation` | string | Yes | M (Mandatory) or C (Conditional) |
 | `trigger_condition` | string | No | Condition for C items |
@@ -146,7 +205,7 @@ For medium GmbH, these items are exempt from disclosure:
 ### Grounding
 - Every item has valid HGB reference
 - Source URL resolves to Gesetze im Internet
-- Version metadata matches target FY
+- Version metadata is **derived** (fetched, not hallucinated)
 
 ### Completeness
 - All mandatory disclosures for medium GmbH included
@@ -171,8 +230,15 @@ For medium GmbH, these items are exempt from disclosure:
 }
 ```
 
+### Process:
+1. Fetch HGB text from Buzer.de/Gesetze im Internet for target FY
+2. Spawn 4 section agents in parallel
+3. Each agent generates items with derived version_info
+4. Merge outputs, deduplicate, validate schema
+5. Output checklist.json with metadata
+
 ### Output:
-- `checklist.json` — 173 items (typical for medium GmbH)
+- `checklist.json` — ~173 items (typical for medium GmbH)
 - Metadata includes entity context and version info
 
 ---
@@ -188,5 +254,5 @@ To extend: Fork for AG, large GmbH, or group scenarios.
 
 ---
 
-*Skill Version: 1.0*
+*Skill Version: 1.1*
 *Last Updated: 2026-04-16*

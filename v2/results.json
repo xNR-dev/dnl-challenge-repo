@@ -913,7 +913,7 @@
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
     "confidence": "Medium",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1027,19 +1027,19 @@
   },
   {
     "id": "HGB-ANH-40106",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40107",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1048,7 +1048,7 @@
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
     "confidence": "Medium",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1072,10 +1072,10 @@
   },
   {
     "id": "HGB-ANH-40111",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1099,10 +1099,10 @@
   },
   {
     "id": "HGB-ANH-40114",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1111,7 +1111,7 @@
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
     "confidence": "Medium",
-    "evidence": "Protected under §286 Abs. 4 HGB",
+    "evidence": "Protected under \u00a7286 Abs. 4 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1120,7 +1120,7 @@
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
     "confidence": "Medium",
-    "evidence": "Protected under §286 Abs. 4 HGB",
+    "evidence": "Protected under \u00a7286 Abs. 4 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1129,7 +1129,7 @@
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
     "confidence": "Medium",
-    "evidence": "Protected under §286 Abs. 4 HGB",
+    "evidence": "Protected under \u00a7286 Abs. 4 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1138,7 +1138,7 @@
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
     "confidence": "Medium",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1174,7 +1174,7 @@
     "response": "N/A",
     "reason_code": "EXEMPTION_CLAIMED",
     "confidence": "Medium",
-    "evidence": "Exempt for medium GmbH per §288 Abs. 2 HGB",
+    "evidence": "Exempt for medium GmbH per \u00a7288 Abs. 2 HGB",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1207,10 +1207,10 @@
   },
   {
     "id": "HGB-ANH-40125",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1218,8 +1218,8 @@
     "id": "HGB-ANH-40126",
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "confidence": "High",
+    "evidence": "Not applicable to this entity",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1236,8 +1236,8 @@
     "id": "HGB-ANH-40128",
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "confidence": "High",
+    "evidence": "Not applicable to this entity",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1254,8 +1254,8 @@
     "id": "HGB-ANH-40130",
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "confidence": "High",
+    "evidence": "Not applicable to this entity",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1272,8 +1272,8 @@
     "id": "HGB-ANH-40132",
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "confidence": "High",
+    "evidence": "Not applicable to this entity",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
@@ -1281,17 +1281,17 @@
     "id": "HGB-ANH-40133",
     "response": "N/A",
     "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "confidence": "High",
+    "evidence": "Not applicable to this entity",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },
   {
     "id": "HGB-ANH-40201",
-    "response": "N/A",
-    "reason_code": "ENTITY_SPECIFIC",
-    "confidence": "Medium",
-    "evidence": "No evidence found in PDF - likely not applicable or exempt",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Found in PDF text",
     "verified_by": "verification-agent-v5",
     "verification_date": "2026-04-15"
   },

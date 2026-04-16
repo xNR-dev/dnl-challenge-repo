@@ -47,11 +47,11 @@ This skill is pre-configured for the most common German audit scenario and produ
 ## Section Agents (Parallel Execution)
 
 ### Coordination Layer
-When running agents in parallel, use a merge step:
+When running agents in parallel:
 
 1. **Output format:** Each agent outputs a JSON array of checklist items
 2. **Merge:** Combine all arrays, check for duplicate IDs
-3. **Deduplicate:** If same ID appears, keep first or merge fields
+3. **Deduplicate:** If same ID appears, keep the first occurrence
 4. **Validate:** Run schema validation on combined output
 
 ### Bilanz Agent
@@ -119,13 +119,12 @@ The version_info field must be **derived**, not hallucinated.
 
 | §285 Ref | Disclosure | Notes |
 |----------|-------------|-------|
-| Nr. 4 | Revenue breakdown by activity/geography | Fully exempt |
-| Nr. 29 | Auditor fees | Fully exempt |
-| Nr. 32 | Related party disclosures | Fully exempt |
-| Nr. 17 | Related party (controlling) | Must supply to WPK if not disclosed |
-| Nr. 21 | IFRS transition | Only if related party transactions exist |
-
-**Note:** Nr. 8 and Nr. 9 are **NOT exempt** for medium GmbH (only small GmbH under §288 Abs. 1).
+| Nr. 4 | Revenue breakdown by activity/geography | |
+| Nr. 17 | Related party (controlling) | |
+| Nr. 21 | IFRS transition | |
+| Nr. 29 | Auditor fees | |
+| Nr. 32 | Related party disclosures | |
+| Nr. 33 | Key management compensation | |
 
 **Action for exempt items:**
 ```json
@@ -234,11 +233,11 @@ The `pl_format` parameter **MUST** gate which §275 items are included:
 1. Fetch HGB text from Buzer.de/Gesetze im Internet for target FY
 2. Spawn 4 section agents in parallel
 3. Each agent generates items with derived version_info
-4. Merge outputs, deduplicate, validate schema
+4. Merge outputs (keep first on duplicates), validate schema
 5. Output checklist.json with metadata
 
 ### Output:
-- `checklist.json` — ~173 items (typical for medium GmbH)
+- `checklist.json` — item count varies by entity profile and pl_format
 - Metadata includes entity context and version info
 
 ---
@@ -254,5 +253,5 @@ To extend: Fork for AG, large GmbH, or group scenarios.
 
 ---
 
-*Skill Version: 1.1*
+*Skill Version: 1.2*
 *Last Updated: 2026-04-16*

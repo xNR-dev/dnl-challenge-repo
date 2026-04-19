@@ -1,0 +1,4 @@
+interface:
+  display_name: "German GAAP Checklist Generator"
+  short_description: "Generate HGB checklist artifacts"
+  default_prompt: "Use $german-gaap-checklist-generator to generate a historically grounded HGB disclosure checklist for a medium-sized GmbH."

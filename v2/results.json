@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "HGB-BIL-10001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched filing text 'Bilanz' in the expected Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10002",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10003",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10004",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10005",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'geleistete Anzahlungen' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10006",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'Grundstücke, grundstücksgleiche Rechte und Bauten einschließlich der Bauten auf fremden Grundstücken' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10007",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'technische Anlagen und Maschinen' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10008",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'andere Anlagen, Betriebs- und Geschäftsausstattung' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10009",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'geleistete Anzahlungen und Anlagen im Bau' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10010",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10011",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10012",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Beteiligungen' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10013",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'mit denen ein Beteiligungsverhältnis besteht' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10014",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10015",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10016",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10017",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched ordered cross-evidence stems 'unfertig erzeugniss' derived from 'unfertige Erzeugnisse, unfertige Leistungen'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10018",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched ordered cross-evidence stems 'fertig erzeugniss' derived from 'fertige Erzeugnisse und Waren'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10019",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched German anchor term 'geleistete Anzahlungen' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10020",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Lagebericht: matched ordered cross-evidence stems 'forder liefer' derived from 'Forderungen aus Lieferungen und Leistungen'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10021",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10022",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10023",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'sonstige Vermögensgegenstände' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10024",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10025",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10026",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Kassenbestand, Bundesbankguthaben, Guthaben bei Kreditinstituten und Schecks' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10027",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Rechnungsabgrenzungsposten' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10028",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10029",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10030",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Gezeichnetes Kapital' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10031",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10032",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10033",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10034",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10035",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10036",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched filing text 'Gewinnvortrag' in the expected Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10037",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched filing text 'Jahresüberschuss' in the expected Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10038",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched ordered cross-evidence stems 'ruckstell pension' derived from 'Rückstellungen für Pensionen und ähnliche Verpflichtungen'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10039",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched German anchor term 'Steuerrückstellungen' outside the primary statement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10040",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched German anchor term 'sonstige Rückstellungen' outside the primary statement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10041",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10042",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Verbindlichkeiten gegenüber Kreditinstituten' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10043",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched ordered cross-evidence stems 'erhalten anzahl' derived from 'erhaltene Anzahlungen auf Bestellungen'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10044",
+    "response": "N/A",
+    "reason_code": "PUBLICATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The underlying fact is evidenced elsewhere in the filing, but this specific Bilanz sub-line is not among the additional separate disclosures required for a medium-sized company in the published balance sheet under §327 Nr. 1 HGB. Anhang: matched German anchor term 'Verbindlichkeiten aus Lieferungen und Leistungen' outside the primary statement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10045",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10046",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The filing shows liabilities to shareholders and liabilities to undertakings with which a participation relationship exists, but it does not provide affirmative evidence of liabilities to affiliated companies (`verbundene Unternehmen`).",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10047",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'mit denen ein Beteiligungsverhältnis besteht' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10048",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'sonstige verbindlichkeiten,' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10049",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 4: matched German anchor term 'Rechnungsabgrenzungsposten' in the Bilanz section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-BIL-10050",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary Bilanz statement, and the configured cross-evidence sources (Bilanz, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched filing text 'Gewinn- und Verlustrechnung' in the expected GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20002",
+    "response": "N/A",
+    "reason_code": "AGGREGATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The published GuV uses the aggregated line item 'Rohergebnis'. For a medium-sized capital company using the Gesamtkostenverfahren, §276 HGB permits aggregation of §275 Abs. 2 Nr. 1 bis 5 HGB into 'Rohergebnis'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20003",
+    "response": "N/A",
+    "reason_code": "AGGREGATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The published GuV uses the aggregated line item 'Rohergebnis'. For a medium-sized capital company using the Gesamtkostenverfahren, §276 HGB permits aggregation of §275 Abs. 2 Nr. 1 bis 5 HGB into 'Rohergebnis'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20004",
+    "response": "N/A",
+    "reason_code": "AGGREGATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The published GuV uses the aggregated line item 'Rohergebnis'. For a medium-sized capital company using the Gesamtkostenverfahren, §276 HGB permits aggregation of §275 Abs. 2 Nr. 1 bis 5 HGB into 'Rohergebnis'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20005",
+    "response": "N/A",
+    "reason_code": "AGGREGATION_RELIEF",
+    "confidence": "High",
+    "evidence": "The published GuV uses the aggregated line item 'Rohergebnis'. For a medium-sized capital company using the Gesamtkostenverfahren, §276 HGB permits aggregation of §275 Abs. 2 Nr. 1 bis 5 HGB into 'Rohergebnis'.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20006",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary GuV statement, and the configured cross-evidence sources (GuV, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20007",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary GuV statement, and the configured cross-evidence sources (GuV, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20008",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'Löhne und Gehälter' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20009",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'soziale abgaben und aufwendungen für altersversorgung und für unterstützung,' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20010",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'auf immaterielle Vermögensgegenstände des Anlagevermögens und Sachanlagen' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20011",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary GuV statement, and the configured cross-evidence sources (GuV, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20012",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'sonstige betriebliche Aufwendungen' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20013",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched filing text 'Erträge aus Beteiligungen' in the expected GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20014",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary GuV statement, and the configured cross-evidence sources (GuV, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20015",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched filing text 'sonstige Zinsen und ähnliche Erträge' in the expected GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20016",
+    "response": "N/A",
+    "reason_code": "LINE_ITEM_NOT_PRESENT",
+    "confidence": "Medium",
+    "evidence": "The required line item was not found in the primary GuV statement, and the configured cross-evidence sources (GuV, Anhang, Lagebericht) did not show affirmative evidence that the underlying fact exists for this entity.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20017",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched filing text 'Zinsen und ähnliche Aufwendungen' in the expected GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20018",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'Steuern vom Einkommen und vom Ertrag' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20019",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'Ergebnis nach Steuern' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20020",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched German anchor term 'sonstige Steuern' in the GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-GUV-20021",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 5: matched filing text 'Jahresüberschuss' in the expected GuV section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 6: matched filing text 'I. Allgemeine Angaben' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30002",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No indication was found that accounting options were exercised outside the balance sheet or profit and loss account in a way that required a separate note disclosure under §284 Abs. 1 Satz 2 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30003",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 6: matched filing text 'Bilanzierungs- und Bewertungsmethoden' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30004",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Low",
+    "evidence": "Searched note pages 6, 7, 8 for the German anchor term 'Abweichungen von Bilanzierungs- und Bewertungsmethoden angegeben und begründet werden; deren Einfluß auf die Vermögens-,' and did not find a reliable match. This may indicate either a missing disclosure or a fact-conditioned item that needs human review.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30005",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Low",
+    "evidence": "Searched note pages 6, 7, 8 for the German anchor term 'bei Anwendung einer Bewertungsmethode nach § 240 Abs. 4, § 256 Satz 1 die Unterschiedsbeträge pauschal für die jeweilige' and did not find a reliable match. This may indicate either a missing disclosure or a fact-conditioned item that needs human review.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30006",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 6: matched filing text 'Fremdkapitalzinsen werden nicht in die Herstellungskosten einbezogen' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30007",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "The notes state that the Anlagenspiegel is provided as 'Anlage 1 zum Anhang'. The current extracted filing text does not contain that attachment detail, so this row cannot be fully verified from the available text extraction alone.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30008",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "The notes state that the Anlagenspiegel is provided as 'Anlage 1 zum Anhang'. The current extracted filing text does not contain that attachment detail, so this row cannot be fully verified from the available text extraction alone.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30009",
+    "response": "Review",
+    "reason_code": "PDF_EXTRACTION_LIMIT",
+    "confidence": "Medium",
+    "evidence": "The notes state that the Anlagenspiegel is provided as 'Anlage 1 zum Anhang'. The current extracted filing text does not contain that attachment detail, so this row cannot be fully verified from the available text extraction alone.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30010",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'Restlaufzeit mehr als 5 Jahre' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30011",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'Art der Verbindlichkeit' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30012",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No off-balance-sheet transactions requiring a dedicated §285 Nr. 3 HGB disclosure were identified in the filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30013",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'Sonstige finanzielle Verpflichtungen' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30014",
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Checklist trigger condition states that §285 Nr. 4 HGB is exempt for medium-sized capital companies under §288 Abs. 2 Satz 1 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30015",
+    "response": "N/A",
+    "reason_code": "REPEALED_ITEM",
+    "confidence": "High",
+    "evidence": "§285 Nr. 5 HGB is repealed (`weggefallen`) and should not be treated as an active disclosure requirement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30016",
+    "response": "N/A",
+    "reason_code": "REPEALED_ITEM",
+    "confidence": "High",
+    "evidence": "§285 Nr. 6 HGB is repealed (`weggefallen`) and should not be treated as an active disclosure requirement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30017",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'Anzahl der Arbeitnehmer' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30018",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The filing states that the profit and loss account is presented under §275 Abs. 1 HGB using the Gesamtkostenverfahren, so the cost-of-sales disclosure in §285 Nr. 8 HGB does not apply.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30019",
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Page 8 states that the company makes use of the protection right under §286 Abs. 4 HGB for managing-director remuneration disclosures.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30020",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'Geschäftsführer im Berichtszeitraum' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30021",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Low",
+    "evidence": "Searched note pages 6, 7, 8 for the German anchor term 'Name und Sitz anderer Unternehmen, die Höhe des Anteils am Kapital, das Eigenkapital und das Ergebnis des letzten Geschä' and did not find a reliable match. This may indicate either a missing disclosure or a fact-conditioned item that needs human review.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30022",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No indication was found that the company is a general partner with unlimited liability in another undertaking; the filing does not describe such a structure.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30023",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The company is a private GmbH, not a listed company, so the listed-company voting-right disclosure in §285 Nr. 11b HGB does not apply.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30024",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 7: matched filing text 'sonstigen Rückstellungen beinhalten im Wesentlichen' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30025",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No goodwill line item was identified in the balance sheet, so a goodwill amortization-period disclosure is not evidenced as relevant for this filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30026",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found that the company has a parent preparing consolidated financial statements for a largest group.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30027",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found that the company has a parent preparing consolidated financial statements for a smallest group.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30028",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The company is a GmbH, not a partnership within §264a Abs. 1 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30029",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of Genussrechte, options, convertible instruments, or similar rights.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30030",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The filing concerns a GmbH, so the §161 AktG declaration disclosure does not apply.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30031",
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Checklist trigger condition states that medium-sized capital companies need not disclose auditor fees in the notes under §288 Abs. 2 Satz 2 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30032",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of financial fixed assets carried above fair value without impairment recognition.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30033",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of derivative financial instruments requiring a dedicated note disclosure.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30034",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of financial instruments measured at fair value requiring the §285 Nr. 20 HGB disclosure set.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30035",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No off-market related-party transaction disclosure was found and the row is fact-conditioned in practice.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30036",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No capitalization of internally generated intangible fixed assets was identified in the filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30037",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No valuation-unit disclosure or hedge-accounting narrative was found in the filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30038",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "The filing gives pension provision amounts but no sign that a detailed actuarial-assumption disclosure set was triggered here; this row remains fact-conditioned in practice.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30039",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No offsetting under §246 Abs. 2 Satz 2 HGB was identified in the filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30040",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of investment-fund holdings requiring the §285 Nr. 26 HGB disclosure.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30041",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No contingent-liability disclosure under §268 Abs. 7 HGB was identified.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30042",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No evidence was found of restricted-distribution amounts under §268 Abs. 8 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30043",
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Checklist trigger condition states that deferred-tax-basis disclosure under §285 Nr. 29 HGB is exempt for medium-sized capital companies under §288 Abs. 2 Satz 1 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30044",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No deferred-tax liability recognition was identified in the filing.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30045",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No minimum-tax disclosure was identified and the filing gives no indication that this row was triggered.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30046",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No separate item of exceptional size or exceptional significance was identified beyond the normal results discussion.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30047",
+    "response": "N/A",
+    "reason_code": "EXEMPTION_CLAIMED",
+    "confidence": "High",
+    "evidence": "Checklist trigger condition states that §285 Nr. 32 HGB is exempt for medium-sized capital companies under §288 Abs. 2 Satz 1 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30048",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "No post-balance-sheet event disclosure was identified in the notes.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30049",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 8: matched filing text 'Die Geschäftsführung schlägt vor' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30050",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The filing does not indicate use of the §286 Abs. 2 disadvantage exception for revenue disaggregation.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30051",
+    "response": "Review",
+    "reason_code": "JUDGMENT_REQUIRED",
+    "confidence": "Medium",
+    "evidence": "The filing does not explicitly state whether §286 Abs. 3 HGB was used to omit §285 Nr. 11 or 11b disclosures. Manual follow-up is needed because the row is conditional and omission-based.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-ANH-30052",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 8: matched filing text 'vom Schutzrecht gemäß § 286 Abs. 4 HGB Gebrauch gemacht' in the expected Anhang section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40001",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 1: matched filing text 'Geschäftsverlauf und Lage' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40002",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 1: matched filing text 'Gesamtwirtschaftliche und branchenbezogene Rahmenbedingungen' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40003",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 1: matched filing text 'EBIT beträgt' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40004",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 2: matched filing text 'Für das Jahr 2024 geht die Geschäftsleitung' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40005",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The filing does not indicate that the company is an Inlandsemittent issuing securities, so §289 Abs. 1 Satz 5 HGB does not apply.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40006",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 2: matched filing text 'Risikomanagement' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40007",
+    "response": "Yes",
+    "reason_code": null,
+    "confidence": "High",
+    "evidence": "Page 3: matched filing text 'Währungsrisiko' in the expected Lagebericht section.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40008",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "The filing does not evidence a distinct research-and-development function or activity requiring separate discussion under §289 Abs. 2 Nr. 2 HGB.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40009",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "Medium",
+    "evidence": "The filing does not evidence existing Zweigniederlassungen within the meaning of §289 Abs. 2 Nr. 3 HGB. References to stores or sales locations alone do not clearly establish reportable branch establishments.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40010",
+    "response": "N/A",
+    "reason_code": "REPEALED_ITEM",
+    "confidence": "High",
+    "evidence": "§289 Abs. 2 Nr. 4 HGB is repealed (`weggefallen`) and should not be treated as an active disclosure requirement.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  },
+  {
+    "id": "HGB-LAG-40011",
+    "response": "N/A",
+    "reason_code": "ENTITY_SPECIFIC",
+    "confidence": "High",
+    "evidence": "The filing does not indicate that the company is a capital-market-oriented company within §264d HGB, so §289 Abs. 4 HGB does not apply.",
+    "audit_notes": "",
+    "verified_by": "hgb-filing-verification-v1",
+    "verification_date": "2026-04-18"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HGB Filing Verification"
+  short_description: "Verify filings against HGB checklists"
+  default_prompt: "Use $hgb-filing-verification to verify a filing against a historically grounded HGB checklist and produce results.json."

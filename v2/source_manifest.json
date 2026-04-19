@@ -1,0 +1,1003 @@
+{
+  "schema_version": "v2-generated",
+  "target_fy": "31 December 2023",
+  "target_fy_effective_date": "2023-12-31",
+  "entity_profile": {
+    "entity_type": "GmbH (Private Limited Company) — Mittelgroße Kapitalgesellschaft (§ 267 Abs. 2 HGB)",
+    "size_class": "Medium (mittelgroß)",
+    "reporting_framework": "HGB (German Commercial Code) §§ 264 ff.",
+    "pl_format": "Gesamtkostenverfahren (Total Cost Method) (§ 275 Abs. 1 HGB)"
+  },
+  "source_hierarchy": {
+    "historical_source_of_record": "Buzer.de",
+    "official_cross_reference": "Gesetze im Internet"
+  },
+  "workflow_version": "true-generation-from-source-v1",
+  "spec_version": "2.0",
+  "run_date": "2026-04-18",
+  "generation_mode": "true-generation-from-source",
+  "sections": [
+    {
+      "section": "266",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_note": "23. Juli 2015"
+    },
+    {
+      "section": "275",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_note": "23. Juli 2015"
+    },
+    {
+      "section": "284",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_note": "23. Juli 2015"
+    },
+    {
+      "section": "285",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_note": "28. Dezember 2023"
+    },
+    {
+      "section": "286",
+      "historical_source_url": "https://www.buzer.de/286_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__286.html",
+      "effective_note": "1. Januar 2020"
+    },
+    {
+      "section": "288",
+      "historical_source_url": "https://www.buzer.de/288_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__288.html",
+      "effective_note": "28. Dezember 2023"
+    },
+    {
+      "section": "289",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_note": "19. August 2020"
+    }
+  ],
+  "sources": [
+    {
+      "hgb_reference": "§266 Abs. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628548+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A I 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628614+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A I 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628621+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A I 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628625+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A I 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628630+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A II 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628638+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A II 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628643+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A II 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628647+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A II 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628650+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628653+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628657+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628661+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628665+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 5 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628669+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 A III 6 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628672+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B I 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628675+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B I 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628679+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B I 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628683+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B I 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628686+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B II 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628690+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B II 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628693+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B II 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628696+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B II 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628701+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B III 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628704+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B III 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628707+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 B IV HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628710+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 C HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628713+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 D HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628717+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 2 E HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628720+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A I HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628723+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A II HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628726+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A III 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628730+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A III 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628733+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A III 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628736+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A III 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628740+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A IV HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628743+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 A V HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628746+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 B 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628750+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 B 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628753+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 B 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628757+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 1 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628760+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 2 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628764+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 3 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628770+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 4 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628775+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 5 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628778+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 6 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628784+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 7 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628787+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 C 8 HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628790+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 D HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628793+00:00"
+    },
+    {
+      "hgb_reference": "§266 Abs. 3 E HGB",
+      "historical_source_url": "https://www.buzer.de/266_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__266.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628796+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628800+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628804+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628807+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628810+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628813+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 5 a HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628816+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 5 b HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628819+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 6 a HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628822+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 6 b HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628825+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 7 a HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628828+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 7 b HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628832+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 8 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628834+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 9 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628837+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 10 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628841+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 11 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628844+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 12 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628847+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 13 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628850+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 14 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628853+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 15 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628856+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 16 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628859+00:00"
+    },
+    {
+      "hgb_reference": "§275 Abs. 2 Nr. 17 HGB",
+      "historical_source_url": "https://www.buzer.de/275_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__275.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628862+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 1 Satz 1 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628866+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 1 Satz 2 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628870+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 2 Nr. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628874+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 2 Nr. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628877+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 2 Nr. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628880+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 2 Nr. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628883+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 3 Nr. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628886+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 3 Nr. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628890+00:00"
+    },
+    {
+      "hgb_reference": "§284 Abs. 3 Nr. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/284_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__284.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628893+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 1 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628897+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628901+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628903+00:00"
+    },
+    {
+      "hgb_reference": "§285 3a HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628906+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628910+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 5 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628915+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 6 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628922+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 7 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628926+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 8 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628929+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 9 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628932+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 10 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628935+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 11 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628938+00:00"
+    },
+    {
+      "hgb_reference": "§285 11a HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628941+00:00"
+    },
+    {
+      "hgb_reference": "§285 11b HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628944+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 12 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628947+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 13 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628950+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 14 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628953+00:00"
+    },
+    {
+      "hgb_reference": "§285 14a HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628956+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 15 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628959+00:00"
+    },
+    {
+      "hgb_reference": "§285 15a HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628965+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 16 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628968+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 17 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628971+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 18 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628975+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 19 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628979+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 20 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628982+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 21 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628986+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 22 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628989+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 23 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628992+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 24 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628995+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 25 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.628998+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 26 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629001+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 27 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629004+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 28 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629007+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 29 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629011+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 30 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629014+00:00"
+    },
+    {
+      "hgb_reference": "§285 30a HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629018+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 31 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629021+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 32 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629025+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 33 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629028+00:00"
+    },
+    {
+      "hgb_reference": "§285 Nr. 34 HGB",
+      "historical_source_url": "https://www.buzer.de/285_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__285.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629031+00:00"
+    },
+    {
+      "hgb_reference": "§286 Abs. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/286_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__286.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629035+00:00"
+    },
+    {
+      "hgb_reference": "§286 Abs. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/286_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__286.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629039+00:00"
+    },
+    {
+      "hgb_reference": "§286 Abs. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/286_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__286.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629042+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 1 Satz 1 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629045+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 1 Satz 2 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629048+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 1 Satz 3 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629051+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 1 Satz 4 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629055+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 1 Satz 5 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629058+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 2 Nr. 1 a HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629061+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 2 Nr. 1 b HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629064+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 2 Nr. 2 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629067+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 2 Nr. 3 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629070+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 2 Nr. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629073+00:00"
+    },
+    {
+      "hgb_reference": "§289 Abs. 4 HGB",
+      "historical_source_url": "https://www.buzer.de/289_HGB.htm",
+      "official_reference_url": "https://www.gesetze-im-internet.de/hgb/__289.html",
+      "effective_version_date": "2023-12-31",
+      "retrieved_at": "2026-04-18T16:21:59.629076+00:00"
+    }
+  ]
+}

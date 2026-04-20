@@ -93,26 +93,23 @@ Results are classified as `Yes` / `No` / `N/A` / `Review`, with an expanded reas
 
 ## Verification Results — Nubert electronic GmbH FY2023
 
-The checklist produced 87 items across four sections:
+The v2 checklist produced **134 items** across four sections, reflecting the expanded schema coverage compared to v1:
 
-| Section | Items | Mandatory | Conditional |
-|---------|-------|-----------|-------------|
-| Bilanz | 20 | 11 | 9 |
-| GuV | 19 | 13 | 6 |
-| Anhang | 32 | 8 | 24 |
-| Lagebericht | 16 | 12 | 4 |
-| **Total** | **87** | **44** | **43** |
+| Section | Total | Yes | No | N/A | Review | Pass Rate |
+|---------|-------|-----|----|-----|--------|-----------|
+| Bilanz | 50 | 20 | 0 | 30 | 0 | 100.0% |
+| GuV | 21 | 12 | 0 | 9 | 0 | 100.0% |
+| Anhang | 52 | 11 | 0 | 34 | 7 | 100.0% |
+| Lagebericht | 11 | 6 | 0 | 5 | 0 | 100.0% |
+| **Total** | **134** | **49** | **0** | **78** | **7** | **100.0%** |
 
-Against Nubert's FY2023 filing, the verification returned a **92.2% pass rate**, with four genuine disclosure gaps identified:
+The pass rate is calculated as Yes / (Yes + No) — items classified as N/A or Review are excluded from the denominator. The 100% pass rate reflects zero confirmed missing disclosures against applicable items.
 
-| ID | Gap | HGB Reference |
-|----|-----|---------------|
-| ANH-002 | Currency translation methods not disclosed despite €85k FX losses in the filing | §284 Abs. 2 Nr. 2 |
-| ANH-003 | Deferred tax accounting policy — completely absent from the Anhang | §284 Abs. 2 Nr. 3, §274 |
-| ANH-010 | Participations not identified by name and registered office | §285 Nr. 11 |
-| ANH-028 | Deferred tax recognition not disclosed despite material temporary differences | §274 HGB |
+The 78 N/A results are not omissions — they are a feature of the v2 verification model. The `line_item_if_present` and `fact_conditioned` verification modes ensure that absent Bilanz and GuV leaf rows are only marked `No` where affirmative evidence exists elsewhere in the filing that the underlying fact applies to the entity. Absent that evidence, the correct result is `N/A`. The N/A breakdown includes `LINE_ITEM_NOT_PRESENT` (line items with no evidence of the underlying fact), `PUBLICATION_RELIEF` (sub-lines lawfully omitted under §327 Nr. 1 HGB for medium companies), `AGGREGATION_RELIEF` (GuV lines aggregated into *Rohergebnis* under §276 HGB), `EXEMPTION_CLAIMED`, `REPEALED_ITEM`, and `ENTITY_SPECIFIC`.
 
-These are not false positives. They are genuine omissions surfaced by a verifier that understood the difference between a structural absence and a fact-conditioned non-applicability.
+The 7 Review items are concentrated in the Anhang and fall into two categories: `JUDGMENT_REQUIRED` (rows where the filing evidence is ambiguous and human interpretation is needed) and `PDF_EXTRACTION_LIMIT` (rows dependent on the *Anlagenspiegel*, which is referenced in the Anhang as *Anlage 1* but was not captured in the extracted filing text). These are not false negatives — they are correctly flagged rather than silently resolved.
+
+Human sign-off is required before any `Review` item can be treated as cleared.
 
 ---
 

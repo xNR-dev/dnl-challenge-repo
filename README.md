@@ -20,6 +20,7 @@ A working pipeline that takes a scoped entity profile and produces:
 - Excel outputs formatted for auditor review, with reviewer-facing tabs and a separate traceability layer
 
 The checklist covers the four mandatory reporting components for a medium GmbH: Balance Sheet (Bilanz) (§266 HGB), Income Statement (GuV) (§275 HGB, Gesamtkostenverfahren format), Notes to the Financial Statements (Anhang) (§§284–288 HGB), and Management Report (Lagebericht) (§289 HGB).
+
 ---
 
 ## Scope
